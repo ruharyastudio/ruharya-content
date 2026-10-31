@@ -48,3 +48,4 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 - "Nefesini en son ne zaman fark ettin?" yansıtma gönderisi
 - Kelime oyunu: nefes, ruh, can, tın, prana, pneuma; hangi dil hangisi?
 - Haftanın özeti: bu hafta öğrendiğimiz 3 kavram
+- ✅ 4-7-8 nefesi: köken (Weil, prāṇāyāma) ve adımlar — panel fikri i04-478 (2026-10-31)

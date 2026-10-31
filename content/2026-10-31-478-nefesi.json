@@ -1,0 +1,38 @@
+{
+  "series": "NEFES PRATİĞİ",
+  "theme": "light",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "PRATİK · 4 NEFES",
+      "title": "4-7-8 nefesi <em>nereden geliyor?</em>",
+      "lead": "Dört say, yedi bekle, sekizde bırak."
+    },
+    {
+      "kicker": "01 · KÖKEN",
+      "title": "Modern ad, <em>eski bir iz</em>",
+      "body": [
+        "Bu adla tekniği yaygınlaştıran isim, bütünleştirici tıp hekimi <b>Dr. Andrew Weil</b>. Weil ona “rahatlatan nefes” der.",
+        "Kökleri ise yoga nefes geleneği <b>prāṇāyāma</b>'ya bağlanır: nefesi saymak, kısa bir süre tutmak ve vermeyi uzatmak. Prana'yı konuşmuştuk; bu, onun pratiğe dönüşmüş hâli."
+      ],
+      "src": "drweil.com · Cleveland Clinic (2022)"
+    },
+    {
+      "kind": "steps",
+      "kicker": "NASIL YAPILIR",
+      "title": "Dört adım, dört tur",
+      "steps": [
+        "Dil ucu üst ön dişlerin hemen arkasında. Ağzından <b>tamamen ver</b>",
+        "Ağzını kapat, burnundan <b>4</b> sayarak al",
+        "Zorlamadan <b>7</b> say, bekle",
+        "Ağzından “fuu” sesiyle <b>8</b> sayarak ver"
+      ],
+      "note": "Önemli olan süre değil, 4:7:8 oranı. Tutmak zor gelirse daha hızlı say. 4 turla sınırla; baş dönmesi olursa bırak, normal nefesine dön."
+    },
+    {
+      "kind": "cta",
+      "title": "Bu akşam <em>dene</em>",
+      "body": "Kaçıncı turda nefesin yavaşladı? Yorumlara yaz.<br><br>Kaydet ve nefesine biraz alan açması gereken birine gönder."
+    }
+  ]
+}
