@@ -1,0 +1,364 @@
+<title>Ruharya Kontrol Paneli</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: sticky marka şeridi + sekmeler; her sekme tek sütun akış, geniş ekranda iki sütun ızgara */
+:root{
+  --bg:#1A1A2E; --surface:#23233A; --surface2:#2D2D44; --line:#3A3A58;
+  --fg:#F5F5F5; --muted:#A9A9C2; --gold:#D4AF37; --gold-ink:#1A1A2E;
+  --ok:#5FBF8F; --warn:#E0A84A; --bad:#E07070;
+  --display:'Cormorant Garamond',Georgia,'Times New Roman',serif;
+  --body:Inter,system-ui,-apple-system,'Segoe UI',sans-serif;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){
+  --bg:#F5F0E6; --surface:#FBF8F1; --surface2:#EFE8DA; --line:#DDD3BF;
+  --fg:#1A1A2E; --muted:#5E5A6E; --gold:#A8841F; --gold-ink:#FBF8F1;
+  --ok:#2E8A5C; --warn:#A86F12; --bad:#B54444; color-scheme:light}}
+:root[data-theme="light"]{
+  --bg:#F5F0E6; --surface:#FBF8F1; --surface2:#EFE8DA; --line:#DDD3BF;
+  --fg:#1A1A2E; --muted:#5E5A6E; --gold:#A8841F; --gold-ink:#FBF8F1;
+  --ok:#2E8A5C; --warn:#A86F12; --bad:#B54444; color-scheme:light}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.55}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 48px}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:18px 10px}
+.brand h1{font-family:var(--display);font-weight:600;font-size:30px;margin:0;line-height:1.1;text-wrap:balance}
+.brand h1 em{color:var(--gold);font-style:italic;font-weight:500}
+.brand .sub{color:var(--muted);font-size:13px}
+nav.tabs{display:flex;gap:4px;overflow-x:auto;padding-bottom:0}
+nav.tabs button{background:none;border:0;border-bottom:2px solid transparent;color:var(--muted);font:500 14px var(--body);padding:10px 12px;cursor:pointer;white-space:nowrap}
+nav.tabs button[aria-selected="true"]{color:var(--fg);border-bottom-color:var(--gold)}
+nav.tabs button:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+section.view{display:grid;gap:20px;padding-top:22px}
+.grid2{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr))}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 18px 16px;min-width:0}
+.panel h2{font-family:var(--display);font-weight:600;font-size:24px;margin:0 0 4px}
+.panel .hint{color:var(--muted);font-size:13px;margin:0 0 14px}
+.label{font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.statusbar{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:3px 10px;font-size:12px;font-weight:600;border:1px solid currentColor;white-space:nowrap}
+.pill::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.pill.ok{color:var(--ok)} .pill.warn{color:var(--warn)} .pill.bad{color:var(--bad)} .pill.mute{color:var(--muted)}
+.btn{font:600 13px var(--body);border-radius:8px;padding:8px 14px;cursor:pointer;border:1px solid var(--line);background:var(--surface2);color:var(--fg)}
+.btn.primary{background:var(--gold);color:var(--gold-ink);border-color:var(--gold)}
+.btn.ghost{background:none}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px}
+.metric{border-top:2px solid var(--line);padding-top:8px}
+.metric .v{font-family:var(--display);font-size:34px;font-weight:600;line-height:1.1;font-variant-numeric:tabular-nums}
+.metric .n{color:var(--muted);font-size:12px}
+.posts{display:grid;gap:10px}
+.post{display:grid;grid-template-columns:64px 1fr;gap:12px;align-items:start}
+.post img{width:64px;height:80px;object-fit:cover;border-radius:4px;background:var(--surface2)}
+.post .ph{width:64px;height:80px;border-radius:4px;background:var(--surface2)}
+.post .meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:12px;color:var(--muted)}
+.post .txt{font-size:14px;margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-width:0}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.chip{font:500 12px var(--body);border:1px solid var(--line);background:none;color:var(--muted);border-radius:999px;padding:5px 11px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--surface2);color:var(--fg);border-color:var(--gold)}
+.ideas{display:grid;gap:12px}
+.idea{border:1px solid var(--line);border-radius:8px;padding:14px;background:var(--bg);display:grid;gap:6px}
+.idea h3{font-family:var(--display);font-size:21px;font-weight:600;margin:0;line-height:1.2}
+.idea .tags{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.tag{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);font-weight:600}
+.idea p{margin:0;font-size:14px}
+.idea .why{color:var(--muted);font-size:13px}
+.idea .acts{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px}
+form.add{display:grid;gap:10px}
+form.add .row{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr))}
+input,select,textarea{font:14px var(--body);color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:9px 10px;width:100%}
+textarea{min-height:72px;resize:vertical}
+.report{display:grid;gap:14px}
+.report h3{font-family:var(--display);font-size:22px;margin:0}
+.report h4{margin:0 0 6px;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
+.report ul{margin:0;padding-left:18px;display:grid;gap:6px}
+.report .summary{font-size:15px;max-width:68ch}
+.report .src a{color:var(--muted);font-size:13px;word-break:break-word}
+.rsel{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+.rsel select{width:auto;max-width:100%}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.tablewrap{overflow-x:auto}
+.empty{color:var(--muted);font-size:14px;padding:10px 0}
+.err{color:var(--bad);font-size:13px}
+.fresh{color:var(--muted);font-size:12px}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--fg);color:var(--bg);padding:9px 16px;border-radius:8px;font-size:13px;font-weight:500;z-index:20}
+@media (prefers-reduced-motion: no-preference){.btn,.chip{transition:background .15s,border-color .15s}}
+</style>
+
+<header class="top">
+  <div class="wrap" style="padding-bottom:0">
+    <div class="brand">
+      <div>
+        <h1>Ruharya <em>Kontrol Paneli</em></h1>
+        <div class="sub">@ruharya · Ruharya Nefes · her gün 20:30</div>
+      </div>
+      <span id="autoPill" class="pill mute">Durum yükleniyor</span>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Bölümler">
+      <button role="tab" id="tab-ozet" data-v="ozet" aria-selected="true">Özet</button>
+      <button role="tab" id="tab-fikirler" data-v="fikirler" aria-selected="false">Fikirler</button>
+      <button role="tab" id="tab-raporlar" data-v="raporlar" aria-selected="false">Raporlar</button>
+      <button role="tab" id="tab-yayinlar" data-v="yayinlar" aria-selected="false">Yayınlar</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- ÖZET -->
+  <section class="view" id="v-ozet">
+    <div class="panel">
+      <div class="statusbar">
+        <div>
+          <div class="label">Otomatik paylaşım</div>
+          <p class="hint" id="autoText" style="margin:4px 0 0">Günlük görev her gün 18:33'te çalışır ve gönderiyi 20:30'a zamanlar.</p>
+        </div>
+        <button class="btn" id="pauseBtn" disabled>Ayar yükleniyor</button>
+      </div>
+    </div>
+    <div class="grid2">
+      <div class="panel">
+        <h2>Son 30 gün</h2>
+        <p class="hint">Buffer'dan canlı. Metrikler günde bir yenilenir.</p>
+        <div class="metrics" id="metrics"><div class="empty">Buffer verisi bekleniyor.</div></div>
+        <div class="fresh" id="metricsFresh"></div>
+      </div>
+      <div class="panel">
+        <h2>Sırada ve yeni çıkanlar</h2>
+        <p class="hint">Instagram kanalındaki son gönderiler, Buffer'dan canlı.</p>
+        <div class="posts" id="livePosts"><div class="empty">Buffer verisi bekleniyor.</div></div>
+      </div>
+    </div>
+    <div class="grid2">
+      <div class="panel">
+        <h2>Onay bekleyen fikirler</h2>
+        <p class="hint">Claude'un önerileri. Onayladıkların sıradaki uygun güne öncelikli girer.</p>
+        <div class="ideas" id="pendingIdeas"><div class="empty">Fikirler yükleniyor.</div></div>
+      </div>
+      <div class="panel">
+        <h2>Son rapor</h2>
+        <p class="hint">Haftalık strateji görevi her pazar yeni rapor ekler.</p>
+        <div id="latestReport"><div class="empty">Raporlar yükleniyor.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FİKİRLER -->
+  <section class="view" id="v-fikirler" hidden>
+    <div class="panel">
+      <h2>Fikir havuzu</h2>
+      <p class="hint">Onayla, reddet ya da kendi fikrini ekle. Günlük görev önce onaylı fikirlere bakar.</p>
+      <div class="filters" id="ideaFilters">
+        <button class="chip" data-f="oneri" aria-pressed="true">Öneri</button>
+        <button class="chip" data-f="onayli" aria-pressed="false">Onaylı</button>
+        <button class="chip" data-f="kullanildi" aria-pressed="false">Kullanıldı</button>
+        <button class="chip" data-f="reddedildi" aria-pressed="false">Reddedildi</button>
+        <button class="chip" data-f="hepsi" aria-pressed="false">Hepsi</button>
+      </div>
+      <div class="ideas" id="allIdeas"><div class="empty">Fikirler yükleniyor.</div></div>
+    </div>
+    <div class="panel">
+      <h2>Kendi fikrini ekle</h2>
+      <p class="hint">Eklediğin fikir doğrudan onaylı olarak kaydedilir.</p>
+      <form class="add" id="addForm">
+        <input id="fTitle" placeholder="Başlık, ör. Sufi zikrinde nefesin rolü" required maxlength="140">
+        <div class="row">
+          <select id="fFormat" aria-label="Format">
+            <option value="ogreti">Öğreti carousel'i</option>
+            <option value="pratik">Pratik carousel'i</option>
+            <option value="bilim">Nefes ve bilim</option>
+            <option value="etkilesim">Etkileşim</option>
+            <option value="reels">Reels / video</option>
+            <option value="strateji">Strateji / büyüme</option>
+          </select>
+          <input id="fTradition" placeholder="Gelenek, ör. Sufizm" maxlength="60">
+        </div>
+        <textarea id="fSummary" placeholder="Kısa açıklama (isteğe bağlı)" maxlength="600"></textarea>
+        <div><button class="btn primary" type="submit" id="addBtn">Fikri ekle</button> <span class="err" id="addErr"></span></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- RAPORLAR -->
+  <section class="view" id="v-raporlar" hidden>
+    <div class="panel">
+      <div class="rsel">
+        <label class="label" for="reportSel">Rapor</label>
+        <select id="reportSel"></select>
+      </div>
+      <div id="reportBody"><div class="empty">Raporlar yükleniyor.</div></div>
+    </div>
+  </section>
+
+  <!-- YAYINLAR -->
+  <section class="view" id="v-yayinlar" hidden>
+    <div class="panel">
+      <h2>Yayın kaydı</h2>
+      <p class="hint">Günlük görevin işlediği her gönderi.</p>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Tarih</th><th>Format</th><th>Konu</th><th>Gelenek</th><th>Durum</th></tr></thead>
+        <tbody id="logBody"><tr><td colspan="5" class="empty">Kayıt yükleniyor.</td></tr></tbody>
+      </table></div>
+    </div>
+  </section>
+</main>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+const ORG="6a85e621746545c1e15adfb1", CH="6a85fd6cccaf649a67d98165";
+const FORMAT={ogreti:"Öğreti",pratik:"Pratik",bilim:"Bilim",etkilesim:"Etkileşim",reels:"Reels",strateji:"Strateji"};
+const STATUS={oneri:["Öneri","warn"],onayli:["Onaylı","ok"],kullanildi:["Kullanıldı","mute"],reddedildi:["Reddedildi","bad"]};
+const POSTSTAT={scheduled:["Zamanlandı","warn"],sending:["Gönderiliyor","warn"],sent:["Yayında","ok"],draft:["Taslak","mute"],error:["Hata","bad"],needs_approval:["Onay bekliyor","warn"]};
+const $=id=>document.getElementById(id);
+const el=(tag,cls,txt)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e};
+const fmtDate=s=>{if(!s)return"";const d=new Date(s);return isNaN(d)?String(s):d.toLocaleString("tr-TR",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit",timeZone:"Europe/Istanbul"})};
+let toastT;function toast(m){const t=$("toast");t.textContent=m;t.hidden=false;clearTimeout(toastT);toastT=setTimeout(()=>t.hidden=true,2600)}
+
+/* sekmeler */
+const VIEWS=["ozet","fikirler","raporlar","yayinlar"];
+function show(v){if(!VIEWS.includes(v))v="ozet";VIEWS.forEach(x=>{$("v-"+x).hidden=x!==v;$("tab-"+x).setAttribute("aria-selected",String(x===v))})}
+document.querySelectorAll("nav.tabs button").forEach(b=>b.addEventListener("click",()=>{location.hash=b.dataset.v;show(b.dataset.v)}));
+window.addEventListener("hashchange",()=>show(location.hash.slice(1)));
+show(location.hash.slice(1));
+
+/* durum */
+let db=null,canWrite=false,settings=null,settingsSnap=null,ideas=[],reports=[],ideaFilter="oneri";
+function renderSettings(){
+  const p=$("autoPill"),b=$("pauseBtn"),t=$("autoText");
+  if(!settings){p.className="pill mute";p.textContent="Ayar bulunamadı";b.disabled=true;b.textContent="Ayar yok";return}
+  const paused=!!settings.paused;
+  p.className="pill "+(paused?"bad":"ok");p.textContent=paused?"Duraklatıldı":"Otomatik paylaşım açık";
+  t.textContent=paused?"Günlük görev çalışır ama gönderi üretmez. Devam ettirdiğinde ertesi çalışmada kaldığı yerden sürer.":"Günlük görev her gün 18:33'te çalışır ve gönderiyi "+(settings.postTime||"20:30")+"'a zamanlar.";
+  b.textContent=paused?"Paylaşımı sürdür":"Paylaşımı duraklat";b.className="btn "+(paused?"primary":"");b.disabled=!canWrite;
+}
+$("pauseBtn").addEventListener("click",async()=>{
+  if(!db||!settings)return;const b=$("pauseBtn");b.disabled=true;
+  try{await db.doc("settings/main").update({paused:!settings.paused,updatedAt:new Date().toISOString()});toast(settings.paused?"Paylaşım sürdürülecek":"Paylaşım duraklatıldı")}
+  catch(e){toast("Kaydedilemedi: "+(e&&e.code||"hata"))}finally{b.disabled=!canWrite}
+});
+
+/* fikirler */
+function ideaCard(d,compact){
+  const c=el("div","idea");
+  const tags=el("div","tags");
+  const st=STATUS[d.status]||["?","mute"];
+  tags.append(el("span","pill "+st[1],st[0]));
+  if(d.format)tags.append(el("span","tag",FORMAT[d.format]||d.format));
+  if(d.tradition)tags.append(el("span","tag",d.tradition));
+  tags.append(el("span","tag",d.source==="ali"?"Senden":"Claude"));
+  c.append(tags,el("h3",null,d.title||"Başlıksız"));
+  if(d.summary)c.append(el("p",null,d.summary));
+  if(d.rationale&&!compact)c.append(el("p","why",d.rationale));
+  if(canWrite&&(d.status==="oneri"||d.status==="onayli"||d.status==="reddedildi")){
+    const a=el("div","acts");
+    const set=(s,msg)=>async()=>{try{await db.doc("ideas/"+d.id).update({status:s,decidedAt:new Date().toISOString()});toast(msg)}catch(e){toast("Kaydedilemedi: "+(e&&e.code||"hata"))}};
+    if(d.status!=="onayli"){const b=el("button","btn primary","Onayla");b.onclick=set("onayli","Onaylandı");a.append(b)}
+    if(d.status!=="reddedildi"){const b=el("button","btn ghost","Reddet");b.onclick=set("reddedildi","Reddedildi");a.append(b)}
+    if(d.status!=="oneri"){const b=el("button","btn ghost","Öneriye geri al");b.onclick=set("oneri","Öneriye alındı");a.append(b)}
+    c.append(a);
+  }
+  return c;
+}
+function renderIdeas(){
+  const sorted=[...ideas].sort((a,b)=>String(b.createdAt||"").localeCompare(String(a.createdAt||"")));
+  const pend=sorted.filter(d=>d.status==="oneri").slice(0,4),pe=$("pendingIdeas");pe.replaceChildren();
+  if(!pend.length)pe.append(el("div","empty","Bekleyen öneri yok. Haftalık strateji görevi pazar günü yenilerini ekler."));else pend.forEach(d=>pe.append(ideaCard(d,true)));
+  const list=ideaFilter==="hepsi"?sorted:sorted.filter(d=>d.status===ideaFilter),al=$("allIdeas");al.replaceChildren();
+  if(!list.length)al.append(el("div","empty","Bu filtrede fikir yok."));else list.forEach(d=>al.append(ideaCard(d,false)));
+}
+$("ideaFilters").addEventListener("click",e=>{const b=e.target.closest("button[data-f]");if(!b)return;ideaFilter=b.dataset.f;document.querySelectorAll("#ideaFilters .chip").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));renderIdeas()});
+$("addForm").addEventListener("submit",async e=>{
+  e.preventDefault();if(!db)return;const title=$("fTitle").value.trim();if(!title)return;
+  $("addBtn").disabled=true;$("addErr").textContent="";
+  try{await db.collection("ideas").add({title,format:$("fFormat").value,tradition:$("fTradition").value.trim(),summary:$("fSummary").value.trim(),source:"ali",status:"onayli",createdAt:new Date().toISOString()});
+    $("addForm").reset();toast("Fikir eklendi")}
+  catch(err){$("addErr").textContent=err&&err.code==="invalid_argument"?"Bu panelde yazma yetkin yok.":"Eklenemedi, tekrar dene."}
+  finally{$("addBtn").disabled=!canWrite}
+});
+
+/* raporlar */
+function reportView(r){
+  const w=el("div","report");
+  const head=el("div");head.append(el("div","label",(r.kind==="rakip"?"Rakip ve pazar analizi":"Haftalık rapor")+" · "+(r.date||"")),el("h3",null,r.title||"Rapor"));w.append(head);
+  if(r.summary)w.append(el("p","summary",r.summary));
+  (r.sections||[]).forEach(s=>{const d=el("div");d.append(el("h4",null,s.heading||""));const ul=el("ul");(s.items||[]).forEach(i=>ul.append(el("li",null,i)));d.append(ul);w.append(d)});
+  if(r.recommendations&&r.recommendations.length){const d=el("div");d.append(el("h4",null,"Öneriler"));const ul=el("ul");r.recommendations.forEach(i=>ul.append(el("li",null,i)));d.append(ul);w.append(d)}
+  if(r.sources&&r.sources.length){const d=el("div","src");d.append(el("h4",null,"Kaynaklar"));const ul=el("ul");r.sources.forEach(s=>{const li=el("li");const a=el("a",null,s.title||s.url);if(/^https:\/\//.test(s.url||"")){a.href=s.url;a.target="_blank";a.rel="noopener"}li.append(a);ul.append(li)});d.append(ul);w.append(d)}
+  return w;
+}
+function renderReports(){
+  const sorted=[...reports].sort((a,b)=>String(b.date||"").localeCompare(String(a.date||"")));
+  const lr=$("latestReport");lr.replaceChildren();
+  if(!sorted.length){lr.append(el("div","empty","Henüz rapor yok."))}else{const r=sorted[0];lr.append(el("div","label",r.date||""),el("h3",null,r.title||"Rapor"));const p=el("p",null,r.summary||"");p.style.margin="6px 0 10px";lr.append(p);const b=el("button","btn","Raporu aç");b.onclick=()=>{location.hash="raporlar";show("raporlar");$("reportSel").value=r.id;drawReport()};lr.append(b)}
+  const sel=$("reportSel"),cur=sel.value;sel.replaceChildren();sorted.forEach(r=>{const o=el("option",null,(r.date||"")+" · "+(r.title||"Rapor"));o.value=r.id;sel.append(o)});
+  if(cur&&sorted.some(r=>r.id===cur))sel.value=cur;drawReport();
+}
+function drawReport(){const r=reports.find(x=>x.id===$("reportSel").value),b=$("reportBody");b.replaceChildren(r?reportView(r):el("div","empty","Henüz rapor yok."))}
+$("reportSel").addEventListener("change",drawReport);
+
+/* yayın kaydı */
+function renderLog(rows){
+  const tb=$("logBody");tb.replaceChildren();
+  if(!rows.length){const tr=el("tr");const td=el("td","empty","Henüz kayıt yok.");td.colSpan=5;tr.append(td);tb.append(tr);return}
+  rows.sort((a,b)=>String(b.date||"").localeCompare(String(a.date||""))).forEach(r=>{
+    const tr=el("tr");const st=POSTSTAT[r.status]||[r.status||"",""];
+    const tdS=el("td");tdS.append(el("span","pill "+(st[1]||"mute"),st[0]||"—"));
+    tr.append(el("td","num",r.date||""),el("td",null,FORMAT[r.format]||r.format||""),el("td",null,r.topic||""),el("td",null,r.tradition||""),tdS);tb.append(tr)});
+}
+
+/* db bağlantısı */
+async function startDb(){
+  db=await claude.use("db");
+  const user=await claude.use("user");
+  if(!db){["pendingIdeas","allIdeas","latestReport"].forEach(i=>$(i).replaceChildren(el("div","empty","Panel verisine bu görünümde ulaşılamıyor.")));$("autoPill").textContent="Veri yok";return}
+  canWrite=user?((await user.can("data.write"))??true):true;
+  let pending=4;const timer=setTimeout(()=>{if(pending>0)toast("Veri gecikiyor, bağlantını kontrol et")},10000);
+  const done=()=>{if(--pending<=0)clearTimeout(timer)};
+  const fail=name=>e=>{done();toast(name+" okunamadı: "+(e&&e.code||"hata"))};
+  db.doc("settings/main").onSnapshot(s=>{settings=s.exists?s.data():null;renderSettings();done()},fail("Ayar"));
+  db.collection("ideas").onSnapshot(s=>{ideas=s.docs.map(d=>({id:d.id,...d.data()}));renderIdeas();done()},fail("Fikirler"));
+  db.collection("reports").onSnapshot(s=>{reports=s.docs.map(d=>({id:d.id,...d.data()}));renderReports();done()},fail("Raporlar"));
+  db.collection("posts").onSnapshot(s=>{renderLog(s.docs.map(d=>({id:d.id,...d.data()})));done()},fail("Kayıt"));
+}
+
+/* Buffer canlı */
+function mcpError(e){const c=e&&e.code;
+  if(c==="needs_reauth")return"Buffer bağlantısının süresi dolmuş. claude.ai Ayarlar → Connectors'tan Buffer'ı yeniden bağla.";
+  if(c==="server_not_connected"||c==="selection_required")return"Buffer bağlı değil. claude.ai Ayarlar → Connectors'tan Buffer'ı ekle.";
+  if(c==="not_in_manifest"||c==="approval_required"||c==="not_granted")return"Bu panelin Buffer'ı okumasına izin verilmedi.";
+  if(c==="server_unavailable")return"Buffer şu an yanıt vermiyor, birazdan yenilenecek.";
+  return"Buffer verisi alınamadı ("+(c||"hata")+").";}
+async function startBuffer(){
+  const mcp=await claude.use("mcp");
+  if(!mcp){["metrics","livePosts"].forEach(i=>$(i).replaceChildren(el("div","empty","Buffer verisi bu görünümde açılamıyor.")));return}
+  const end=new Date(),start=new Date(end.getTime()-30*864e5);
+  mcp.watchTool("Buffer","get_aggregated_post_metrics",{organizationId:ORG,channelIds:[CH],startDateTime:start.toISOString().slice(0,19)+"Z",endDateTime:end.toISOString().slice(0,19)+"Z"},ev=>{
+    const box=$("metrics");
+    if(ev.type==="error"){box.replaceChildren(el("div","err",mcpError(ev.error)));return}
+    const p=ev.result.payload||{};const want=["postCount","reach","saves","shares","comments","follows"];
+    const byType={};(p.metrics||[]).forEach(m=>byType[m.type]=m);
+    box.replaceChildren();want.forEach(k=>{const m=byType[k];if(!m)return;const d=el("div","metric");d.append(el("div","v",new Intl.NumberFormat("tr-TR").format(m.value||0)),el("div","n",{postCount:"Gönderi",reach:"Erişim",saves:"Kaydetme",shares:"Paylaşım",comments:"Yorum",follows:"Yeni takipçi"}[k]));box.append(d)});
+    $("metricsFresh").textContent=p.metricsUpdatedAt?"Buffer güncellemesi: "+fmtDate(p.metricsUpdatedAt):"Bu dönemde ölçülmüş gönderi henüz yok.";
+  },{refetchInterval:30*60*1000});
+  mcp.watchTool("Buffer","list_posts",{organizationId:ORG,channelIds:[CH],first:6,status:["scheduled","sending","sent","error"],sort:[{field:"dueAt",direction:"desc"}]},ev=>{
+    const box=$("livePosts");
+    if(ev.type==="error"){box.replaceChildren(el("div","err",mcpError(ev.error)));return}
+    const edges=(ev.result.payload&&ev.result.payload.edges)||[];box.replaceChildren();
+    if(!edges.length){box.append(el("div","empty","Kanalda henüz gönderi yok."));return}
+    edges.forEach(({node:n})=>{const r=el("div","post");const th=n.assets&&n.assets[0]&&n.assets[0].thumbnail;
+      if(th){const i=el("img");i.src=th;i.alt="";i.loading="lazy";i.onerror=()=>i.replaceWith(el("div","ph"));r.append(i)}else r.append(el("div","ph"));
+      const body=el("div");body.style.minWidth="0";const m=el("div","meta");const st=POSTSTAT[n.status]||[n.status,"mute"];
+      m.append(el("span","pill "+st[1],st[0]),el("span",null,fmtDate(n.sentAt||n.dueAt)));
+      if(n.assets&&n.assets.length>1)m.append(el("span",null,n.assets.length+" slayt"));
+      body.append(m,el("div","txt",(n.text||"").split("\n")[0]));if(n.error)body.append(el("div","err",String(n.error.message||n.error)));
+      r.append(body);box.append(r)});
+  },{refetchInterval:10*60*1000});
+}
+startDb();startBuffer();
+</script>
