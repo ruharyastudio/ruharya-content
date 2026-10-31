@@ -1,0 +1,11 @@
+{
+  "series": "NEFES PRATİĞİ",
+  "theme": "light",
+  "slides": [
+    {"kind": "cover", "kicker": "PRATİK · 4 DAKİKA", "title": "Kutu <em>Nefesi</em>", "lead": "Dört eşit kenar, tek bir an."},
+    {"kind": "steps", "kicker": "NASIL YAPILIR", "title": "Dört kenar, dört nefes",
+     "steps": ["Burnundan <b>4 saniyede</b> nefes al", "<b>4 saniye</b> tut", "<b>4 saniyede</b> yavaşça ver", "Ciğerlerin boşken <b>4 saniye</b> bekle"],
+     "note": "4 tur ile başla. Baş dönmesi hissedersen tutma sürelerini kısalt ya da normal nefesine dön."},
+    {"kind": "cta", "title": "Bu akşam <em>dene</em>", "body": "4 turdan sonra ne hissettiğini yorumlara yaz."}
+  ]
+}

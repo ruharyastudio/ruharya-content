@@ -1,0 +1,50 @@
+# Konu Havuzu · Ruharya Nefes
+
+Her konu kullanılmadan önce araştırılıp doğrulanır (SKILL.md adım 3). Notlar yalnızca başlangıç ipucudur.
+Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅ konur.
+
+## Öğreti (Pzt / Çar / Cuma · dark)
+- ✅ Prana: kelime, Upanişadlar'daki duyuların yarışı, prāṇāyāma — Chāndogya 5.1, Bṛhadāraṇyaka 6.1, Yoga Sūtra 2.29/2.49
+- Beş vāyu (pañca prāṇa): prāṇa, apāna, samāna, udāna, vyāna — Praśna Upaniṣad 3
+- Nāḍī'ler: iḍā, piṅgalā, suṣumnā; ay ve güneş kanalı imgesi — Haṭha Yoga Pradīpikā
+- "Nefes oynaksa zihin de oynaktır": nefes–zihin bağı — Haṭha Yoga Pradīpikā 2.2
+- Kumbhaka kavramı (anlatım düzeyinde, uygulama tarifi verme) — Haṭha Yoga Pradīpikā 2. bölüm
+- Nakşibendî "hûş der dem": her nefeste uyanıklık — Abdülhâlık Gucdüvânî'ye atfedilen sekiz ilke
+- Arapça n-f-s kökü: nefes, nefs, nefîs arasındaki bağ
+- Kur'an'da "nefh" (üfleme) ve ruh imgesi — Hicr 29, Sâd 72 (tarafsız anlatım)
+- İbranice: rûaḥ, nefeş, neşamâ; Yaratılış 2:7'de "hayat nefesi"
+- Antik Yunan pneuma: Stoacılarda evreni dolduran etkin ilke
+- Latince spiritus: spirit, inspire, expire, respire etimolojisi
+- Eski Türkçe "tın": nefes, ruh, can; "tınmak" (dinlenmek) bağlantısı
+- Taocu gelenek: qi ve "gerçek insan topuklarından nefes alır" — Zhuangzi 6. bölüm
+- Budizm: Ānāpānasati Sutta, nefese farkındalığın 16 adımı — Majjhima Nikāya 118
+- Zen: susokukan (nefes sayma) geleneği
+- Mevlânâ'da ney: sazlıktan koparılan ve nefesle ses veren ney — Mesnevî 1. defter, giriş beyitleri
+- Yoga Sūtra 1.34: nefes vermek ve tutmakla zihnin durulması
+
+## Pratik (Salı / Cumartesi · light)
+- Kutu nefesi (4-4-4-4) — örnek: content/ornekler/pratik-ornek.json
+- Diyafram nefesi: karın ile nefes almayı fark etmek
+- Nāḍī śodhana / anuloma viloma (dönüşümlü burun deliği) — nāḍī öğretisine bağla
+- Bhrāmarī (arı nefesi): nefes verirken hafif mırıltı — Haṭha Yoga Pradīpikā 2.68
+- Ujjāyī: boğazda hafif sürtünmeyle nefes — Haṭha Yoga Pradīpikā 2.51-53
+- Uzun nefes verme (ör. 4 al, 6 ver)
+- Nefes sayma (1'den 10'a) — Zen susokukan'a bağla
+- Fizyolojik iç çekiş (çift nefes alma + uzun verme) — Balban ve ark., Cell Reports Medicine, 2023
+- Yürürken nefese farkındalık
+
+## Nefes ve bilim (Perşembe · dark)
+- Diyafram: ana nefes kası nasıl çalışır
+- Burundan nefes ve nitrik oksit (paranazal sinüsler) — Lundberg ve ark., 1995
+- Yavaş nefes ve kalp hızı değişkenliği (dakikada ~6 nefes) — derleme makaleler
+- Karbondioksit neden "atık"tan fazlası: nefes alma dürtüsünü CO₂ yönetir
+- Esnemek, iç çekmek: refleks nefesler
+- Dakikada kaç nefes alıyoruz? Dinlenik yetişkinde normal aralık
+- Fizyolojik iç çekiş çalışması: ne gösterdi, ne göstermedi — Balban ve ark., 2023
+
+## Etkileşim (Pazar · dark)
+- "Hangi nefes geleneği sana yakın?" (önceki haftanın gelenekleri arasından seçim)
+- Doğru mu yanlış mı: nefes hakkında yaygın inanışlar (kaynaklı cevaplarla)
+- "Nefesini en son ne zaman fark ettin?" yansıtma gönderisi
+- Kelime oyunu: nefes, ruh, can, tın, prana, pneuma; hangi dil hangisi?
+- Haftanın özeti: bu hafta öğrendiğimiz 3 kavram

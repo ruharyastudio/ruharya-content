@@ -1,0 +1,42 @@
+{
+  "series": "NEFES ÖĞRETİLERİ · VEDİK GELENEK",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "PRANA",
+      "title": "Kadim Hint'te nefes neden <em>yaşamın kendisi</em> sayıldı?",
+      "lead": "Bir kelime, bir hikâye ve bir disiplin."
+    },
+    {
+      "kicker": "01 · KELİME",
+      "title": "Prāṇa: <em>öne doğru</em> soluyan",
+      "body": [
+        "Sanskritçe <b>pra</b> (ileri, öne) ve <b>an</b> (nefes almak, yaşamak) köklerinden gelir.",
+        "Vedik düşüncede prana hem soluduğumuz nefesi hem de bedeni canlı tutan yaşam gücünü anlatır. İkisi ayrı şeyler olarak düşünülmez."
+      ]
+    },
+    {
+      "kicker": "02 · HİKÂYE",
+      "title": "Duyuların <em>yarışı</em>",
+      "body": [
+        "Konuşma, göz, kulak ve zihin, hangisinin en üstün olduğunu tartışır. Sırayla bir yıl bedeni terk ederler; beden her seferinde yaşamaya devam eder.",
+        "Sıra nefese gelir. Prana ayrılmaya davranınca diğerleri yerlerinden sökülür. Hepsi aynı sonuca varır: <b>en üstün olan prana'dır.</b>"
+      ],
+      "src": "Chāndogya Upaniṣad 5.1 · Bṛhadāraṇyaka Upaniṣad 6.1"
+    },
+    {
+      "kicker": "03 · DİSİPLİN",
+      "title": "Prāṇāyāma: <em>nefesi genişletmek</em>",
+      "body": [
+        "Prana + <b>āyāma</b> (uzatma, genişletme). Patañjali'nin Yoga Sutraları'nda sekiz basamaklı yolun <b>dördüncü</b> basamağıdır.",
+        "Sutra 2.49 onu, nefes alıp vermenin akışını düzenlemek olarak tanımlar. Yani amaç nefesi zorlamak değil, onun ritmine bilinç katmaktır."
+      ],
+      "src": "Patañjali, Yoga Sūtra 2.29 · 2.49"
+    },
+    {
+      "kind": "cta",
+      "title": "Sence nefes yalnızca <em>hava</em> mı?",
+      "body": "Yoksa kadimlerin dediği gibi daha fazlası mı? Düşünceni yorumlara yaz. Bu seriyi kaçırmamak için gönderiyi kaydet."
+    }
+  ]
+}

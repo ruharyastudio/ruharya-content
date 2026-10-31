@@ -1,0 +1,9 @@
+{
+  "name": "ruharya-content",
+  "private": true,
+  "description": "Ruharya Instagram içerik üretim araçları",
+  "dependencies": {
+    "@fontsource/cormorant-garamond": "^5.0.0",
+    "@fontsource/inter": "^5.0.0"
+  }
+}
