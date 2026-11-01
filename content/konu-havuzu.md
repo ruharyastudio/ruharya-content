@@ -44,7 +44,7 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 
 ## Etkileşim (Pazar · dark)
 - "Hangi nefes geleneği sana yakın?" (önceki haftanın gelenekleri arasından seçim)
-- Doğru mu yanlış mı: nefes hakkında yaygın inanışlar (kaynaklı cevaplarla)
+- ✅ Doğru mu yanlış mı: nefes hakkında yaygın inanışlar (kaynaklı cevaplarla) — 2026-11-01 (CO₂, diyafram, spiritus)
 - "Nefesini en son ne zaman fark ettin?" yansıtma gönderisi
 - Kelime oyunu: nefes, ruh, can, tın, prana, pneuma; hangi dil hangisi?
 - Haftanın özeti: bu hafta öğrendiğimiz 3 kavram

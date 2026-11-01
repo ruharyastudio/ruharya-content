@@ -1,0 +1,55 @@
+{
+  "series": "NEFES TESTİ · DOĞRU MU YANLIŞ MI?",
+  "theme": "dark",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "3 SORU · 3 CEVAP",
+      "title": "Nefes hakkında <em>doğru mu, yanlış mı?</em>",
+      "lead": "Önce tahmin et, sonra kaydır."
+    },
+    {
+      "kind": "steps",
+      "kicker": "İDDİALAR",
+      "title": "Sence hangisi doğru?",
+      "steps": [
+        "Bizi nefes almaya asıl iten şey <b>oksijen azalmasıdır</b>.",
+        "Sakin nefeste işin çoğunu <b>diyafram</b> yapar.",
+        "Latince <b>spiritus</b> (ruh) kelimesi aslında “nefes” demektir."
+      ],
+      "note": "Cevabını yorumlara üç harfle yaz: ör. D-Y-D. Sonra kaydır."
+    },
+    {
+      "kicker": "01 · YANLIŞ",
+      "title": "Asıl sinyal: <em>karbondioksit</em>",
+      "body": [
+        "Sağlıklı bir bedende solunum merkezi, oksijenin düşmesinden çok <b>kandaki CO₂'nin yükselmesine</b> duyarlıdır. Bunu beyin sapındaki merkezi kemoreseptörler algılar.",
+        "Oksijen, ancak belirgin biçimde azaldığında ana tetikleyici olur."
+      ],
+      "src": "StatPearls · Physiology, Respiratory Drive (NCBI)"
+    },
+    {
+      "kicker": "02 · DOĞRU",
+      "title": "Sessiz kahraman: <em>diyafram</em>",
+      "body": [
+        "Sakin nefeste baskın kas <b>diyaframdır</b>: kasılıp aşağı iner, göğüs boşluğu genişler, hava içeri dolar.",
+        "Veriş ise büyük ölçüde <b>pasiftir</b>. Kaslar gevşer, akciğer ve göğüs duvarı esneklikleriyle eski hâline döner."
+      ],
+      "src": "Johns Hopkins · Muscles of Respiration"
+    },
+    {
+      "kicker": "03 · DOĞRU",
+      "title": "Ruh ile nefes: <em>aynı kelime</em>",
+      "body": [
+        "Latince <b>spiritus</b>, “soluk, nefes” demektir ve <b>spirare</b> (nefes almak) fiilinden türer.",
+        "İngilizcedeki <i>inspire</i>, <i>expire</i>, <i>respiration</i> da aynı kökten gelir. Prāṇa'da olduğu gibi burada da nefes ile can aynı sözcükte buluşur."
+      ],
+      "src": "Etymonline · spirit"
+    },
+    {
+      "kind": "cta",
+      "title": "Kaç tanesini <em>bildin?</em>",
+      "body": "Doğru cevaplar: <b>Y-D-D</b>. Puanını yorumlara yaz: 0, 1, 2 ya da 3.<br><br>Kaydet ve bu testi bir arkadaşına gönder; bakalım o kaç bilecek."
+    }
+  ]
+}
