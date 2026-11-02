@@ -1,0 +1,53 @@
+{
+  "series": "NEFES GELENEKLERİ ATLASI · NO. 2",
+  "theme": "dark",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "ATLAS NO. 2 · BEŞ VĀYU",
+      "title": "Tek nefes mi, yoksa <em>beş akım</em> mı?",
+      "lead": "Praśna Upaniṣad'a göre bedendeki nefesin beş görevi."
+    },
+    {
+      "kicker": "01 · SORU",
+      "title": "Nefes bir <em>kral</em> gibi yönetir",
+      "body": [
+        "Kausalya Āśvalāyana bilgeye sorar: Nefes nereden doğar, bedene nasıl girer, kendini nasıl bölüştürür?",
+        "Cevap: Prāṇa benlikten doğar, insanın düşürdüğü gölge gibi. Ve bir kralın memurlarına köy köy görev vermesi gibi, <b>diğer nefesleri kendi işlerine yerleştirir.</b>"
+      ],
+      "src": "Praśna Upaniṣad 3.1–3.4"
+    },
+    {
+      "kicker": "02 · ALAN VE VEREN",
+      "title": "Prāṇa ve <em>apāna</em>",
+      "body": [
+        "<b>Prāṇa</b> göz ve kulakta yaşar, ağız ve burundan geçer: dünyayı içeri alan nefes.",
+        "<b>Apāna</b> aşağıda, boşaltım ve üreme organlarındadır. Max Müller onu \"aşağı nefes\" diye çevirir: bedenden dışarı bırakan güç."
+      ],
+      "src": "Praśna Upaniṣad 3.5"
+    },
+    {
+      "kicker": "03 · DAĞITAN VE YAYAN",
+      "title": "Samāna ve <em>vyāna</em>",
+      "body": [
+        "<b>Samāna</b> ortadadır; besin olarak sunulanı bedene <b>eşit</b> biçimde dağıtır.",
+        "<b>Vyāna</b> kalpten çıkan kanallarda dolaşır. Metin sayar: 101 ana kanal, her birinde yüz dal, her dalda <b>72.000</b> ince kol."
+      ],
+      "src": "Praśna Upaniṣad 3.5–3.6"
+    },
+    {
+      "kicker": "04 · YÜKSELTEN",
+      "title": "Udāna: <em>yukarı</em> taşıyan",
+      "body": [
+        "Kanallardan biri yukarı uzanır. Udāna bu yoldan yükselir ve metne göre insanı yaptıklarının karşılığı olan dünyaya götürür.",
+        "Upaniṣad onu ışıkla eşler: ölümde duyular zihne çekilir ve kişi nefese, nefes de ışığa katılır."
+      ],
+      "src": "Praśna Upaniṣad 3.7–3.10"
+    },
+    {
+      "kind": "cta",
+      "title": "Bugün hangi akımı <em>fark ettin?</em>",
+      "body": "Alan mı, bırakan mı, yayan mı? Yorumlara tek kelime yaz. Atlas serisini kaçırmamak için kaydet; nefesine dikkat etmesi gereken birine gönder."
+    }
+  ]
+}
