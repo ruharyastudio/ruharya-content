@@ -5,7 +5,7 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 
 ## Öğreti (Pzt / Çar / Cuma · dark)
 - ✅ Prana: kelime, Upanişadlar'daki duyuların yarışı, prāṇāyāma — Chāndogya 5.1, Bṛhadāraṇyaka 6.1, Yoga Sūtra 2.29/2.49
-- Beş vāyu (pañca prāṇa): prāṇa, apāna, samāna, udāna, vyāna — Praśna Upaniṣad 3
+- ✅ Beş vāyu (pañca prāṇa): prāṇa, apāna, samāna, udāna, vyāna — Praśna Upaniṣad 3 — panel fikri i08 (2026-11-02, Atlas No. 2)
 - Nāḍī'ler: iḍā, piṅgalā, suṣumnā; ay ve güneş kanalı imgesi — Haṭha Yoga Pradīpikā
 - "Nefes oynaksa zihin de oynaktır": nefes–zihin bağı — Haṭha Yoga Pradīpikā 2.2
 - Kumbhaka kavramı (anlatım düzeyinde, uygulama tarifi verme) — Haṭha Yoga Pradīpikā 2. bölüm
