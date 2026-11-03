@@ -4,7 +4,7 @@ Ruharya Studio'nun @ruharya Instagram hesabı için otomatik içerik deposu. Bu 
 görseller `raw.githubusercontent.com` üzerinden Buffer'a verilir. Gizli bilgi (anahtar, şifre) koyma.
 
 - Günlük gönderi süreci ve tüm kurallar: `.claude/skills/ruharya-instagram/SKILL.md`
-- Üretici: `tools/carousel.py` (JSON → 1080×1350 JPEG, `dark` / `light` tema)
+- Üretici: `tools/carousel.py` (JSON → 1080×1350 JPEG, `dark` / `light` tema); `tools/reel.py` (JSON → 1080×1920 statik Reels mp4, telifsiz sentez ses)
 - İçerik: `content/` (JSON + açıklama metni, konu havuzu, yayın kaydı, haftalık rapor)
 - Görseller: `posts/YYYY-MM-DD-konu/NN.jpg`
 

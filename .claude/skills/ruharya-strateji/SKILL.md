@@ -15,6 +15,10 @@ Sabitler, panel veri modeli ve içerik kuralları: `.claude/skills/ruharya-insta
    - `mcp__Buffer__list_posts` `includeMetrics: true`, son 7 günün gönderileri. Panelin `posts` kayıtlarıyla eşleştir
      ve formata göre (öğreti/pratik/bilim/etkileşim) erişim, kaydetme, paylaşım, yorum karşılaştır.
    - Metrikler günde bir güncellenir; az gönderiyle güçlü sonuç çıkarma, "erken veri" diye belirt.
+   - **Reels hunisi:** Panelde `funnels` koleksiyonunu oku. Her huni için Buffer'dan Reels ve carousel metriklerini
+     (reach, saves, shares, follows) al; kaydetme/erişim ve paylaşım/erişim oranlarını karşılaştır. Ali'nin panele
+     girdiği profil ziyareti/takip verisini kullan; girilmemişse "Insights verisi girilmedi" yaz. Rapora
+     "Reels hunisi" bölümü ekle. En az 2-3 huni birikmeden kesin karar önerme.
 2. **Rakip ve pazar taraması (web):**
    - Türkçe nefes uygulamaları: en az Breath Hub ve Nefes Al'ın mağaza sayfalarını yeniden oku (fiyat, puan, yeni özellik).
    - Yeni giren var mı: "nefes egzersizi uygulaması", "nefes koçu", "breathwork Türkiye" aramaları.

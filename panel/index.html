@@ -89,6 +89,23 @@ td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
 .err{color:var(--bad);font-size:13px}
 .fresh{color:var(--muted);font-size:12px}
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--fg);color:var(--bg);padding:9px 16px;border-radius:8px;font-size:13px;font-weight:500;z-index:20}
+.funnels{display:grid;gap:16px}
+.funnel{border:1px solid var(--line);border-radius:10px;background:var(--bg);padding:16px;display:grid;gap:14px}
+.funnel h3{font-family:var(--display);font-size:22px;font-weight:600;margin:0;line-height:1.2}
+.funnel .head{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center}
+.flow{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.flow b{color:var(--fg);font-weight:600}
+.flow .arr{color:var(--gold)}
+.legs{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))}
+.leg{border-top:2px solid var(--gold);padding-top:10px;min-width:0}
+.leg .meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:12px;color:var(--muted);margin:4px 0 10px}
+.kv{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 8px}
+.kv div{min-width:0}
+.kv .v{font-family:var(--display);font-size:26px;font-weight:600;line-height:1.1;font-variant-numeric:tabular-nums}
+.kv .n{font-size:11px;color:var(--muted)}
+.ins{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(min(100%,140px),1fr));align-items:end}
+.ins label{font-size:12px;color:var(--muted);display:grid;gap:4px}
+.todo{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;border-left:3px solid var(--warn);padding:8px 12px;background:var(--surface2);border-radius:6px;font-size:14px}
 @media (prefers-reduced-motion: no-preference){.btn,.chip{transition:background .15s,border-color .15s}}
 </style>
 
@@ -97,12 +114,13 @@ td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
     <div class="brand">
       <div>
         <h1>Ruharya <em>Kontrol Paneli</em></h1>
-        <div class="sub">@ruharya · Ruharya Nefes · her gün 20:30</div>
+        <div class="sub">@ruharya · Ruharya Nefes · her gün 20:30 · Reels Perşembe 12:30</div>
       </div>
       <span id="autoPill" class="pill mute">Durum yükleniyor</span>
     </div>
     <nav class="tabs" role="tablist" aria-label="Bölümler">
       <button role="tab" id="tab-ozet" data-v="ozet" aria-selected="true">Özet</button>
+      <button role="tab" id="tab-huni" data-v="huni" aria-selected="false">Reels hunisi</button>
       <button role="tab" id="tab-fikirler" data-v="fikirler" aria-selected="false">Fikirler</button>
       <button role="tab" id="tab-raporlar" data-v="raporlar" aria-selected="false">Raporlar</button>
       <button role="tab" id="tab-yayinlar" data-v="yayinlar" aria-selected="false">Yayınlar</button>
@@ -117,10 +135,11 @@ td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
       <div class="statusbar">
         <div>
           <div class="label">Otomatik paylaşım</div>
-          <p class="hint" id="autoText" style="margin:4px 0 0">Günlük görev her gün 18:33'te çalışır ve gönderiyi 20:30'a zamanlar.</p>
+          <p class="hint" id="autoText" style="margin:4px 0 0">Günlük görev her gün 14:33'te çalışır ve gönderiyi 20:30'a zamanlar.</p>
         </div>
         <button class="btn" id="pauseBtn" disabled>Ayar yükleniyor</button>
       </div>
+      <div id="todos" style="display:grid;gap:8px;margin-top:12px"></div>
     </div>
     <div class="grid2">
       <div class="panel">
@@ -146,6 +165,21 @@ td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
         <p class="hint">Haftalık strateji görevi her pazar yeni rapor ekler.</p>
         <div id="latestReport"><div class="empty">Raporlar yükleniyor.</div></div>
       </div>
+    </div>
+  </section>
+
+  <!-- REELS HUNİSİ -->
+  <section class="view" id="v-huni" hidden>
+    <div class="panel">
+      <h2>Reels hunisi</h2>
+      <p class="hint">Her hafta: Çarşamba 20:30 derin carousel → Perşembe 12:30 statik Reels → izleyici profile gelir → sabitlenmiş carousel'i okur → takip eder. Aynı 5 soru iki formatta da var; hangisinin daha çok kaydedildiğini burada karşılaştırırız.</p>
+      <div class="flow" aria-hidden="true"><b>Reels</b><span class="arr">→</span><b>Profil ziyareti</b><span class="arr">→</span><b>Sabitlenmiş carousel</b><span class="arr">→</span><b>Takip</b></div>
+    </div>
+    <div class="panel">
+      <h2>Haftalar</h2>
+      <p class="hint">Erişim, kaydetme, paylaşım ve takip Buffer'dan canlı gelir (günde bir güncellenir). Profil ziyaretini Instagram Insights'tan sen gir; Buffer bu veriyi vermiyor. Birkaç hafta birikmeden kesin sonuç çıkarma.</p>
+      <div class="funnels" id="funnelList"><div class="empty">Huniler yükleniyor.</div></div>
+      <div class="fresh" id="funnelFresh"></div>
     </div>
   </section>
 
@@ -221,7 +255,7 @@ const fmtDate=s=>{if(!s)return"";const d=new Date(s);return isNaN(d)?String(s):d
 let toastT;function toast(m){const t=$("toast");t.textContent=m;t.hidden=false;clearTimeout(toastT);toastT=setTimeout(()=>t.hidden=true,2600)}
 
 /* sekmeler */
-const VIEWS=["ozet","fikirler","raporlar","yayinlar"];
+const VIEWS=["ozet","huni","fikirler","raporlar","yayinlar"];
 function show(v){if(!VIEWS.includes(v))v="ozet";VIEWS.forEach(x=>{$("v-"+x).hidden=x!==v;$("tab-"+x).setAttribute("aria-selected",String(x===v))})}
 document.querySelectorAll("nav.tabs button").forEach(b=>b.addEventListener("click",()=>{location.hash=b.dataset.v;show(b.dataset.v)}));
 window.addEventListener("hashchange",()=>show(location.hash.slice(1)));
@@ -234,7 +268,7 @@ function renderSettings(){
   if(!settings){p.className="pill mute";p.textContent="Ayar bulunamadı";b.disabled=true;b.textContent="Ayar yok";return}
   const paused=!!settings.paused;
   p.className="pill "+(paused?"bad":"ok");p.textContent=paused?"Duraklatıldı":"Otomatik paylaşım açık";
-  t.textContent=paused?"Günlük görev çalışır ama gönderi üretmez. Devam ettirdiğinde ertesi çalışmada kaldığı yerden sürer.":"Günlük görev her gün 18:33'te çalışır ve gönderiyi "+(settings.postTime||"20:30")+"'a zamanlar.";
+  t.textContent=paused?"Günlük görev çalışır ama gönderi üretmez. Devam ettirdiğinde ertesi çalışmada kaldığı yerden sürer.":"Günlük görev her gün 14:33'te çalışır ve gönderiyi "+(settings.postTime||"20:30")+"'a zamanlar. Çarşamba ek olarak Perşembe 12:30 Reels'ini hazırlar.";
   b.textContent=paused?"Paylaşımı sürdür":"Paylaşımı duraklat";b.className="btn "+(paused?"primary":"");b.disabled=!canWrite;
 }
 $("pauseBtn").addEventListener("click",async()=>{
@@ -312,19 +346,75 @@ function renderLog(rows){
     tr.append(el("td","num",r.date||""),el("td",null,FORMAT[r.format]||r.format||""),el("td",null,r.topic||""),el("td",null,r.tradition||""),tdS);tb.append(tr)});
 }
 
+/* reels hunisi */
+let funnels=[],postMetrics={},metricsAt=null;
+const nf=n=>new Intl.NumberFormat("tr-TR").format(n);
+const pct=(a,b)=>b>0?(100*a/b).toLocaleString("tr-TR",{maximumFractionDigits:1})+"%":"—";
+function legView(label,id,due,extra){
+  const w=el("div","leg");w.append(el("div","label",label));
+  const pm=postMetrics[id];const meta=el("div","meta");
+  if(pm){const st=POSTSTAT[pm.status]||[pm.status,"mute"];meta.append(el("span","pill "+st[1],st[0]))}
+  meta.append(el("span",null,fmtDate((pm&&pm.sentAt)||due)));w.append(meta);
+  const m=(pm&&pm.metrics)||null;const kv=el("div","kv");
+  const cell=(v,n)=>{const d=el("div");d.append(el("div","v",v),el("div","n",n));kv.append(d)};
+  if(!m){w.append(el("div","empty",pm&&pm.status==="sent"?"Metrikler henüz gelmedi.":"Yayınlandıktan sonra metrikler burada."))}
+  else{const g=k=>m[k]||0;cell(nf(g("reach")),"Erişim");cell(nf(g("saves")),"Kaydetme");cell(nf(g("shares")),"Paylaşım");
+    cell(pct(g("saves"),g("reach")),"Kaydetme / erişim");cell(pct(g("shares"),g("reach")),"Paylaşım / erişim");cell(nf(g("follows")),"Takip (Buffer)");w.append(kv)}
+  if(extra)w.append(extra);return w;
+}
+function insightsForm(f,key){
+  const v=((f.insights||{})[key])||{};const box=el("div","ins");box.style.marginTop="12px";
+  const mk=(lab,name)=>{const l=el("label",null,lab);const i=el("input");i.type="number";i.min="0";i.inputMode="numeric";i.name=name;if(v[name]!=null)i.value=v[name];i.disabled=!canWrite;l.append(i);box.append(l);return i};
+  const pv=mk("Profil ziyareti (Insights)","profileVisits"),fo=mk("Takip (Insights)","follows");
+  const b=el("button","btn","Kaydet");b.disabled=!canWrite;
+  b.onclick=async()=>{const val=x=>x.value===""?null:Math.max(0,Math.round(Number(x.value)));
+    b.disabled=true;try{await db.doc("funnels/"+f.id).update({insights:{[key]:{profileVisits:val(pv),follows:val(fo)}},updatedAt:new Date().toISOString()});toast("Kaydedildi")}
+    catch(e){toast("Kaydedilemedi: "+(e&&e.code||"hata"))}finally{b.disabled=!canWrite}};
+  box.append(b);return box;
+}
+function renderFunnels(){
+  const list=$("funnelList");list.replaceChildren();
+  const sorted=[...funnels].sort((a,b)=>String(b.id).localeCompare(String(a.id)));
+  if(!sorted.length)list.append(el("div","empty","Henüz huni yok. Çarşamba görevi ilkini ekler."));
+  sorted.forEach(f=>{
+    const c=el("div","funnel");const head=el("div","head");
+    const t=el("div");t.append(el("div","label","Hafta · "+String(f.id).slice(0,10)),el("h3",null,f.topic||f.id));head.append(t);
+    head.append(el("span","pill "+(f.pinned?"ok":"warn"),f.pinned?"Carousel sabitlendi":"Carousel sabitlenmedi"));c.append(head);
+    if(f.note)c.append(el("p","hint",f.note));
+    const legs=el("div","legs");
+    legs.append(legView("Reels · keşif",f.reelId,f.reelDue,insightsForm(f,"reel")));
+    legs.append(legView("Carousel · derin anlatım",f.carouselId,f.carouselDue,null));
+    c.append(legs);
+    if(canWrite){const a=el("div","acts");a.style.display="flex";a.style.gap="8px";
+      const b=el("button","btn "+(f.pinned?"ghost":"primary"),f.pinned?"Sabitlemeyi geri al":"Carousel'i profilde sabitledim");
+      b.onclick=async()=>{b.disabled=true;try{await db.doc("funnels/"+f.id).update({pinned:!f.pinned,updatedAt:new Date().toISOString()});toast(f.pinned?"Geri alındı":"İşaretlendi")}catch(e){toast("Kaydedilemedi: "+(e&&e.code||"hata"))}finally{b.disabled=false}};
+      a.append(b);c.append(a)}
+    list.append(c)});
+  $("funnelFresh").textContent=metricsAt?"Buffer güncellemesi: "+fmtDate(metricsAt):"";
+  renderTodos();
+}
+function renderTodos(){
+  const box=$("todos");box.replaceChildren();const now=Date.now();
+  funnels.filter(f=>!f.pinned).forEach(f=>{
+    const due=new Date(f.carouselDue||0).getTime();const ready=due&&due<=now;
+    const r=el("div","todo");r.append(el("span",null,(ready?"Yapılacak: ":"Sırada: ")+"“"+(f.topic||f.id)+"” carousel'ini profilde sabitle"+(ready?"":" ("+fmtDate(f.carouselDue)+" sonrası)")+". Reels izleyiciyi oraya yönlendiriyor."));
+    const b=el("button","btn ghost","Hunide aç");b.onclick=()=>{location.hash="huni";show("huni")};r.append(b);box.append(r)});
+}
+
 /* db bağlantısı */
 async function startDb(){
   db=await claude.use("db");
   const user=await claude.use("user");
   if(!db){["pendingIdeas","allIdeas","latestReport"].forEach(i=>$(i).replaceChildren(el("div","empty","Panel verisine bu görünümde ulaşılamıyor.")));$("autoPill").textContent="Veri yok";return}
   canWrite=user?((await user.can("data.write"))??true):true;
-  let pending=4;const timer=setTimeout(()=>{if(pending>0)toast("Veri gecikiyor, bağlantını kontrol et")},10000);
+  let pending=5;const timer=setTimeout(()=>{if(pending>0)toast("Veri gecikiyor, bağlantını kontrol et")},10000);
   const done=()=>{if(--pending<=0)clearTimeout(timer)};
   const fail=name=>e=>{done();toast(name+" okunamadı: "+(e&&e.code||"hata"))};
   db.doc("settings/main").onSnapshot(s=>{settings=s.exists?s.data():null;renderSettings();done()},fail("Ayar"));
   db.collection("ideas").onSnapshot(s=>{ideas=s.docs.map(d=>({id:d.id,...d.data()}));renderIdeas();done()},fail("Fikirler"));
   db.collection("reports").onSnapshot(s=>{reports=s.docs.map(d=>({id:d.id,...d.data()}));renderReports();done()},fail("Raporlar"));
   db.collection("posts").onSnapshot(s=>{renderLog(s.docs.map(d=>({id:d.id,...d.data()})));done()},fail("Kayıt"));
+  db.collection("funnels").onSnapshot(s=>{funnels=s.docs.map(d=>({id:d.id,...d.data()}));renderFunnels();done()},fail("Huniler"));
 }
 
 /* Buffer canlı */
@@ -359,6 +449,14 @@ async function startBuffer(){
       body.append(m,el("div","txt",(n.text||"").split("\n")[0]));if(n.error)body.append(el("div","err",String(n.error.message||n.error)));
       r.append(body);box.append(r)});
   },{refetchInterval:10*60*1000});
+  mcp.watchTool("Buffer","list_posts",{organizationId:ORG,channelIds:[CH],first:40,includeMetrics:true,status:["scheduled","sending","sent","error"],sort:[{field:"dueAt",direction:"desc"}]},ev=>{
+    if(ev.type==="error"){$("funnelFresh").textContent=mcpError(ev.error);return}
+    const edges=(ev.result.payload&&ev.result.payload.edges)||[];postMetrics={};metricsAt=null;
+    edges.forEach(({node:n})=>{const m={};(n.metrics||[]).forEach(x=>m[x.type]=x.value);
+      postMetrics[n.id]={status:n.status,sentAt:n.sentAt,metrics:n.metrics&&n.metrics.length?m:null};
+      if(n.metrics&&n.metricsUpdatedAt&&(!metricsAt||n.metricsUpdatedAt>metricsAt))metricsAt=n.metricsUpdatedAt});
+    renderFunnels();
+  },{refetchInterval:30*60*1000});
 }
 startDb();startBuffer();
 </script>
