@@ -1,0 +1,38 @@
+{
+  "series": "NEFES PRATİĞİ",
+  "theme": "light",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "PRATİK · BHRĀMARĪ",
+      "title": "Mırıldandığın sürece <em>nefes veriyorsun</em>",
+      "lead": "Arı nefesi: sesle uzayan bir veriş."
+    },
+    {
+      "kicker": "01 · KÖKEN",
+      "title": "Arının <em>vızıltısı</em>",
+      "body": [
+        "Adı Sanskritçe <b>bhramara</b>'dan, yani arıdan gelir. Haṭha Yoga Pradīpikā onu şöyle tarif eder: nefes, erkek arının vızıltısıyla hızla alınır; dişi arının vızıltısıyla <b>yavaş yavaş</b> verilir.",
+        "Metin, bu çalışmayla yoginin zihninde tarifsiz bir sevinç oyunu doğduğunu söyler."
+      ],
+      "src": "Haṭha Yoga Pradīpikā 2.68"
+    },
+    {
+      "kind": "steps",
+      "kicker": "NASIL YAPILIR",
+      "title": "Dört adım, beş tur",
+      "steps": [
+        "Dik otur, omuzlarını bırak, gözlerini kapat",
+        "Burnundan <b>sakin</b> bir nefes al",
+        "Dudaklar kapalı, “mmm” diye <b>mırıldanarak</b> ver",
+        "Ses bitince bir an dur, sonra yeniden al"
+      ],
+      "note": "Sesi zorlama; yumuşak ve rahat olsun. Bugün yaygın uygulama yalnızca verişte mırıldanmaktır. Baş dönmesi olursa bırak, normal nefesine dön."
+    },
+    {
+      "kind": "cta",
+      "title": "Sesin kaç <em>saniye</em> sürdü?",
+      "body": "Beşinci turda say, yorumlara yaz.<br><br>Kaydet ve nefesine biraz alan açması gereken birine gönder."
+    }
+  ]
+}

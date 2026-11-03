@@ -26,7 +26,7 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 - Kutu nefesi (4-4-4-4) — örnek: content/ornekler/pratik-ornek.json
 - Diyafram nefesi: karın ile nefes almayı fark etmek
 - Nāḍī śodhana / anuloma viloma (dönüşümlü burun deliği) — nāḍī öğretisine bağla
-- Bhrāmarī (arı nefesi): nefes verirken hafif mırıltı — Haṭha Yoga Pradīpikā 2.68
+- ✅ Bhrāmarī (arı nefesi): nefes verirken hafif mırıltı — Haṭha Yoga Pradīpikā 2.68 — panel fikri i09 (2026-11-03)
 - Ujjāyī: boğazda hafif sürtünmeyle nefes — Haṭha Yoga Pradīpikā 2.51-53
 - Uzun nefes verme (ör. 4 al, 6 ver)
 - Nefes sayma (1'den 10'a) — Zen susokukan'a bağla
