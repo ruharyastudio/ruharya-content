@@ -1,0 +1,57 @@
+{
+  "series": "NEFES ÖĞRETİLERİ · NAKŞİBENDÎ YOLU",
+  "theme": "dark",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "TASAVVUF · HÛŞ DER DEM",
+      "title": "Son <em>nefesini</em> fark ettin mi?",
+      "lead": "Buhara'dan gelen bir ilke: her nefeste uyanık olmak."
+    },
+    {
+      "kicker": "01 · KELİME",
+      "title": "Üç kelime, <em>tek dikkat</em>",
+      "body": [
+        "Farsça bir ifade. <b>Hûş</b>: bilinç, uyanıklık. <b>Der</b>: içinde. <b>Dem</b>: nefes, soluk.",
+        "Kabaca: <b>nefeste uyanıklık</b>. Türkçedeki “dem” de aynı Farsça kelimeden gelir."
+      ],
+      "src": "TDV İslâm Ansiklopedisi, “Dem” maddesi"
+    },
+    {
+      "kicker": "02 · KÖKEN",
+      "title": "Buhara'dan <em>bir yol</em>",
+      "body": [
+        "İlke, Buhara yakınlarındaki Gucdüvân'da yaşamış <b>Abdülhâlık Gucdüvânî</b>'ye (ö. 1179 ya da 1220) nispet edilen sekiz esasın ilkidir.",
+        "Bu esaslar sonradan Nakşibendî yolunun temeli oldu ve <b>kelimât-ı kudsiyye</b> adıyla anıldı."
+      ],
+      "src": "TDV İA, “Gucdüvânî” ve “Nakşibendiyye” maddeleri"
+    },
+    {
+      "kicker": "03 · ANLAM",
+      "title": "Her nefeste <em>gafletsiz</em>",
+      "body": [
+        "Gelenek ilkeyi şöyle tanımlar: alınan her nefeste <b>gafletten uzak</b> olmak.",
+        "Burada nefes bir teknik değil, bir ölçüdür. Dikkatin o an nerede olduğunu gösterir."
+      ],
+      "src": "TDV İA, “Gucdüvânî” maddesi"
+    },
+    {
+      "kind": "steps",
+      "kicker": "04 · KENDİNE SOR",
+      "title": "Nefesin sana ne söylüyor?",
+      "steps": [
+        "Bugün nefesimi <b>ilk</b> ne zaman fark ettim?",
+        "Hangi anlarda nefesimi <b>tutuyorum</b>?",
+        "Nefesim nerede <b>sığlaşıyor</b>?",
+        "Kimin yanında nefesim <b>yavaşlıyor</b>?",
+        "Nefesimi en son ne zaman <b>dinledim</b>?"
+      ],
+      "note": "Cevapları yargılama, sadece fark et. Bu sorular geleneğin zikir disiplininin yerine geçmez; yalnızca kapısını aralar."
+    },
+    {
+      "kind": "cta",
+      "title": "Bugün nefesini <em>kaç kez</em> fark ettin?",
+      "body": "Bir sayı yaz: 0, 1, 5…<br><br>Kaydet; yarın aynı soruları kendine yeniden sor."
+    }
+  ]
+}

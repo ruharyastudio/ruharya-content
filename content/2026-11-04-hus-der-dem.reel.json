@@ -1,0 +1,23 @@
+{
+  "theme": "dark",
+  "a": {
+    "kicker": "HÛŞ DER DEM · NEFESTE UYANIKLIK",
+    "title": "Nefesin sana ne <em>söylüyor?</em>",
+    "questions": [
+      "Bugün nefesimi ilk ne zaman fark ettim?",
+      "Hangi anlarda nefesimi tutuyorum?",
+      "Nefesim nerede sığlaşıyor?",
+      "Kimin yanında nefesim yavaşlıyor?",
+      "Nefesimi en son ne zaman dinledim?"
+    ],
+    "foot": "Kaydet, akşam kendine sor."
+  },
+  "b": {
+    "kicker": "BU SORULARIN KÖKENİ",
+    "title": "Buhara'dan gelen <em>bir ilke</em>",
+    "body": "Kelimeleri, kökeni ve anlamı profilde: <b>sabitlenmiş gönderi</b>.",
+    "handle": "@ruharya →"
+  },
+  "a_seconds": 9,
+  "b_seconds": 4
+}
