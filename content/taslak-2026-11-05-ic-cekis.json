@@ -1,0 +1,67 @@
+{
+  "series": "NEFES VE BİLİM · FİZYOLOJİK İÇ ÇEKİŞ",
+  "theme": "dark",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "NEFES VE BİLİM · İÇ ÇEKİŞ",
+      "title": "Bir <em>iç çekiş</em> ruh hâlini değiştirir mi?",
+      "lead": "Bir çalışma ne gösterdi, ne göstermedi."
+    },
+    {
+      "kicker": "01 · NEFES",
+      "title": "Çift alma, <em>uzun verme</em>",
+      "body": [
+        "Çalışmadaki adı <b>döngüsel iç çekiş</b>: burundan yavaş bir nefes, ciğerleri doldurmak için kısa bir nefes daha, sonra ağızdan yavaş ve uzun bir veriş.",
+        "Katılımcılar bunu günde <b>5 dakika</b>, 28 gün boyunca uyguladı."
+      ],
+      "src": "Balban ve ark., Cell Reports Medicine 4(1), 2023"
+    },
+    {
+      "kicker": "02 · YÖNTEM",
+      "title": "Neyle <em>karşılaştırıldı?</em>",
+      "body": [
+        "108 kişi, çoğu genç üniversite öğrencisi, çalışmaya uzaktan katıldı. Dört gruba ayrıldılar: döngüsel iç çekiş, kutu nefesi, bir hızlı nefes yöntemi ve <b>farkındalık meditasyonu</b>.",
+        "Ruh hâli günlük anketlerle, solunum hızı bileğe takılan bir cihazla ölçüldü."
+      ],
+      "src": "Balban ve ark., 2023 · NCT05304000"
+    },
+    {
+      "kicker": "03 · NE GÖSTERDİ",
+      "title": "Olumlu duygu <em>arttı</em>",
+      "body": [
+        "Günlük olumlu duygudaki artış, iç çekiş grubunda meditasyon grubuna göre <b>anlamlı ölçüde daha fazlaydı</b>. Dinlenik solunum hızı da daha çok düştü.",
+        "Kaygı ve olumsuz duygu ise <b>bütün gruplarda</b> azaldı; meditasyonla aralarında fark çıkmadı."
+      ],
+      "src": "Balban ve ark., 2023, Sonuçlar"
+    },
+    {
+      "kicker": "04 · NE GÖSTERMEDİ",
+      "title": "Sınırları <em>da var</em>",
+      "body": [
+        "Kalp hızında ve kalp hızı değişkenliğinde anlamlı değişim görülmedi.",
+        "Hiç uygulama yapmayan bir grup yoktu. Örneklem küçük ve genç; süre 4 hafta, sonrasında takip yok.",
+        "Yani umut verici bir ilk bulgu; kesin bir sonuç değil, bir tedavi hiç değil."
+      ],
+      "src": "Balban ve ark., 2023, Sınırlılıklar"
+    },
+    {
+      "kind": "steps",
+      "kicker": "05 · DENEMEK İSTERSEN",
+      "title": "Bir tur iç çekiş",
+      "steps": [
+        "Rahat otur, omuzlarını bırak.",
+        "Burundan <b>yavaşça</b> nefes al.",
+        "Üstüne <b>kısa</b> bir nefes daha ekle.",
+        "Ağızdan <b>yavaş ve uzun</b> ver.",
+        "Birkaç tur dene, zorlama."
+      ],
+      "note": "Baş dönmesi ya da rahatsızlık hissedersen bırak, normal nefesine dön. Sağlık sorunun varsa önce hekimine danış."
+    },
+    {
+      "kind": "cta",
+      "title": "Sence bir nefes <em>ruh hâlini</em> değiştirir mi?",
+      "body": "Evet, hayır ya da bilmiyorum yaz.<br><br>Kaydet; zor bir günü olan birine gönder."
+    }
+  ]
+}
