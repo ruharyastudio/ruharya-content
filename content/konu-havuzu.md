@@ -30,7 +30,7 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 - Ujjāyī: boğazda hafif sürtünmeyle nefes — Haṭha Yoga Pradīpikā 2.51-53
 - Uzun nefes verme (ör. 4 al, 6 ver)
 - Nefes sayma (1'den 10'a) — Zen susokukan'a bağla
-- Fizyolojik iç çekiş (çift nefes alma + uzun verme) — Balban ve ark., Cell Reports Medicine, 2023
+- ✅ Fizyolojik iç çekiş (çift nefes alma + uzun verme) — Balban ve ark., Cell Reports Medicine, 2023 — 2026-11-05 (panel fikri i11)
 - Yürürken nefese farkındalık
 
 ## Nefes ve bilim (Perşembe · dark)
@@ -40,7 +40,7 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 - Karbondioksit neden "atık"tan fazlası: nefes alma dürtüsünü CO₂ yönetir
 - Esnemek, iç çekmek: refleks nefesler
 - Dakikada kaç nefes alıyoruz? Dinlenik yetişkinde normal aralık
-- Fizyolojik iç çekiş çalışması: ne gösterdi, ne göstermedi — Balban ve ark., 2023
+- ✅ Fizyolojik iç çekiş çalışması: ne gösterdi, ne göstermedi — Balban ve ark., 2023 — 2026-11-05 (panel fikri i11)
 
 ## Etkileşim (Pazar · dark)
 - "Hangi nefes geleneği sana yakın?" (önceki haftanın gelenekleri arasından seçim)
