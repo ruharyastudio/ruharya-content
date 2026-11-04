@@ -22,6 +22,17 @@ bildir() { printf '%s' "$1" | "$PY" "$HOME/zeus-panel/telegram_bildir.py" || tru
 exec 9>"$VERI/.calistir.kilit"
 if ! flock -n 9; then bildir "⚠️ Ruharya $TUR: başka bir Ruharya işi sürüyor, bu çalışma atlandı."; exit 0; fi
 
+# Atlanacak günler: ~/zeus/ruharya/ayarlar.json → "atla_tarihleri": ["YYYY-MM-DD", ...] (yalnızca günlük, normal mod)
+if [[ "$TUR" == "gunluk" && -z "$EK" ]]; then
+  BUGUN="$(date +%F)"
+  if "$PY" -c 'import json,sys; a=json.load(open(sys.argv[1])); sys.exit(0 if sys.argv[2] in (a.get("atla_tarihleri") or []) else 1)' \
+       "$VERI/ayarlar.json" "$BUGUN" 2>/dev/null; then
+    echo "$BUGUN atla_tarihleri içinde; üretim yapılmadı" >"$LOG.atlandi"
+    bildir "⏭️ Ruharya günlük: $BUGUN üretimi atlandı (ayarlar: atla_tarihleri). Bugünün gönderisi zaten zamanlı."
+    exit 0
+  fi
+fi
+
 cd "$REPO" || exit 1
 if ! git pull -q --rebase origin main >"$LOG.git.log" 2>&1; then
   bildir "⚠️ Ruharya $TUR başlamadı: depo güncellenemedi (git pull). Ayrıntı: $LOG.git.log"; exit 1
