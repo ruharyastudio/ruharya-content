@@ -31,7 +31,7 @@ case "$TUR" in
   gunluk)
     BECERI="zeus/ruharya-instagram.md"; ORIJ=".claude/skills/ruharya-instagram/SKILL.md"; BASLIK="📸 Ruharya günlük"
     if [[ -n "$EK" ]]; then
-      MOD="TASLAK MODU (RUHARYA_TASLAK=1): zeus/ruharya-instagram.md'deki taslak kurallarına uy. Gönderiyi üret, 'taslak-' önekli klasöre koy, push et ve Buffer'a YALNIZCA taslak olarak ekle; zamanlama yapma, yayın kaydı/konu havuzu/fikir durumlarını değiştirme."
+      MOD="TASLAK MODU (RUHARYA_TASLAK=1): zeus/ruharya-instagram.md'deki taslak kurallarına uy. Gönderiyi üret, 'taslak-' önekli klasöre koy, push et ve Buffer'a YALNIZCA taslak olarak ekle; zamanlama yapma; repodaki content/yayin-kaydi.md, konu havuzu ve fikir durumlarını değiştirme (Zeus verisine yalnızca taslak- önekli draft kaydı yaz)."
       BASLIK="🧪 Ruharya TASLAK deneme"
     else
       MOD="NORMAL MOD: bugünün gönderisini üret ve zamanla."
