@@ -1,0 +1,9 @@
+[Unit]
+Description=Ruharya günlük gönderi — her gün 14:33 (İstanbul)
+
+[Timer]
+OnCalendar=*-*-* 14:33:00 Europe/Istanbul
+Persistent=false
+
+[Install]
+WantedBy=timers.target

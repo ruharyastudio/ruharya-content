@@ -1,0 +1,9 @@
+[Unit]
+Description=Ruharya haftalık strateji raporu — her pazar 10:34 (İstanbul)
+
+[Timer]
+OnCalendar=Sun *-*-* 10:34:00 Europe/Istanbul
+Persistent=false
+
+[Install]
+WantedBy=timers.target

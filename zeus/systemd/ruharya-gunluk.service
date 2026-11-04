@@ -1,0 +1,9 @@
+[Unit]
+Description=Ruharya gunluk (Claude Code headless)
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/bash %h/ruharya-content/zeus/gunluk.sh
+TimeoutStartSec=75min
+Nice=5

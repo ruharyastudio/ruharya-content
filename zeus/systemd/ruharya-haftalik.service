@@ -1,0 +1,9 @@
+[Unit]
+Description=Ruharya haftalik (Claude Code headless)
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/bash %h/ruharya-content/zeus/haftalik.sh
+TimeoutStartSec=75min
+Nice=5
