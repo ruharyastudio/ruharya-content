@@ -33,6 +33,23 @@ if [[ "$TUR" == "gunluk" && -z "$EK" ]]; then
   fi
 fi
 
+# Görev Merkezi kaydı (panelde canlı görünür; servis kapalıysa iş yine çalışır)
+ZG="$HOME/zeus/zeus-gorev"; GCIKTI=""; GOZET=""
+case "$TUR" in gunluk) GAJAN=icerik-uretici; GBAS="Ruharya günlük gönderi$([[ -n $EK ]] && echo " (taslak)")";; *) GAJAN=pazar-analizi; GBAS="Ruharya haftalık rapor";; esac
+GID="$("$ZG" dis-basla --kaynak ruharya --ajan "$GAJAN" --baslik "$GBAS" --pid $$ 2>/dev/null || true)"
+gasama() { if [[ -n "$GID" ]]; then "$ZG" asama "$GID" "$1" >/dev/null 2>&1 || true; fi; }
+gbitir() {
+  local kod=$? a=()
+  [[ -z "$GID" ]] && return $kod
+  if [[ $kod -ne 0 ]]; then a+=(--hata "çıkış kodu $kod"); elif [[ "$GOZET" == HATA* ]]; then a+=(--hata "${GOZET:0:300}"); fi
+  [[ -n "$GCIKTI" && -f "$GCIKTI" ]] && a+=(--cikti "$GCIKTI")
+  [[ -n "$GOZET" ]] && a+=(--ozet "$GOZET")
+  "$ZG" bitir "$GID" "${a[@]}" >/dev/null 2>&1 || true
+  return $kod
+}
+trap gbitir EXIT
+gasama "depo güncelleniyor (git pull)"
+
 cd "$REPO" || exit 1
 if ! git pull -q --rebase origin main >"$LOG.git.log" 2>&1; then
   bildir "⚠️ Ruharya $TUR başlamadı: depo güncellenemedi (git pull). Ayrıntı: $LOG.git.log"; exit 1
@@ -58,6 +75,8 @@ GOREV="Bugün $(date '+%Y-%m-%d %A %H:%M') (Europe/Istanbul). $MOD
 Kurallar: sudo kullanma; ~/.hermes/.env dosyasını okuma veya gösterme; dosya silme. Uydurma bilgi yok.
 Bitince son mesajın, $BECERI dosyasındaki 'Son mesaj' bölümüne uygun TEK paragraf olsun (Ali'ye Telegram'dan aynen gider)."
 
+gasama "Claude Code çalışıyor: $([[ $TUR == gunluk ]] && echo içerik üretimi || echo strateji raporu)"
+GCIKTI="$LOG.json"
 claude -p "$GOREV" \
   --output-format json \
   --permission-mode acceptEdits \
@@ -76,6 +95,8 @@ except Exception as e:
     print(f"HATA: Claude çıktısı okunamadı ({type(e).__name__})")
 PY
 )"
+gasama "özet Telegram'a gönderiliyor"
+GOZET="$OZET"
 if [[ $KOD -ne 0 && "$OZET" != HATA:* ]]; then OZET="HATA (çıkış $KOD): $OZET $(tail -c 300 "$LOG.err")"; fi
 bildir "$BASLIK
 $OZET
