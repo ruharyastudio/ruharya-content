@@ -10,3 +10,4 @@
 | 2026-11-04 | Öğreti carousel'i (derin) | Hûş der dem: her nefeste uyanıklık + 5 soru | Tasavvuf / Nakşibendî | 6aea03905a8533248e702600 |
 | 2026-11-05 | Reels (12:30) | Nefesin sana ne söylüyor? → profildeki hûş der dem | Tasavvuf / Nakşibendî | 6aea0391ce22073f337a187a |
 | 2026-11-05 | Bilim carousel'i (20:30) | Fizyolojik iç çekiş: çalışma ne gösterdi, ne göstermedi | Bilim (Balban ve ark., 2023) | 6aebafc4cc6b72be4e082ab3 |
+| 2026-11-06 | Öğreti carousel'i | Atlas No. 3 · Veren nefes (YS 1.34, Zhuangzi 15, chángxī, RSA) + kapak hikâyesi 20:35 | Karşılaştırmalı (Yoga / Taocu) | 6aedbbfb70ee7e2aa7018d75 (hikâye 6aedbbff70ee7e2aa7018ef0) |
