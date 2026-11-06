@@ -21,6 +21,7 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 - Zen: susokukan (nefes sayma) geleneği
 - Mevlânâ'da ney: sazlıktan koparılan ve nefesle ses veren ney — Mesnevî 1. defter, giriş beyitleri
 - Yoga Sūtra 1.34: nefes vermek ve tutmakla zihnin durulması
+- ✅ Veren nefes: Yoga Sūtra 1.34, Zhuangzi 15 "tǔ gù nà xīn", Yangxing yanming lu "chángxī"; solunum sinüs aritmisi (Yasuma ve Hayano, 2004) — panel fikri i03 (2026-11-06, Atlas No. 3)
 
 ## Pratik (Salı / Cumartesi · light)
 - Kutu nefesi (4-4-4-4) — örnek: content/ornekler/pratik-ornek.json

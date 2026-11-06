@@ -1,0 +1,53 @@
+{
+  "series": "NEFES GELENEKLERİ ATLASI · NO. 3",
+  "theme": "dark",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "ATLAS NO. 3 · VEREN NEFES",
+      "title": "Nefesin hangi yarısı <em>daha uzun?</em>",
+      "lead": "Hindistan'da ve Çin'de eski metinler, dikkati aynı yere çeker: veren nefese."
+    },
+    {
+      "kicker": "01 · HİNDİSTAN",
+      "title": "Patañjali'nin <em>tek satırı</em>",
+      "body": [
+        "Yoga Sūtra, zihni durultmanın yollarından birini şöyle verir: prāṇa'nın <b>dışarı atılması</b> ve tutulmasıyla.",
+        "<b>Pracchardana</b>, “dışarı atmak” anlamındaki bir köke dayanır. Vyāsa'nın yorumuna göre: içerideki havanın burundan, özel bir çabayla verilmesi."
+      ],
+      "src": "Yoga Sūtra 1.34 ve Vyāsa yorumu"
+    },
+    {
+      "kicker": "02 · ÇİN",
+      "title": "Eskiyi ver, <em>yeniyi al</em>",
+      "body": [
+        "Zhuangzi'de dört karakterlik bir deyiş geçer: <b>tǔ gù nà xīn</b>. Eskiyi dışarı ver, yeniyi içeri al. Sırada önce <b>vermek</b> gelir.",
+        "Metin bunu, Pengzu gibi uzun ömür arayanların nefes ve beden çalışması olarak anar; bilgenin bunlara ihtiyaç duymadığını da ekler."
+      ],
+      "src": "Zhuangzi, 15. bölüm (Keyi)"
+    },
+    {
+      "kicker": "03 · TAOCU METİN",
+      "title": "Alış tek, <em>veriş altı</em>",
+      "body": [
+        "“Burundan al, ağızdan ver; ince ince uzat. Buna <b>uzun nefes</b> (chángxī) denir.”",
+        "Aynı metne göre alışın tek, verişin altı türü vardır: chuī, hū, xī, hē, xū, xì. Altısı da nefesi dışarı veren seslerdir."
+      ],
+      "src": "Yangxing yanming lu (Tao Hongjing'e atfedilir), “Fuqi liaobing” bölümü"
+    },
+    {
+      "kicker": "04 · BEDEN",
+      "title": "Kalp de <em>nefesi</em> dinler",
+      "body": [
+        "Nefes alırken kalp atışları arasındaki süre <b>kısalır</b>, verirken <b>uzar</b>. Buna solunum sinüs aritmisi denir; normal bir ritimdir.",
+        "Bu, metinlerin söylediklerini kanıtlamaz. Yalnızca veren nefesin bedende ayrı bir izi olduğunu gösterir."
+      ],
+      "src": "Yasuma ve Hayano, Chest, 2004"
+    },
+    {
+      "kind": "cta",
+      "title": "Senin nefesin hangisinde <em>daha uzun?</em>",
+      "body": "Zorlamadan üç nefes izle. Alış mı, veriş mi? Yorumlara A ya da V yaz.<br><br>Atlas serisi için kaydet; nefesine dikkat etmesi gereken birine gönder."
+    }
+  ]
+}
