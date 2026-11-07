@@ -38,6 +38,7 @@ Ortam değişkeni `RUHARYA_TASLAK=1` ise (görev metni de bunu söyler) **TASLAK
 
 ## Adımlar (normal mod)
 0. `R ayarlar` → `paused: true` ise hiçbir şey üretme; son mesajın "Paylaşım panelden duraklatılmış." olsun ve bitir.
+   **Hikâye kapalı (Ali'nin 7 Kasım 2026 kararı):** @ruharya için Instagram hikâyesi üretme, Buffer'a ekleme veya zamanlama. Onaylı fikirlerde ve yayın kayıtlarında hikâye/hikâye paylaşımı geçse bile bu adımı uygulama. Günlük carousel ve haftalık Reels akışı değişmez.
    Çift gönderi kontrolü: orijinal SKILL.md adım 0 ile aynı (`content/yayin-kaydi.md` + `posts/`), ayrıca
    `R yayinlar 5` içinde bugünün tarihli carousel kaydı varsa üretme.
 1. Hazırlık gerekmez (`npm ci`, venv ve Chromium sunucuda kurulu). Yazı tipleri eksikse `npm ci`.
