@@ -29,7 +29,7 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 - Nāḍī śodhana / anuloma viloma (dönüşümlü burun deliği) — nāḍī öğretisine bağla
 - ✅ Bhrāmarī (arı nefesi): nefes verirken hafif mırıltı — Haṭha Yoga Pradīpikā 2.68 — panel fikri i09 (2026-11-03)
 - Ujjāyī: boğazda hafif sürtünmeyle nefes — Haṭha Yoga Pradīpikā 2.51-53
-- Uzun nefes verme (ör. 4 al, 6 ver)
+- ✅ Uzun nefes verme (4 al, 6 ver) — Atlas No. 3'e bağlandı; Bae ve ark. 2021 / Meehan ve Shaffer 2024 (kanıt karışık) — 2026-11-07
 - Nefes sayma (1'den 10'a) — Zen susokukan'a bağla
 - ✅ Fizyolojik iç çekiş (çift nefes alma + uzun verme) — Balban ve ark., Cell Reports Medicine, 2023 — 2026-11-05 (panel fikri i11)
 - Yürürken nefese farkındalık

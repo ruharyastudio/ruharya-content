@@ -1,0 +1,38 @@
+{
+  "series": "NEFES PRATİĞİ",
+  "theme": "light",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "PRATİK · 4 AL, 6 VER",
+      "title": "Verişi <em>biraz uzatsan</em> ne olur?",
+      "lead": "Dün eski metinlerin veren nefese verdiği yeri gördük. Bugün onu deniyoruz."
+    },
+    {
+      "kicker": "01 · NEDEN 4 VE 6?",
+      "title": "On saniyelik <em>bir tur</em>",
+      "body": [
+        "4 saniye alış, 6 saniye veriş: dakikada <b>6 nefes</b>. Yavaş nefes araştırmalarında sık kullanılan bir hızdır.",
+        "Verişi uzatmanın kalp ritmine etkisi ise <b>tartışmalı</b>: bir çalışma artış buldu, iki aşamalı başka bir çalışma fark bulmadı. Bunu bir tedavi değil, bir dikkat çalışması olarak düşün."
+      ],
+      "src": "Bae ve ark., Psychophysiology, 2021 · Meehan ve Shaffer, Appl. Psychophysiol. Biofeedback, 2024"
+    },
+    {
+      "kind": "steps",
+      "kicker": "NASIL YAPILIR",
+      "title": "Dört adım, on tur",
+      "steps": [
+        "Rahat otur, bir elini karnına koy",
+        "Burnundan <b>4</b> sayarak sakin bir nefes al",
+        "<b>6</b> sayarak yavaşça, zorlamadan ver",
+        "On tur sürdür, sonra normal nefesine dön"
+      ],
+      "note": "Zor gelirse 3 al, 4 ver ile başla. Nefesi tutma, ciğerlerini sonuna kadar boşaltmaya çalışma. Baş dönmesi ya da sıkışma hissedersen bırak, normal nefesine dön."
+    },
+    {
+      "kind": "cta",
+      "title": "Veriş kaçıncı turda <em>kolaylaştı?</em>",
+      "body": "On turdan sonra yorumlara sadece sayıyı yaz.<br><br>Kaydet; nefesine dikkat etmesi gereken birine gönder."
+    }
+  ]
+}
