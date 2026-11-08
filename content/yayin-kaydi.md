@@ -12,3 +12,4 @@
 | 2026-11-05 | Bilim carousel'i (20:30) | Fizyolojik iç çekiş: çalışma ne gösterdi, ne göstermedi | Bilim (Balban ve ark., 2023) | 6aebafc4cc6b72be4e082ab3 |
 | 2026-11-06 | Öğreti carousel'i | Atlas No. 3 · Veren nefes (YS 1.34, Zhuangzi 15, chángxī, RSA) + kapak hikâyesi 20:35 | Karşılaştırmalı (Yoga / Taocu) | 6aedbbfb70ee7e2aa7018d75 (hikâye 6aedbbff70ee7e2aa7018ef0) |
 | 2026-11-07 | Pratik carousel'i | 4 al, 6 ver: uzun veriş (Atlas No. 3'e bağlı; Bae 2021 / Meehan ve Shaffer 2024) + kapak hikâyesi 20:35 | Modern / bilim | 6aef0d2c229bf05daf47cafa (hikâye 6aef0d2f229bf05daf47cc20) |
+| 2026-11-08 | Etkileşim | Hangi nefes sana yakın? 4 gelenek (Praśna Up. 3.4, HYP 2.68, hûş der dem, Zhuangzi 15) | Karşılaştırmalı (Vedik / Yoga / Tasavvuf / Taocu) | 6af05e8e229bf05dafaabc53 |
