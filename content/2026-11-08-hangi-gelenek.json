@@ -1,0 +1,65 @@
+{
+  "series": "NEFES TESTİ · HANGİSİ SANA YAKIN?",
+  "theme": "dark",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "BU HAFTA · 4 GELENEK",
+      "title": "Hangi nefes <em>sana yakın?</em>",
+      "lead": "Bu hafta dört gelenekte nefesin izini sürdük. Şimdi birini seç."
+    },
+    {
+      "kind": "steps",
+      "kicker": "DÖRT KAPI",
+      "title": "İlk hangisi seni çekti?",
+      "steps": [
+        "Nefes bir <b>kral</b> gibi görev dağıtır",
+        "Nefes <b>arı</b> gibi mırıldanarak çıkar",
+        "Her nefeste <b>uyanık</b> kal",
+        "<b>Eskiyi ver</b>, yeniyi al"
+      ],
+      "note": "Düşünmeden seç, sonra kaydır: her birinin kaynağı arkada."
+    },
+    {
+      "kicker": "1 · UPANİṢAD",
+      "title": "Nefes, <em>kral</em> gibi",
+      "body": [
+        "Praśna Upaniṣad'da bilge şöyle anlatır: Bir kral memurlarına “şu köyleri sen yönet” der. <b>Prāṇa</b> da diğer nefesleri böyle, her birini kendi yerine yerleştirir.",
+        "Bu yol, nefesi bedenin içindeki <b>düzen</b> olarak görür."
+      ],
+      "src": "Praśna Upaniṣad 3.4"
+    },
+    {
+      "kicker": "2 · HAṬHA YOGA",
+      "title": "Nefes, <em>arı</em> gibi",
+      "body": [
+        "Haṭha Yoga Pradīpikā bhrāmarī'yi şöyle tarif eder: nefes erkek arının vızıltısıyla alınır, dişi arının vızıltısıyla <b>yavaş yavaş</b> verilir.",
+        "Bu yol, nefesi <b>ses</b> ve titreşim üzerinden tanır."
+      ],
+      "src": "Haṭha Yoga Pradīpikā 2.68"
+    },
+    {
+      "kicker": "3 · TASAVVUF",
+      "title": "Her nefeste <em>uyanık</em>",
+      "body": [
+        "<b>Hûş der dem</b>: Abdülhâlık Gucdüvânî'ye nispet edilen ve Nakşibendî yolunun temeli olan esasların ilki.",
+        "Anlamı: alınan her nefeste <b>gafletten uzak</b> olmak. Bu yol, nefesi dikkatin ölçüsü sayar."
+      ],
+      "src": "TDV İslâm Ansiklopedisi, “Gucdüvânî” maddesi"
+    },
+    {
+      "kicker": "4 · TAOCU METİN",
+      "title": "Eskiyi ver, <em>yeniyi al</em>",
+      "body": [
+        "Zhuangzi'deki dört karakterlik deyiş: <b>tǔ gù nà xīn</b>. Sırada önce vermek gelir.",
+        "Metin bunu uzun ömür arayanların çalışması olarak anar ve bilgenin buna ihtiyaç duymadığını ekler. Bu yol, nefeste <b>bırakmayı</b> öne çıkarır."
+      ],
+      "src": "Zhuangzi, 15. bölüm (Keyi)"
+    },
+    {
+      "kind": "cta",
+      "title": "Senin kapın <em>hangisi?</em>",
+      "body": "Yorumlara bir rakam yaz: 1, 2, 3 ya da 4. Nedenini de bir kelimeyle eklersen çok seviniriz.<br><br>Kaydet ve hangisini seçeceğini merak ettiğin birine gönder."
+    }
+  ]
+}

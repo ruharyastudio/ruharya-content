@@ -44,7 +44,7 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 - ✅ Fizyolojik iç çekiş çalışması: ne gösterdi, ne göstermedi — Balban ve ark., 2023 — 2026-11-05 (panel fikri i11)
 
 ## Etkileşim (Pazar · dark)
-- "Hangi nefes geleneği sana yakın?" (önceki haftanın gelenekleri arasından seçim)
+- ✅ "Hangi nefes geleneği sana yakın?" (önceki haftanın gelenekleri arasından seçim) — 2026-11-08 (Praśna Up. 3.4, HYP 2.68, hûş der dem, Zhuangzi 15)
 - ✅ Doğru mu yanlış mı: nefes hakkında yaygın inanışlar (kaynaklı cevaplarla) — 2026-11-01 (CO₂, diyafram, spiritus)
 - "Nefesini en son ne zaman fark ettin?" yansıtma gönderisi
 - Kelime oyunu: nefes, ruh, can, tın, prana, pneuma; hangi dil hangisi?
