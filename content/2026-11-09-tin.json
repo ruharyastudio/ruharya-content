@@ -1,0 +1,59 @@
+{
+  "series": "NEFES GELENEKLERİ ATLASI · NO. 4",
+  "theme": "dark",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "ATLAS NO. 4 · TIN",
+      "title": "Türkçede nefesin <em>eski adı</em> neydi?",
+      "lead": "Kâşgarlı Mahmud'un sözlüğünde tek hece: tın."
+    },
+    {
+      "kicker": "01 · SÖZLÜK",
+      "title": "Hem nefes, <em>hem ruh</em>",
+      "body": [
+        "Dîvânu Lugâti't-Türk, <b>tın</b> kelimesini iki sözle açıklar: ruh, nefes.",
+        "Verdiği örnek cümle: <b>“Anıŋ tını kesildi.”</b> Yani onun nefesi de, ruhu da kesildi. Eski Türkçede ikisi tek kelimeydi."
+      ],
+      "src": "Kâşgarlı Mahmud, Dîvânu Lugâti't-Türk, “tın” maddesi"
+    },
+    {
+      "kicker": "02 · UYGURCA",
+      "title": "Canlı: <em>nefesi olan</em>",
+      "body": [
+        "Uygurca metinlerde tın; nefes, soluk, ruh ve hayat anlamlarında geçer.",
+        "Kelimeye <b>-lıg</b> eki gelince <b>tınlıg</b> olur: nefesi olan, yani canlı. Altun Yaruk'ta “tınlıglarka” sözü <b>canlılara</b> demektir."
+      ],
+      "src": "Wilkens, Handwörterbuch des Altuigurischen; Altun Yaruk (Uygurca)"
+    },
+    {
+      "kicker": "03 · FİİL",
+      "title": "Tın-: <em>soluk almak</em>",
+      "body": [
+        "Eski Türkçede <b>tın-</b> fiili soluk almak, dinmek ve dinlenmek anlamlarına gelirdi.",
+        "Bugünkü <b>dinlenmek</b> ve <b>dingin</b> bu köke bağlanır. Dinlenmek, bir bakıma yeniden soluklanmaktır. Dikkat: <b>dinlemek</b> başka bir köktendir."
+      ],
+      "src": "Nişanyan Sözlük ve Kubbealtı Lugatı (aktaran: Kûre Ansiklopedi, “dingin”)"
+    },
+    {
+      "kicker": "04 · BUGÜN",
+      "title": "Tın'dan <em>tin</em>'e",
+      "body": [
+        "1934'te Türk Dil Kurumu'nun çalışmalarında kelime, Dîvânu Lugâti't-Türk'ten alınıp “ruh” karşılığı olarak yeniden önerildi: <b>tin</b>.",
+        "Bugün seyrek kullanılır. Ama kökü, nefesle ruhun bir zamanlar <b>aynı söz</b> olduğunu hatırlatır."
+      ],
+      "src": "TDK, Güncel Türkçe Sözlük, “tin” maddesi"
+    },
+    {
+      "kind": "steps",
+      "kicker": "ÖZET KART · KAYDET",
+      "title": "Bir kelime, <em>üç iz</em>",
+      "steps": [
+        "<b>tın</b>: nefes ve ruh",
+        "<b>tınlıg</b>: nefesi olan, canlı",
+        "<b>tın-</b>: soluk almak, dinlenmek"
+      ],
+      "note": "Seni en çok ne dinlendirir? Yorumlara tek kelime yaz.<br>Kaydet; bu kelimeyi bilmesini istediğin birine gönder."
+    }
+  ]
+}
