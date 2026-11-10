@@ -1,0 +1,42 @@
+{
+  "series": "NEFES PRATİĞİ",
+  "theme": "light",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "PRATİK · NEFES SAYMA",
+      "title": "Ona kadar <em>sayabilir</em> misin?",
+      "lead": "Dün tın- fiilini gördük: soluklanmak, dinlenmek. Bugün en sade soluklanma yolunu deniyoruz."
+    },
+    {
+      "kicker": "01 · KÖKEN",
+      "title": "Sayı, <em>bir dümen</em>",
+      "body": [
+        "5. yüzyılda Buddhaghosa, Visuddhimagga'da nefese farkındalığa yeni başlayana önce <b>saymayı</b> önerir.",
+        "Benzetmesi şöyle: hızlı akıntıdaki bir kayık dümenle nasıl dengelenirse, zihin de sayıyla öyle toparlanır."
+      ],
+      "src": "Buddhaghosa, Visuddhimagga VIII.190-193"
+    },
+    {
+      "kicker": "02 · NEDEN ON?",
+      "title": "Beşten az, <em>ondan çok</em> değil",
+      "body": [
+        "Metne göre beşten önce durursan düşünceler, dar ağıla kapatılmış sığırlar gibi sıkışır. Onu aşarsan dikkat nefesten çıkıp <b>sayıya</b> kayar.",
+        "Sayı bir araçtır: dikkat nefese yerleşince sayıyı bırakırsın."
+      ],
+      "src": "Visuddhimagga VIII.190 ve VIII.195"
+    },
+    {
+      "kind": "steps",
+      "kicker": "ÖZET KART · KAYDET",
+      "title": "Birden <em>ona</em>",
+      "steps": [
+        "Rahat otur, nefesini değiştirmeden izle",
+        "Her verişte içinden say: <b>bir</b>… <b>iki</b>…",
+        "<b>Ona</b> varınca yeniden bire dön",
+        "Sayıyı kaçırırsan suçlamadan bire dön"
+      ],
+      "note": "Beş dakika yeter. Nefesi zorlama ya da tutma; rahatsızlık hissedersen bırak.<br>Kaydet; dinlenmeye ihtiyacı olan birine gönder."
+    }
+  ]
+}
