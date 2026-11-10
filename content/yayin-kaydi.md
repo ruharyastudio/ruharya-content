@@ -14,3 +14,4 @@
 | 2026-11-07 | Pratik carousel'i | 4 al, 6 ver: uzun veriş (Atlas No. 3'e bağlı; Bae 2021 / Meehan ve Shaffer 2024) + kapak hikâyesi 20:35 | Modern / bilim | 6aef0d2c229bf05daf47cafa (hikâye 6aef0d2f229bf05daf47cc20) |
 | 2026-11-08 | Etkileşim | Hangi nefes sana yakın? 4 gelenek (Praśna Up. 3.4, HYP 2.68, hûş der dem, Zhuangzi 15) | Karşılaştırmalı (Vedik / Yoga / Tasavvuf / Taocu) | 6af05e8e229bf05dafaabc53 |
 | 2026-11-09 | Öğreti carousel'i | Atlas No. 4 · Tın: nefes ve ruh (DLT, tınlıg, tın-, tin) | Türk dili / Eski Türkçe | 6af1b045c7aab911b3616879 |
+| 2026-11-10 | Pratik carousel'i | Nefes sayma: birden ona (Atlas No. 4'e bağlı; Visuddhimagga VIII.190-195) | Theravāda Budizm | 6af301eeb77a05a0562ce878 |
