@@ -1,0 +1,74 @@
+{
+  "series": "NEFES GELENEKLERİ ATLASI · NO. 5",
+  "theme": "dark",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "ATLAS NO. 5 · NEFES VE ZİHİN",
+      "title": "Nefesin oynarsa <em>zihnin</em> de oynar mı?",
+      "lead": "15. yüzyıldan bir yoga metninde tek dize."
+    },
+    {
+      "kicker": "01 · METİN",
+      "title": "Haṭha'nın <em>el kitabı</em>",
+      "body": [
+        "<b>Haṭha Yoga Pradīpikā</b>, Svātmārāma'nın yaklaşık 15. yüzyılda derlediği bir yoga metnidir.",
+        "İkinci bölümü prāṇāyāma'ya ayrılır. Bölüm, nefesle zihni yan yana koyan iki satırla açılır."
+      ],
+      "src": "Haṭha Yoga Pradīpikā, 2. bölüm (Pancham Sinh çevirisi, 1914)"
+    },
+    {
+      "kicker": "02 · DİZE",
+      "title": "Oynak nefes, <em>oynak zihin</em>",
+      "body": [
+        "<b>“cale vāte calaṃ cittaṃ, niścale niścalaṃ bhavet”</b>",
+        "Bizim aktarımımızla: Nefes oynaksa zihin oynaktır; nefes kıpırtısızsa zihin de kıpırtısız olur.",
+        "<b>Vāta</b>: rüzgâr, burada nefes. <b>Citta</b>: zihin."
+      ],
+      "src": "Haṭha Yoga Pradīpikā 2.2"
+    },
+    {
+      "kicker": "03 · İMGE",
+      "title": "Kazık gibi <em>sabit</em>",
+      "body": [
+        "Dize şöyle sürer: yogi <b>sthāṇutva</b>'ya ulaşır.",
+        "<b>Sthāṇu</b>, “durmak” anlamındaki √sthā kökünden gelir: kazık, kütük, direk; kıpırtısızlığın simgesi. Śiva'nın adlarından biridir de."
+      ],
+      "src": "Haṭha Yoga Pradīpikā 2.2; Monier-Williams, “sthāṇu”"
+    },
+    {
+      "kicker": "04 · ÖLÇÜ",
+      "title": "Acele <em>yok</em>",
+      "body": [
+        "Metin nefes çalışmasını öğretmenin gösterdiği yolla yapmayı ister ve uyarır: aslan, fil, kaplan nasıl yavaş yavaş alıştırılırsa, nefes de öyle; acele zarar verir.",
+        "Biz burada teknik değil, <b>gözlemi</b> konuşuyoruz."
+      ],
+      "src": "Haṭha Yoga Pradīpikā 2.1, 2.15-16"
+    },
+    {
+      "kind": "steps",
+      "kicker": "05 · KENDİNE SOR",
+      "title": "Önce hangisi <em>oynuyor?</em>",
+      "steps": [
+        "Telaşlandığımda nefesim nasıl <b>değişiyor</b>?",
+        "Bugün nefesim en çok ne zaman <b>hızlandı</b>?",
+        "Zihnim dağınıkken nefesim <b>nerede</b>?",
+        "Nefesim hangi anda kendiliğinden <b>yavaşladı</b>?",
+        "Önce hangisi değişiyor: <b>nefes</b> mi, düşünce mi?"
+      ],
+      "note": "Nefesini değiştirmeye çalışma, sadece izle. Metindeki nefes tutma çalışmaları burada anlatılmaz; öğretmen gözetimi ister."
+    },
+    {
+      "kind": "steps",
+      "kicker": "ÖZET KART · KAYDET",
+      "title": "Bir dize, <em>dört kelime</em>",
+      "steps": [
+        "<b>vāta</b>: rüzgâr, nefes",
+        "<b>cala</b>: oynak, hareketli",
+        "<b>citta</b>: zihin",
+        "<b>sthāṇu</b>: kazık gibi sabit"
+      ],
+      "note": "Kaydet; telaşlı bir günde yeniden bak.<br>Nefesine biraz dikkat etmesi gereken birine gönder."
+    }
+  ]
+}

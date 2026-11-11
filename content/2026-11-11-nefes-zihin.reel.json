@@ -1,0 +1,23 @@
+{
+  "theme": "dark",
+  "a": {
+    "kicker": "NEFES VE ZİHİN · BEŞ SORU",
+    "title": "Önce hangisi <em>oynuyor?</em>",
+    "questions": [
+      "Telaşlandığımda nefesim nasıl değişiyor?",
+      "Bugün nefesim en çok ne zaman hızlandı?",
+      "Zihnim dağınıkken nefesim nerede?",
+      "Nefesim hangi anda kendiliğinden yavaşladı?",
+      "Önce hangisi değişiyor: nefes mi, düşünce mi?"
+    ],
+    "foot": "Kaydet, akşam kendine sor."
+  },
+  "b": {
+    "kicker": "BU SORULARIN KÖKENİ",
+    "title": "15. yüzyıldan <em>tek dize</em>",
+    "body": "Dize, kelimeleri ve metnin uyarısı profilde: <b>sabitlenmiş gönderi</b>.",
+    "handle": "@ruharya →"
+  },
+  "a_seconds": 9,
+  "b_seconds": 4
+}

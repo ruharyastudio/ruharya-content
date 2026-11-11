@@ -7,7 +7,7 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 - ✅ Prana: kelime, Upanişadlar'daki duyuların yarışı, prāṇāyāma — Chāndogya 5.1, Bṛhadāraṇyaka 6.1, Yoga Sūtra 2.29/2.49
 - ✅ Beş vāyu (pañca prāṇa): prāṇa, apāna, samāna, udāna, vyāna — Praśna Upaniṣad 3 — panel fikri i08 (2026-11-02, Atlas No. 2)
 - Nāḍī'ler: iḍā, piṅgalā, suṣumnā; ay ve güneş kanalı imgesi — Haṭha Yoga Pradīpikā
-- "Nefes oynaksa zihin de oynaktır": nefes–zihin bağı — Haṭha Yoga Pradīpikā 2.2
+- ✅ "Nefes oynaksa zihin de oynaktır": nefes–zihin bağı — Haṭha Yoga Pradīpikā 2.2 — 2026-11-11 (Atlas No. 5, derin + Reels hunisi; sthāṇu, HYP 2.15-16 uyarısı)
 - Kumbhaka kavramı (anlatım düzeyinde, uygulama tarifi verme) — Haṭha Yoga Pradīpikā 2. bölüm
 - ✅ Nakşibendî "hûş der dem": her nefeste uyanıklık — Abdülhâlık Gucdüvânî'ye atfedilen sekiz ilke — 2026-11-04 (ilk Reels hunisi)
 - Arapça n-f-s kökü: nefes, nefs, nefîs arasındaki bağ
@@ -15,7 +15,7 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 - İbranice: rûaḥ, nefeş, neşamâ; Yaratılış 2:7'de "hayat nefesi"
 - Antik Yunan pneuma: Stoacılarda evreni dolduran etkin ilke
 - Latince spiritus: spirit, inspire, expire, respire etimolojisi
-- Eski Türkçe "tın": nefes, ruh, can; "tınmak" (dinlenmek) bağlantısı
+- ✅ Eski Türkçe "tın": nefes, ruh, can; "tınmak" (dinlenmek) bağlantısı
 - Taocu gelenek: qi ve "gerçek insan topuklarından nefes alır" — Zhuangzi 6. bölüm
 - Budizm: Ānāpānasati Sutta, nefese farkındalığın 16 adımı — Majjhima Nikāya 118
 - Zen: susokukan (nefes sayma) geleneği
