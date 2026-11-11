@@ -15,3 +15,5 @@
 | 2026-11-08 | Etkileşim | Hangi nefes sana yakın? 4 gelenek (Praśna Up. 3.4, HYP 2.68, hûş der dem, Zhuangzi 15) | Karşılaştırmalı (Vedik / Yoga / Tasavvuf / Taocu) | 6af05e8e229bf05dafaabc53 |
 | 2026-11-09 | Öğreti carousel'i | Atlas No. 4 · Tın: nefes ve ruh (DLT, tınlıg, tın-, tin) | Türk dili / Eski Türkçe | 6af1b045c7aab911b3616879 |
 | 2026-11-10 | Pratik carousel'i | Nefes sayma: birden ona (Atlas No. 4'e bağlı; Visuddhimagga VIII.190-195) | Theravāda Budizm | 6af301eeb77a05a0562ce878 |
+| 2026-11-11 | Öğreti carousel'i (derin) | Atlas No. 5 · Nefes ve zihin: HYP 2.2 (cala, citta, sthāṇu) + 5 soru | Yoga (Haṭha) | 6af4534a42a5c8fca2431e75 |
+| 2026-11-12 | Reels (12:30) | Önce hangisi oynuyor? → profildeki Atlas No. 5 | Yoga (Haṭha) | 6af4534d9494b43fade6f021 |
