@@ -1,0 +1,84 @@
+{
+  "series": "NEFES VE BİLİM · DİYAFRAM",
+  "theme": "dark",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "NEFES VE BİLİM · DİYAFRAM",
+      "title": "Nefesini <em>hangi kas</em> alıyor?",
+      "lead": "Göğsünle karnın arasındaki kubbe."
+    },
+    {
+      "kicker": "01 · KAS",
+      "title": "Göğüsle karın <em>arasında</em>",
+      "body": [
+        "<b>Diyafram</b> göğüs ve karın boşluklarını ayıran kastır; dinlenirken kubbe biçimindedir. Üst yüzü göğsün tabanı, alt yüzü karnın tavanıdır.",
+        "Hareket emrini boyundaki <b>C3–C5</b> köklerinden gelen frenik sinirden alır."
+      ],
+      "src": "OpenStax Anatomy & Physiology 2e, 11.4; StatPearls, Diaphragm"
+    },
+    {
+      "kicker": "02 · NEFES ALIŞ",
+      "title": "Kasılır, <em>aşağı iner</em>",
+      "body": [
+        "Diyafram kasılınca karın boşluğuna doğru iner; göğüs boşluğu genişler.",
+        "Hacim artınca akciğerlerdeki basınç dış havanınkinin altına düşer ve hava <b>kendiliğinden</b> içeri dolar. Normal nefes alışta ona kaburgalar arası dış kaslar eşlik eder."
+      ],
+      "src": "OpenStax Anatomy & Physiology 2e, 22.3"
+    },
+    {
+      "kicker": "03 · NEFES VERİŞ",
+      "title": "Gevşer, <em>hava çıkar</em>",
+      "body": [
+        "Sakin nefeste veriş <b>pasiftir</b>: diyafram ve kaburgalar arası kaslar gevşer, akciğer dokusu esnekliğiyle geri toplanır, hava dışarı çıkar.",
+        "Zorlu verişte ise karın kasları kasılır ve organları diyaframa doğru yukarı iter."
+      ],
+      "src": "OpenStax Anatomy & Physiology 2e, 22.3"
+    },
+    {
+      "kicker": "04 · ÖLÇÜ",
+      "title": "Kaç santim <em>iner?</em>",
+      "body": [
+        "210 sağlıklı yetişkinde diyafram hareketi ultrasonla ölçüldü.",
+        "Normalin alt sınırı: sakin nefeste yaklaşık <b>1 cm</b>; derin nefeste kadınlarda <b>3,7</b>, erkeklerde <b>4,7 cm</b>. Hareket erkeklerde daha genişti.",
+        "Bunlar hekimler için referans değerlerdir; bir hedef değil."
+      ],
+      "src": "Boussuges, Gole, Blanc · Chest 135(2), 2009"
+    },
+    {
+      "kicker": "05 · KELİME",
+      "title": "Phrēn: <em>diyafram ve zihin</em>",
+      "body": [
+        "“Diyafram” Yunanca <b>diaphragma</b>'dan gelir: bölme, perde.",
+        "Diyaframın sinirine <b>frenik</b> denir; kökü Yunanca <b>phrēn</b>. Bu kelime hem diyafram hem de zihin anlamında kullanılırdı.",
+        "Atlas No. 5'te konuştuğumuz bağ, kelimede de duruyor."
+      ],
+      "src": "Merriam-Webster, “phrenic”, “diaphragm”"
+    },
+    {
+      "kind": "steps",
+      "kicker": "06 · FARK ET",
+      "title": "Diyaframını <em>izle</em>",
+      "steps": [
+        "Rahat otur ya da sırt üstü uzan.",
+        "Bir elini göğsüne, birini karnına koy.",
+        "Nefesini <b>değiştirmeden</b> izle.",
+        "Alışta hangi elin <b>yükseldiğine</b> bak.",
+        "Verişin kendiliğinden gelmesine izin ver."
+      ],
+      "note": "Zorlama, sadece gözle. Baş dönmesi ya da rahatsızlık hissedersen bırak. Sağlık sorunun varsa önce hekimine danış."
+    },
+    {
+      "kind": "steps",
+      "kicker": "ÖZET KART · KAYDET",
+      "title": "Diyafram, <em>dört satırda</em>",
+      "steps": [
+        "<b>Kubbe</b>: göğsü karından ayırır",
+        "<b>Alış</b>: kasılır, aşağı iner",
+        "<b>Sakin veriş</b>: gevşer, pasif",
+        "<b>Phrēn</b>: diyafram ve zihin"
+      ],
+      "note": "Kaydet; nefesini merak ettiğinde yeniden bak.<br>Nefesine biraz dikkat etmesi gereken birine gönder."
+    }
+  ]
+}
