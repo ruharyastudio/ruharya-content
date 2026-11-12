@@ -35,7 +35,7 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 - Yürürken nefese farkındalık
 
 ## Nefes ve bilim (Perşembe · dark)
-- Diyafram: ana nefes kası nasıl çalışır
+- ✅ Diyafram: ana nefes kası nasıl çalışır — OpenStax A&P 2e 11.4/22.3; Boussuges ve ark., Chest 2009; phrēn etimolojisi — 2026-11-12
 - Burundan nefes ve nitrik oksit (paranazal sinüsler) — Lundberg ve ark., 1995
 - Yavaş nefes ve kalp hızı değişkenliği (dakikada ~6 nefes) — derleme makaleler
 - Karbondioksit neden "atık"tan fazlası: nefes alma dürtüsünü CO₂ yönetir

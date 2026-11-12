@@ -17,3 +17,4 @@
 | 2026-11-10 | Pratik carousel'i | Nefes sayma: birden ona (Atlas No. 4'e bağlı; Visuddhimagga VIII.190-195) | Theravāda Budizm | 6af301eeb77a05a0562ce878 |
 | 2026-11-11 | Öğreti carousel'i (derin) | Atlas No. 5 · Nefes ve zihin: HYP 2.2 (cala, citta, sthāṇu) + 5 soru | Yoga (Haṭha) | 6af4534a42a5c8fca2431e75 |
 | 2026-11-12 | Reels (12:30) | Önce hangisi oynuyor? → profildeki Atlas No. 5 | Yoga (Haṭha) | 6af4534d9494b43fade6f021 |
+| 2026-11-12 | Bilim carousel'i (20:30) | Diyafram · ana nefes kası: kubbe, kasılma / pasif veriş, ultrason değerleri, phrēn | Bilim (OpenStax; Boussuges ve ark., 2009) | 6af5a4de4926d8280f0b49e2 |
