@@ -6,7 +6,7 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 ## Öğreti (Pzt / Çar / Cuma · dark)
 - ✅ Prana: kelime, Upanişadlar'daki duyuların yarışı, prāṇāyāma — Chāndogya 5.1, Bṛhadāraṇyaka 6.1, Yoga Sūtra 2.29/2.49
 - ✅ Beş vāyu (pañca prāṇa): prāṇa, apāna, samāna, udāna, vyāna — Praśna Upaniṣad 3 — panel fikri i08 (2026-11-02, Atlas No. 2)
-- Nāḍī'ler: iḍā, piṅgalā, suṣumnā; ay ve güneş kanalı imgesi — Haṭha Yoga Pradīpikā
+- ✅ Nāḍī'ler: iḍā, piṅgalā, suṣumnā; ay ve güneş kanalı imgesi — Haṭha Yoga Pradīpikā — 2026-11-13 (Atlas No. 6; BU 2.1.19, HYP 2.7-10, 2.42, 3.110, 4.17-18)
 - ✅ "Nefes oynaksa zihin de oynaktır": nefes–zihin bağı — Haṭha Yoga Pradīpikā 2.2 — 2026-11-11 (Atlas No. 5, derin + Reels hunisi; sthāṇu, HYP 2.15-16 uyarısı)
 - Kumbhaka kavramı (anlatım düzeyinde, uygulama tarifi verme) — Haṭha Yoga Pradīpikā 2. bölüm
 - ✅ Nakşibendî "hûş der dem": her nefeste uyanıklık — Abdülhâlık Gucdüvânî'ye atfedilen sekiz ilke — 2026-11-04 (ilk Reels hunisi)

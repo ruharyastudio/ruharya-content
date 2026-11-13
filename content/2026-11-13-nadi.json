@@ -1,0 +1,60 @@
+{
+  "series": "NEFES GELENEKLERİ ATLASI · NO. 6",
+  "theme": "dark",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "ATLAS NO. 6 · NĀḌĪ",
+      "title": "Nefes bedende <em>hangi yoldan</em> akar?",
+      "lead": "Haṭha yoga bir harita çizer: 72.000 kanal, üç ana yol."
+    },
+    {
+      "kicker": "01 · KELİME",
+      "title": "Kamış, boru, <em>kanal</em>",
+      "body": [
+        "Sanskritçe <b>nāḍī</b>, sözlükteki ilk anlamıyla bir bitkinin içi boş sapıdır: kamış, lotus sapı.",
+        "Oradan her tür boruya geçer: damar, bağırsak, hatta flüt. Yoga metinlerinde ise nefesin, <b>prāṇa</b>'nın aktığı ince kanalların adı olur."
+      ],
+      "src": "Monier-Williams, Sanskrit-English Dictionary, “nāḍī”"
+    },
+    {
+      "kicker": "02 · SAYI",
+      "title": "Yetmiş iki bin <em>yol</em>",
+      "body": [
+        "Bṛhadāraṇyaka Upaniṣad, derin uykuyu anlatırken kalpten çıkıp bedene yayılan <b>72.000</b> kanaldan söz eder; adları <b>hitā</b>.",
+        "Haṭha Yoga Pradīpikā aynı sayıyı tekrarlar ve ekler: bu kapılar içinde asıl önemli olan tektir, <b>suṣumnā</b>."
+      ],
+      "src": "Bṛhadāraṇyaka Upaniṣad 2.1.19; Haṭha Yoga Pradīpikā 4.18"
+    },
+    {
+      "kicker": "03 · ÜÇ YOL",
+      "title": "İki nehir, <em>bir orta yol</em>",
+      "body": [
+        "Metin <b>iḍā</b>'yı Gaṅgā, <b>piṅgalā</b>'yı Yamunā nehrine benzetir. İkisinin ortasında suṣumnā uzanır.",
+        "Haṭha geleneği şöyle anlatır: nefes iki yanı bırakıp ortada serbestçe aktığında <b>zihin durulur</b>."
+      ],
+      "src": "Haṭha Yoga Pradīpikā 3.110; 2.42"
+    },
+    {
+      "kicker": "04 · AY VE GÜNEŞ",
+      "title": "Sol ay, <em>sağ güneş</em>",
+      "body": [
+        "Pradīpikā sol yolu <b>candra</b> (ay) ve iḍā, sağ yolu <b>sūrya</b> (güneş) ve piṅgalā diye anar; nefesi bu iki burun deliğinden sırayla almayı öğretir.",
+        "Bir dizesi şöyle der: gece ve gündüz biçimindeki zamanı güneş ve ay yapar; suṣumnā <b>zamanı yutar</b>."
+      ],
+      "src": "Haṭha Yoga Pradīpikā 2.7-10; 4.17"
+    },
+    {
+      "kind": "steps",
+      "kicker": "ÖZET KART · KAYDET",
+      "title": "Dört kelime, <em>bir harita</em>",
+      "steps": [
+        "<b>nāḍī</b>: kamış, kanal",
+        "<b>iḍā</b>: sol, ay, Gaṅgā",
+        "<b>piṅgalā</b>: sağ, güneş, Yamunā",
+        "<b>suṣumnā</b>: ortadaki yol"
+      ],
+      "note": "Şu an hangi burun deliğinden daha rahat nefes alıyorsun? Yorumlara sol ya da sağ yaz.<br>Kaydet; bu haritayı merak edecek birine gönder."
+    }
+  ]
+}
