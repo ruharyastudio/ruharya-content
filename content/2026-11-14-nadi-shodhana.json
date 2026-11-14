@@ -1,0 +1,39 @@
+{
+  "series": "NEFES PRATİĞİ",
+  "theme": "light",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "PRATİK · NĀḌĪ ŚODHANA",
+      "title": "Sol ve sağ, <em>nöbetleşe</em>",
+      "lead": "Dün kanalları öğrendik — bugün eller burunumuza gidiyor."
+    },
+    {
+      "kicker": "01 · KÖKEN",
+      "title": "Nāḍī śodhana nedir?",
+      "body": [
+        "Nāḍī kanalları, śodhana arınmayı demektir. Haṭha Yoga Pradīpikā 2.7-10, sol ve sağ burun deliğini nöbetleşe kullanarak <b>iḍā</b> ve <b>piṅgalā</b> kanallarını dengelemenin yolunu tarif eder.",
+        "Atlas No. 6'da tanıştığın iki kanal — ay/sol (iḍā) ve güneş/sağ (piṅgalā) — bu tekniğin temelidir."
+      ],
+      "src": "Haṭha Yoga Pradīpikā 2.7-10"
+    },
+    {
+      "kind": "steps",
+      "kicker": "02 · UYGULAMA",
+      "title": "5 adımda nāḍī śodhana",
+      "steps": [
+        "Otur, omurga dik. Sol eli dizine bırak.",
+        "Sağ elin başparmağıyla sağ burun deliğini kapat.",
+        "Sol burundan <b>4 sayıda</b> yavaşça nefes al.",
+        "Sol deliği kapat, sağı aç; <b>4 sayıda</b> ver.",
+        "Sağdan al, soldan ver — 1 tur. <b>5-10 tur</b> yap."
+      ],
+      "note": "Baş dönmesi veya nefes baskısı hissedersen dur. Hamilelikte ya da kronik burun tıkanıklığında uzmana danış."
+    },
+    {
+      "kind": "cta",
+      "title": "Bugün 5 tur <em>dene</em>",
+      "body": "Sol al → sağ ver → sağ al → sol ver = 1 tur. 💬 Sol mu, sağ mı daha akıcı geldi? Yoruma yaz. 🔖 Kaydet — nāḍī śodhana'ya her sabah dön. Birinin buna ihtiyacı varsa gönder ↗"
+    }
+  ]
+}
