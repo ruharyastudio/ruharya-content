@@ -80,7 +80,7 @@ GCIKTI="$LOG.json"
 claude -p "$GOREV" \
   --output-format json \
   --permission-mode acceptEdits \
-  --allowed-tools "Read Edit Write Glob Grep WebSearch WebFetch Bash(git *) Bash(curl *) Bash(npm *) Bash(ls *) Bash(date *) Bash(sleep *) Bash(.venv/bin/python *) Bash($PY *)" \
+  --allowed-tools "Read Edit Write Glob Grep WebSearch WebFetch Bash(git *) Bash(curl *) Bash(npm *) Bash(ls *) Bash(date *) Bash(sleep *) Bash(.venv/bin/python *) Bash(python3 *) Bash($PY *)" \
   --add-dir "$VERI" \
   >"$LOG.json" 2>"$LOG.err"
 KOD=$?
