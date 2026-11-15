@@ -1,0 +1,75 @@
+{
+  "series": "NEFES TESTİ · HANGİ DİL HANGİSİ?",
+  "theme": "dark",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "5 KELİME · 5 DİL",
+      "title": "Beş dil, <em>tek nefes</em>",
+      "lead": "Her biri hem nefes hem can der. Hangisi hangi dilden?"
+    },
+    {
+      "kind": "steps",
+      "kicker": "EŞLEŞTİR",
+      "title": "Bu kelimeler <em>nereden?</em>",
+      "steps": [
+        "<b>prāṇa</b>",
+        "<b>pneuma</b>",
+        "<b>rûaḥ</b>",
+        "<b>nefs</b>",
+        "<b>tın</b>"
+      ],
+      "note": "Diller: Arapça, Eski Türkçe, İbranice, Sanskritçe, Yunanca.<br>Önce tahmin et, sonra kaydır."
+    },
+    {
+      "kicker": "1 · SANSKRİTÇE",
+      "title": "Prāṇa: <em>ileri soluk</em>",
+      "body": [
+        "Kelime <b>pra-</b> (ileri) ön eki ile <b>an</b> (soluk almak) kökünden kurulur.",
+        "Fiil olarak soluk almak, esmek ve yaşamak anlamlarına gelir. Upaniṣad'larda prāṇa, bedeni ayakta tutan <b>yaşam soluğudur</b>."
+      ],
+      "src": "Monier-Williams, Sanskrit-English Dictionary, “prāṇ” maddesi"
+    },
+    {
+      "kicker": "2 · ANTİK YUNANCA",
+      "title": "Pneuma: <em>esen nefes</em>",
+      "body": [
+        "<b>Pneō</b> fiili esmek ve soluk almak demektir; <b>pneuma</b> buradan gelir: nefes, rüzgâr.",
+        "Stoacılar kelimeye geniş bir anlam verdi: hem canlıyı hem evreni düzenleyen <b>etkin ilke</b>. Bugünkü <i>pnömoni</i> de aynı köktendir."
+      ],
+      "src": "Routledge Encyclopedia of Philosophy, “Pneuma”"
+    },
+    {
+      "kicker": "3 · İBRANİCE",
+      "title": "Rûaḥ: <em>rüzgâr mı, ruh mu?</em>",
+      "body": [
+        "<b>Rûaḥ</b>; rüzgâr, nefes ve ruh anlamlarını birlikte taşır. Çevirmen her ayette birini seçmek zorunda kalır.",
+        "Yaratılış 1:2'deki “rûaḥ elohim” bu yüzden kimi çevirilerde <b>Tanrı'nın Ruhu</b>, kimilerinde <b>güçlü bir rüzgâr</b> olur."
+      ],
+      "src": "Strong's H7307 (rûaḥ); Yaratılış 1:2"
+    },
+    {
+      "kicker": "4 · ARAPÇA",
+      "title": "Nefs: <em>can ve soluk</em>",
+      "body": [
+        "Klasik sözlükler <b>nefs</b> için ruh, can, hayat, nefes, kişi, kan gibi anlamlar sayar.",
+        "Türkçedeki <b>nefes</b> de <b>nefis</b> de bu <b>n-f-s</b> kökünden gelir. Yaşamakla solumak arasındaki bağ, kelimeyi yaşamın ilkesi yapmıştır."
+      ],
+      "src": "İslâm Ansiklopedisi, “nefis” md. (Lisânü'l-Arab, “nfs”)"
+    },
+    {
+      "kicker": "5 · ESKİ TÜRKÇE",
+      "title": "Tın: <em>tek hece</em>",
+      "body": [
+        "Dîvânu Lugâti't-Türk, <b>tın</b> kelimesini iki sözle açıklar: ruh, nefes.",
+        "Atlas No. 4'te izini sürmüştük: nefesi olana <b>tınlıg</b> (canlı) denirdi; bugünkü <b>dinlenmek</b> de bu köke bağlanır."
+      ],
+      "src": "Kâşgarlı Mahmud, Dîvânu Lugâti't-Türk, “tın” maddesi"
+    },
+    {
+      "kind": "cta",
+      "title": "Kaç tanesini <em>bildin?</em>",
+      "body": "Doğrusu sırayla: <b>Sanskritçe, Yunanca, İbranice, Arapça, Eski Türkçe</b>. Puanını yorumlara yaz: 0'dan 5'e.<br><br>Kaydet ve bu testi bir arkadaşına gönder; bakalım o kaç bilecek."
+    }
+  ]
+}
