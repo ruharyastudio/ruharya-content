@@ -47,6 +47,6 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 - ✅ "Hangi nefes geleneği sana yakın?" (önceki haftanın gelenekleri arasından seçim) — 2026-11-08 (Praśna Up. 3.4, HYP 2.68, hûş der dem, Zhuangzi 15)
 - ✅ Doğru mu yanlış mı: nefes hakkında yaygın inanışlar (kaynaklı cevaplarla) — 2026-11-01 (CO₂, diyafram, spiritus)
 - "Nefesini en son ne zaman fark ettin?" yansıtma gönderisi
-- Kelime oyunu: nefes, ruh, can, tın, prana, pneuma; hangi dil hangisi?
+- ✅ Kelime oyunu: nefes, ruh, can, tın, prana, pneuma; hangi dil hangisi? — 2026-11-15 (prāṇa, pneuma, rûaḥ, nefs, tın; MW, REP, Yaratılış 1:2, İA “nefis”, DLT)
 - Haftanın özeti: bu hafta öğrendiğimiz 3 kavram
 - ✅ 4-7-8 nefesi: köken (Weil, prāṇāyāma) ve adımlar — panel fikri i04-478 (2026-10-31)

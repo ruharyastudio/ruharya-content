@@ -20,3 +20,4 @@
 | 2026-11-12 | Bilim carousel'i (20:30) | Diyafram · ana nefes kası: kubbe, kasılma / pasif veriş, ultrason değerleri, phrēn | Bilim (OpenStax; Boussuges ve ark., 2009) | 6af5a4de4926d8280f0b49e2 |
 | 2026-11-13 | Öğreti carousel'i | Atlas No. 6 · Nāḍī: kamış/kanal, 72.000 kanal (BU 2.1.19, HYP 4.18), iḍā/piṅgalā/suṣumnā (HYP 3.110, 2.42), ay ve güneş (HYP 2.7-10, 4.17) | Yoga (Haṭha) / Vedik | 6af6f678d414da1f7da05baa |
 | 2026-11-14 | Pratik carousel'i | Nāḍī śodhana · dönüşümlü burun deliği (Atlas No. 6'ya bağlı; HYP 2.7-10) | Yoga (Haṭha) | 6af86c7ce86a5789a6afd863 |
+| 2026-11-15 | Etkileşim | Hangi dil hangisi? 5 kelime, 5 dil: prāṇa (MW), pneuma (REP), rûaḥ (Yaratılış 1:2), nefs (İA “nefis”), tın (DLT) | Karşılaştırmalı (Sanskrit / Yunan / İbrani / Arap / Türk) | 6af99965b9a106584ca4f69c |
