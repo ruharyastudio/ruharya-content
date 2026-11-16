@@ -1,0 +1,60 @@
+{
+  "series": "NEFES GELENEKLERİ ATLASI · NO. 7",
+  "theme": "dark",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "ATLAS NO. 7 · ZHĒNRÉN",
+      "title": "Nefes <em>topuklardan</em> alınır mı?",
+      "lead": "Taocu klasik Zhuangzi iki tür nefesten söz eder."
+    },
+    {
+      "kicker": "01 · METİN",
+      "title": "Eski zamanların <em>gerçek insanı</em>",
+      "body": [
+        "Zhuangzi'nin 6. bölümü <b>zhēnrén</b>'i, “gerçek insan”ı anlatır: uyurken düş görmez, uyanınca kaygılanmaz, yerken tat peşine düşmez; nefesi <b>derin mi derindir</b>.",
+        "Ardından tek bir cümle gelir: gerçek insan <b>topuklarıyla</b> nefes alır, sıradan insan <b>boğazıyla</b>."
+      ],
+      "src": "Zhuangzi 6, Dà zōngshī"
+    },
+    {
+      "kicker": "02 · YORUM",
+      "title": "Topuktan, <em>bütün varlıktan</em>",
+      "body": [
+        "Çince metinde açıkça <b>zhǒng</b>, yani topuk yazar. Çevirmen Herbert Giles 1889'da bunu “en derin yer” diye aktarır.",
+        "Notunda şunu ekler: en iyi yorumcular cümleyi, gerçek insanın nefesini yüzeyden, yalnızca boğazdan değil, <b>bütün varlığıyla</b> aldığı biçiminde anlar."
+      ],
+      "src": "H. A. Giles, Chuang Tzŭ (1889), bölüm VI ve notu"
+    },
+    {
+      "kicker": "03 · KELİME",
+      "title": "Kalp ve <em>burun</em>",
+      "body": [
+        "Metindeki nefes kelimesi <b>xī</b>. MS 100 civarında yazılan Shuowen sözlüğü onu “soluk” diye tanımlar ve iki işaretten kurar: <b>xīn</b> kalp, <b>zì</b> burun.",
+        "Aynı sözlüğe göre zì işareti burnun resmidir. Yani bu yazıda nefes, burun ile kalbin <b>bir araya geldiği</b> yerdir."
+      ],
+      "src": "Shuowen jiezi, “xī” ve “zì” maddeleri"
+    },
+    {
+      "kicker": "04 · DERİN VE SIĞ",
+      "title": "Derin arzu, <em>sığ kaynak</em>",
+      "body": [
+        "Zhuangzi aynı pasajda bir karşıtlık kurar: arzuları derin olanın <b>tiānjī</b>'si, kelimesi kelimesine “göğün işleyişi”, sığdır.",
+        "Böylece derinlik ve sığlık yer değiştirir: gerçek insanda derin olan <b>nefestir</b>; tutkulu insanda derin olan ise <b>arzudur</b>."
+      ],
+      "src": "Zhuangzi 6, Dà zōngshī"
+    },
+    {
+      "kind": "steps",
+      "kicker": "ÖZET KART · KAYDET",
+      "title": "Dört kelime, <em>bir nefes</em>",
+      "steps": [
+        "<b>zhēnrén</b>: gerçek insan",
+        "<b>zhǒng</b>: topuk, en derin yer",
+        "<b>hóu</b>: boğaz, yüzey",
+        "<b>xī</b>: kalp ve burun, nefes"
+      ],
+      "note": "Şu an nefesin daha çok nereden geliyor: boğaz mı, göğüs mü, karın mı? Yorumlara tek kelime yaz.<br>Kaydet; bu cümleyi sevecek birine gönder."
+    }
+  ]
+}

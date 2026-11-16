@@ -16,7 +16,7 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 - Antik Yunan pneuma: Stoacılarda evreni dolduran etkin ilke
 - Latince spiritus: spirit, inspire, expire, respire etimolojisi
 - ✅ Eski Türkçe "tın": nefes, ruh, can; "tınmak" (dinlenmek) bağlantısı
-- Taocu gelenek: qi ve "gerçek insan topuklarından nefes alır" — Zhuangzi 6. bölüm
+- ✅ Taocu gelenek: qi ve "gerçek insan topuklarından nefes alır" — Zhuangzi 6. bölüm — 2026-11-16 (Atlas No. 7; zhēnrén, zhǒng/hóu, Giles 1889 notu, Shuowen "xī" = kalp + burun, tiānjī)
 - Budizm: Ānāpānasati Sutta, nefese farkındalığın 16 adımı — Majjhima Nikāya 118
 - Zen: susokukan (nefes sayma) geleneği
 - Mevlânâ'da ney: sazlıktan koparılan ve nefesle ses veren ney — Mesnevî 1. defter, giriş beyitleri
