@@ -22,3 +22,4 @@
 | 2026-11-14 | Pratik carousel'i | Nāḍī śodhana · dönüşümlü burun deliği (Atlas No. 6'ya bağlı; HYP 2.7-10) | Yoga (Haṭha) | 6af86c7ce86a5789a6afd863 |
 | 2026-11-15 | Etkileşim | Hangi dil hangisi? 5 kelime, 5 dil: prāṇa (MW), pneuma (REP), rûaḥ (Yaratılış 1:2), nefs (İA “nefis”), tın (DLT) | Karşılaştırmalı (Sanskrit / Yunan / İbrani / Arap / Türk) | 6af99965b9a106584ca4f69c |
 | 2026-11-16 | Öğreti carousel'i | Atlas No. 7 · Topuklardan nefes: zhēnrén, zhǒng / hóu (Zhuangzi 6), Giles 1889 notu, xī = kalp + burun (Shuowen), tiānjī | Taocu | 6afaeae9d2a6b9d4fcb1d921 |
+| 2026-11-17 | Pratik carousel'i | Diyafram nefesi · boğazdan bir kat aşağı (Atlas No. 7'ye bağlı; Cleveland Clinic, OpenStax 22.3) | Modern / fizyoloji | 6afc3bfa9d7d4c6b7857cbb7 |

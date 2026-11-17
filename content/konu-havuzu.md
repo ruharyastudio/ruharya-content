@@ -25,14 +25,17 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 
 ## Pratik (Salı / Cumartesi · light)
 - Kutu nefesi (4-4-4-4) — örnek: content/ornekler/pratik-ornek.json
-- Diyafram nefesi: karın ile nefes almayı fark etmek
-- Nāḍī śodhana / anuloma viloma (dönüşümlü burun deliği) — nāḍī öğretisine bağla
+- ✅ Diyafram nefesi: karın ile nefes almayı fark etmek — Atlas No. 7'ye (topuk/boğaz) bağlandı; Cleveland Clinic, OpenStax 22.3 — 2026-11-17
+- ✅ Nāḍī śodhana / anuloma viloma (dönüşümlü burun deliği) — nāḍī öğretisine bağla — 2026-11-14 (Atlas No. 6'ya bağlı; HYP 2.7-10)
 - ✅ Bhrāmarī (arı nefesi): nefes verirken hafif mırıltı — Haṭha Yoga Pradīpikā 2.68 — panel fikri i09 (2026-11-03)
 - Ujjāyī: boğazda hafif sürtünmeyle nefes — Haṭha Yoga Pradīpikā 2.51-53
 - ✅ Uzun nefes verme (4 al, 6 ver) — Atlas No. 3'e bağlandı; Bae ve ark. 2021 / Meehan ve Shaffer 2024 (kanıt karışık) — 2026-11-07
 - ✅ Nefes sayma (1'den 10'a) — Zen susokukan'a bağla — Atlas No. 4'e (tın-, dinlenmek) bağlandı; Visuddhimagga VIII.190-195 — 2026-11-10
 - ✅ Fizyolojik iç çekiş (çift nefes alma + uzun verme) — Balban ve ark., Cell Reports Medicine, 2023 — 2026-11-05 (panel fikri i11)
 - Yürürken nefese farkındalık
+- Büzük dudak nefesi (pursed-lip): burundan al, dudaklardan yavaş ver — Cleveland Clinic / American Lung Association (kaynak doğrula)
+- Oturarak diyafram nefesi: sandalyede, omuzlar gevşek — Cleveland Clinic "Diaphragmatic Breathing" oturma varyasyonu
+- Burundan nefesi fark etmek: gün içinde ağızdan mı burundan mı? (gözlem pratiği; bilim gönderisi Lundberg 1995 ile bağlanabilir)
 
 ## Nefes ve bilim (Perşembe · dark)
 - ✅ Diyafram: ana nefes kası nasıl çalışır — OpenStax A&P 2e 11.4/22.3; Boussuges ve ark., Chest 2009; phrēn etimolojisi — 2026-11-12
