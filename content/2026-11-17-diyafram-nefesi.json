@@ -1,0 +1,46 @@
+{
+  "series": "NEFES PRATİĞİ",
+  "theme": "light",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "PRATİK · DİYAFRAM NEFESİ",
+      "title": "Boğazdan <em>bir kat aşağı</em>",
+      "lead": "Dün topuklardan nefesi konuştuk; bugün nefesi karına indiriyoruz."
+    },
+    {
+      "kicker": "01 · BAĞ",
+      "title": "Hangi el <em>kalkıyor?</em>",
+      "body": [
+        "Zhuangzi gerçek insanın nefesini <b>topuklara</b>, sıradan insanınkini <b>boğaza</b> bağlar. Topuğa kadar inmek bir imge; karna inmek ise elinle fark edebileceğin bir şey.",
+        "<b>Diyafram</b> kasılınca aşağı iner, göğüs boşluğu genişler. Elin karnındaysa bu hareketi karnının hafifçe dışarı çıkışı olarak hissedersin."
+      ],
+      "src": "Zhuangzi 6; OpenStax Anatomy & Physiology 2e, 22.3"
+    },
+    {
+      "kind": "steps",
+      "kicker": "02 · UYGULAMA",
+      "title": "5 adımda <em>diyafram nefesi</em>",
+      "steps": [
+        "Sırtüstü uzan, dizler bükülü, başın destekli.",
+        "Bir elin göğsünün üstünde, diğeri kaburgaların hemen altında.",
+        "Burnundan yavaşça al: <b>alttaki el</b> kalksın.",
+        "Göğüsteki el <b>olabildiğince sabit</b> kalsın.",
+        "Büzülmüş dudaklardan yavaşça ver; karın içeri dönsün."
+      ],
+      "note": "Başta yorulabilirsin; zorlama, başın dönerse dur. Astım, KOAH gibi bir durumun varsa önce hekimine danış."
+    },
+    {
+      "kind": "steps",
+      "kicker": "ÖZET KART · KAYDET",
+      "title": "Dört hareket, <em>bir nefes</em>",
+      "steps": [
+        "<b>Uzan</b>: dizler bükülü",
+        "<b>İki el</b>: göğüs ve karın",
+        "<b>Burundan al</b>: alttaki el kalkar",
+        "<b>Dudaklardan ver</b>: karın iner"
+      ],
+      "note": "Başta 5-10 dakika. Bugün hangi elin daha çok kalktı: üstteki mi, alttaki mi? Yorumlara yaz.<br>Kaydet; nefesine dikkat etmesi gereken birine gönder. Kaynak: Cleveland Clinic, Diaphragmatic Breathing."
+    }
+  ]
+}
