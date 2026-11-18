@@ -23,3 +23,5 @@
 | 2026-11-15 | Etkileşim | Hangi dil hangisi? 5 kelime, 5 dil: prāṇa (MW), pneuma (REP), rûaḥ (Yaratılış 1:2), nefs (İA “nefis”), tın (DLT) | Karşılaştırmalı (Sanskrit / Yunan / İbrani / Arap / Türk) | 6af99965b9a106584ca4f69c |
 | 2026-11-16 | Öğreti carousel'i | Atlas No. 7 · Topuklardan nefes: zhēnrén, zhǒng / hóu (Zhuangzi 6), Giles 1889 notu, xī = kalp + burun (Shuowen), tiānjī | Taocu | 6afaeae9d2a6b9d4fcb1d921 |
 | 2026-11-17 | Pratik carousel'i | Diyafram nefesi · boğazdan bir kat aşağı (Atlas No. 7'ye bağlı; Cleveland Clinic, OpenStax 22.3) | Modern / fizyoloji | 6afc3bfa9d7d4c6b7857cbb7 |
+| 2026-11-18 | Öğreti carousel'i (derin) | Atlas No. 8 · Hesykhazm: kalbe inen nefes (hēsychía, Philokalia 1782, Nikephoros, nēpsis, İsa Duası) + 5 soru | Hristiyan mistisizmi (Ortodoks) | 6afd8de93cc95fb47ce8b6ce |
+| 2026-11-19 | Reels (12:30) | Nefesin nerede? → profildeki Atlas No. 8 | Hristiyan mistisizmi (Ortodoks) | 6afd8dec03c6b6e75e02fcb1 |

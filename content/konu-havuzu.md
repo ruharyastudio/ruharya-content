@@ -20,6 +20,7 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 - Budizm: Ānāpānasati Sutta, nefese farkındalığın 16 adımı — Majjhima Nikāya 118
 - Zen: susokukan (nefes sayma) geleneği
 - Mevlânâ'da ney: sazlıktan koparılan ve nefesle ses veren ney — Mesnevî 1. defter, giriş beyitleri
+- ✅ Hesykhazm: nefesle kalbe inen dikkat — Nikephoros, "Uyanıklık ve kalbin korunması üzerine" (Philokalia, 1782) — panel fikri f20261108103941ab14 (2026-11-18, Atlas No. 8, derin + Reels hunisi)
 - Yoga Sūtra 1.34: nefes vermek ve tutmakla zihnin durulması
 - ✅ Veren nefes: Yoga Sūtra 1.34, Zhuangzi 15 "tǔ gù nà xīn", Yangxing yanming lu "chángxī"; solunum sinüs aritmisi (Yasuma ve Hayano, 2004) — panel fikri i03 (2026-11-06, Atlas No. 3)
 
