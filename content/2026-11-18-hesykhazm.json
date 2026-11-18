@@ -1,0 +1,73 @@
+{
+  "series": "NEFES GELENEKLERİ ATLASI · NO. 8",
+  "theme": "dark",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "ATLAS NO. 8 · HESYKHAZM",
+      "title": "Nefesle <em>kalbe</em> inilir mi?",
+      "lead": "13. yüzyılda Athos Dağı'ndan bir keşiş, dikkate nefesin yolunu gösterir."
+    },
+    {
+      "kicker": "01 · KELİME",
+      "title": "Dinginlik: <em>hēsychía</em>",
+      "body": [
+        "Hesykhazm adını Yunanca <b>hēsychía</b>'dan alır: dinginlik, sükûnet, sessizlik.",
+        "Ortodoks Hristiyan geleneğinde iç sessizlik içinde sürekli duaya yönelen keşişlere <b>hesykhast</b> denir."
+      ],
+      "src": "ἡσυχία · Ortodoks keşiş geleneği"
+    },
+    {
+      "kicker": "02 · METİN",
+      "title": "Güzelin <em>sevgisi</em>",
+      "body": [
+        "<b>Philokalia</b>, “güzelin sevgisi”. Athoslu Nikodimos ile Korintli Makarios'un derlediği bu seçki ilk kez 1782'de Venedik'te basıldı.",
+        "İçinde 13. yüzyıl Athos keşişi <b>Nikephoros</b>'un “Uyanıklık ve kalbin korunması üzerine” metni de yer alır. Ana kavramı <b>nēpsis</b>: uyanıklık."
+      ],
+      "src": "Philokalia (ilk baskı Venedik, 1782)"
+    },
+    {
+      "kicker": "03 · YOL",
+      "title": "Havanın <em>kalbe giden</em> yolu",
+      "body": [
+        "Nikephoros, nefesin havayı alıp vermek olduğunu hatırlatır. Kalbin çevresinde akciğerler vardır; alınan hava onlardan geçer ve kalbi sarar.",
+        "Bizim aktarımımızla öğüdü: Dikkatini topla, onu havanın kalbe ulaştığı yola koy; alınan nefesle birlikte <b>kalbe indir</b> ve orada tut."
+      ],
+      "src": "Nikephoros, Uyanıklık ve kalbin korunması üzerine (Philokalia)"
+    },
+    {
+      "kicker": "04 · REHBER VE DUA",
+      "title": "Önce <em>bir rehber</em>",
+      "body": [
+        "Nikephoros önce deneyimli bir rehber aramayı öğütler; yolu, rehber bulamayanlar için yazar.",
+        "Bunu zor bulana daha sade bir yol önerir, kısa bir dua: <b>“Rab İsa Mesih, Tanrı'nın Oğlu, bana merhamet et.”</b> Gelenekte <b>İsa Duası</b> olarak bilinir."
+      ],
+      "src": "Nikephoros, Uyanıklık ve kalbin korunması üzerine (Philokalia)"
+    },
+    {
+      "kind": "steps",
+      "kicker": "05 · KENDİNE SOR",
+      "title": "Nefesin <em>nerede?</em>",
+      "steps": [
+        "Şu an nefesimi bedenimin <b>neresinde</b> hissediyorum?",
+        "Nefesimi en son ne zaman <b>göğsümde</b> fark ettim?",
+        "Dikkatim dağılınca nefesime <b>ne oluyor</b>?",
+        "Gün içinde <b>sessizliği</b> en çok nerede buluyorum?",
+        "Sessiz bir anda nefesim <b>nasıl</b> akıyor?"
+      ],
+      "note": "Nefesini değiştirmeye ya da tutmaya çalışma, sadece izle. Geleneğin dua pratiği bir rehberle yapılır; burada yalnızca anlatılır."
+    },
+    {
+      "kind": "steps",
+      "kicker": "ÖZET KART · KAYDET",
+      "title": "Dört kelime, <em>bir yol</em>",
+      "steps": [
+        "<b>hēsychía</b>: dinginlik",
+        "<b>nēpsis</b>: uyanıklık",
+        "<b>philokalía</b>: güzelin sevgisi",
+        "<b>kalp</b>: dikkatin indiği yer"
+      ],
+      "note": "Kaydet; sessiz bir anda yeniden bak.<br>Nefesine biraz dikkat etmesi gereken birine gönder."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "theme": "dark",
+  "a": {
+    "kicker": "NEFES VE DİNGİNLİK · BEŞ SORU",
+    "title": "Nefesin <em>nerede?</em>",
+    "questions": [
+      "Şu an nefesimi bedenimin neresinde hissediyorum?",
+      "Nefesimi en son ne zaman göğsümde fark ettim?",
+      "Dikkatim dağılınca nefesime ne oluyor?",
+      "Gün içinde sessizliği en çok nerede buluyorum?",
+      "Sessiz bir anda nefesim nasıl akıyor?"
+    ],
+    "foot": "@ruharya · kökeni profildeki sabitlenmiş gönderide"
+  },
+  "b": {
+    "kicker": "BU SORULARIN KÖKENİ",
+    "title": "Athos'tan <em>kalbe inen nefes</em>",
+    "body": "13. yüzyıldan bir keşişin öğüdü, kelimeleri ve kaynağı profilde: <b>sabitlenmiş gönderi</b>.",
+    "handle": "@ruharya →"
+  },
+  "a_seconds": 6,
+  "b_seconds": 4
+}
