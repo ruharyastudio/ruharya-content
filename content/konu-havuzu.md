@@ -40,11 +40,14 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 
 ## Nefes ve bilim (Perşembe · dark)
 - ✅ Diyafram: ana nefes kası nasıl çalışır — OpenStax A&P 2e 11.4/22.3; Boussuges ve ark., Chest 2009; phrēn etimolojisi — 2026-11-12
-- Burundan nefes ve nitrik oksit (paranazal sinüsler) — Lundberg ve ark., 1995
+- ✅ Burundan nefes ve nitrik oksit (paranazal sinüsler) — Lundberg ve ark., 1995; Lundberg ve ark., 1996; Weitzberg ve Lundberg, 2002 (mırıltı, bhrāmarī'ye bağlı) — 2026-11-19
 - Yavaş nefes ve kalp hızı değişkenliği (dakikada ~6 nefes) — derleme makaleler
 - Karbondioksit neden "atık"tan fazlası: nefes alma dürtüsünü CO₂ yönetir
 - Esnemek, iç çekmek: refleks nefesler
 - Dakikada kaç nefes alıyoruz? Dinlenik yetişkinde normal aralık
+- Burun döngüsü (nasal cycle): burun deliklerinin saatler içinde dönüşümlü tıkanıp açılması — Kayser 1895 / güncel derlemeler (kaynak doğrula); nāḍī śodhana'ya bağlanabilir
+- Nefesin ritmini kim tutar? Beyin sapındaki pre-Bötzinger kompleksi — Smith ve ark., Science 1991 (kaynak doğrula)
+- Koklamak bir nefestir: burun akımı ve koku algısı — OpenStax 14.1 / hakemli derleme (kaynak doğrula)
 - ✅ Fizyolojik iç çekiş çalışması: ne gösterdi, ne göstermedi — Balban ve ark., 2023 — 2026-11-05 (panel fikri i11)
 
 ## Etkileşim (Pazar · dark)

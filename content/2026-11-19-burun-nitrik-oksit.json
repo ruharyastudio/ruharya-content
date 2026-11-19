@@ -1,0 +1,84 @@
+{
+  "series": "NEFES VE BİLİM · BURUN",
+  "theme": "dark",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "NEFES VE BİLİM · BURUN",
+      "title": "Burnun <em>bir gaz</em> üretiyor",
+      "lead": "Sinüsler, nitrik oksit ve mırıltı."
+    },
+    {
+      "kicker": "01 · BURUN",
+      "title": "Sadece bir <em>giriş kapısı</em> değil",
+      "body": [
+        "Burun boşluğundaki kıvrımlı kemikler (<b>konkalar</b>) havanın akışını bozar; hava mukozaya çarpa çarpa ilerler, ısınır ve temizlenir.",
+        "Mukusu üreten hücreler toz ve parçacıkları tutar. Nefes verirken de konkalar nemin bir kısmını geri tutar."
+      ],
+      "src": "OpenStax Anatomy & Physiology, 22.1"
+    },
+    {
+      "kicker": "02 · KEŞİF · 1995",
+      "title": "Sinüslerde <em>yüksek NO</em>",
+      "body": [
+        "Karolinska'dan bir ekip, burun havasındaki <b>nitrik oksidin</b> (NO) büyük ölçüde burnun çevresindeki <b>sinüslerin</b> yüzey hücrelerince üretildiğini gösterdi. Sinüs havasında yoğunluk çok yüksekti.",
+        "Burun boşluğunun kendisinde üretim zayıftı. Yazarlar NO'nun bakteri üremesini baskılayıcı etkisinden yola çıkıp sinüslerin temiz kalmasında rol oynayabileceğini <b>önerdi</b>."
+      ],
+      "src": "Lundberg ve ark. · Nature Medicine 1(4), 1995"
+    },
+    {
+      "kicker": "03 · NEREYE GİDİYOR?",
+      "title": "Burundan nefeste <em>akciğere</em>",
+      "body": [
+        "Bu NO, özellikle burundan nefes alırken akciğerlere ulaşır.",
+        "Aynı ekibin çalışmasında 8 sağlıklı kişinin 6'sında burundan nefes sırasında deriden ölçülen oksijen basıncı ağızdan nefese göre <b>%10</b> yüksekti.",
+        "Solunum cihazına bağlı hastalarda, kendi burun havaları solunan havaya eklenince kandaki oksijen basıncı <b>%18</b> arttı (6 hastanın 6'sında)."
+      ],
+      "src": "Lundberg ve ark. · Acta Physiol Scand 158(4), 1996"
+    },
+    {
+      "kicker": "04 · MIRILTI · 2002",
+      "title": "Mırıldanınca <em>15 kat</em>",
+      "body": [
+        "10 sağlıklı kişide, mırıldanırken burun havasındaki NO sessiz nefes vermeye göre <b>15 kat</b> arttı.",
+        "Açıklama: titreşen hava akımı sinüslerle burun arasındaki hava alışverişini hızlandırıyor.",
+        "Atlas'ta konuştuğumuz <b>bhrāmarī</b>, yani arı nefesi, tam da nefes verirken mırıldanmaktır (HYP 2.68)."
+      ],
+      "src": "Weitzberg, Lundberg · AJRCCM 166(2), 2002"
+    },
+    {
+      "kicker": "05 · SINIRLAR",
+      "title": "Ne gösterdi, <em>ne göstermedi</em>",
+      "body": [
+        "Örneklemler çok küçük: 8 ve 10 kişi. Ölçülen şey burundaki NO ve oksijen basıncıydı; sağlık sonucu değil.",
+        "Bu çalışmalar burundan nefesin ya da mırıltının bir hastalığı önlediğini <b>göstermedi</b>. 2002 makalesinin yazarları olası etkilerin ayrıca araştırılması gerektiğini yazdı."
+      ],
+      "src": "Weitzberg, Lundberg 2002; Lundberg ve ark. 1996"
+    },
+    {
+      "kind": "steps",
+      "kicker": "06 · FARK ET",
+      "title": "Bugün <em>nereden</em> nefes alıyorsun?",
+      "steps": [
+        "Gün içinde 3 an seç: sabah, öğle, akşam.",
+        "Nefesini <b>değiştirmeden</b> yakala.",
+        "Burundan mı, ağızdan mı? Not et.",
+        "Akşam bir nefes boyunca hafifçe <b>mırıldan</b>.",
+        "Burnunda ve yüzünde titreşimi izle."
+      ],
+      "note": "Sadece gözlem; zorlama. Burnun tıkalıysa ya da rahatsızlık hissedersen bırak. Sağlık sorunun varsa önce hekimine danış."
+    },
+    {
+      "kind": "steps",
+      "kicker": "ÖZET KART · KAYDET",
+      "title": "Burun, <em>dört satırda</em>",
+      "steps": [
+        "<b>Konkalar</b>: havayı ısıtır, temizler",
+        "<b>Sinüsler</b>: nitrik oksit üretir",
+        "<b>Burundan nefes</b>: NO akciğere ulaşır",
+        "<b>Mırıltı</b>: burundaki NO 15 kat"
+      ],
+      "note": "Kaydet; nefesini merak ettiğinde yeniden bak.<br>Nefesine biraz dikkat etmesi gereken birine gönder."
+    }
+  ]
+}
