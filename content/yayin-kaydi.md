@@ -25,3 +25,4 @@
 | 2026-11-17 | Pratik carousel'i | Diyafram nefesi · boğazdan bir kat aşağı (Atlas No. 7'ye bağlı; Cleveland Clinic, OpenStax 22.3) | Modern / fizyoloji | 6afc3bfa9d7d4c6b7857cbb7 |
 | 2026-11-18 | Öğreti carousel'i (derin) | Atlas No. 8 · Hesykhazm: kalbe inen nefes (hēsychía, Philokalia 1782, Nikephoros, nēpsis, İsa Duası) + 5 soru | Hristiyan mistisizmi (Ortodoks) | 6afd8de93cc95fb47ce8b6ce |
 | 2026-11-19 | Reels (12:30) | Nefesin nerede? → profildeki Atlas No. 8 | Hristiyan mistisizmi (Ortodoks) | 6afd8dec03c6b6e75e02fcb1 |
+| 2026-11-19 | Bilim carousel'i (20:30) | Burun ve nitrik oksit: sinüslerde NO, burundan nefeste akciğere, mırıltıda 15 kat (bhrāmarī'ye bağlı) + sınırlar | Bilim (Lundberg ve ark. 1995, 1996; Weitzberg ve Lundberg 2002) | 6afedf2e56a8bceaa9082895 |
