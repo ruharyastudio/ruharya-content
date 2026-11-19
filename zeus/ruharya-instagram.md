@@ -1,5 +1,7 @@
 # Ruharya Nefes · Günlük Instagram Gönderisi (Zeus sunucu sürümü)
 
+Ajan kimliği ve Telegram görünen adı: **Apollon**. Model/tur sınırları ve Altı Yasa için sunucudaki `apollon` becerisi ile `~/zeus/agents.yaml` geçerlidir. Son mesaj dahil kullanıcıya dönen metinlerde Apollon adı korunur.
+
 Bu dosya `.claude/skills/ruharya-instagram/SKILL.md` becerisinin **Zeus sunucusunda** çalışan sürümüdür.
 **İçerik kuralları, haftalık ritim, Reels hunisi, açıklama kalıbı ve sabitler için orijinal SKILL.md'yi oku ve
 aynen uygula.** Bu dosya yalnızca şu farkları tanımlar: kontrol paneli (ArtifactData) yerine `~/zeus/ruharya/`
@@ -58,5 +60,5 @@ Push, görsel adresi ya da Buffer adımı başarısız olursa bir kez yeniden de
 Buffer'a taslak bırak, kaydı `status: error` yaz ve son mesajda nedeni açıkça belirt.
 
 ## Son mesaj (Telegram'a aynen gider)
-TEK paragraf, Türkçe: konu ve format, slayt sayısı, Buffer gönderi id'si ve zamanı (ya da "taslak"), Reels varsa onun
+TEK paragraf, Türkçe ve `Apollon: ` önekiyle başlar: konu ve format, slayt sayısı, Buffer gönderi id'si ve zamanı (ya da "taslak"), Reels varsa onun
 id ve zamanı, Çarşamba ise "Çarşamba 20:30'dan sonra carousel'i profilde sabitle" hatırlatması, hata varsa nedeni.

@@ -16,7 +16,7 @@ DAMGA="$(date +%Y%m%d-%H%M)"
 [[ "${RUHARYA_TASLAK:-0}" == "1" ]] && EK="-taslak" || EK=""
 LOG="$LOGD/$DAMGA-$TUR$EK"
 
-bildir() { printf '%s' "$1" | "$PY" "$HOME/zeus-panel/telegram_bildir.py" || true; }
+bildir() { local m="$1"; [[ "$m" == "Apollon:"* ]] || m="Apollon: $m"; printf '%s' "$m" | "$PY" "$HOME/zeus-panel/telegram_bildir.py" || true; }
 
 # aynı anda tek Claude Code işi
 exec 9>"$VERI/.calistir.kilit"
@@ -35,7 +35,7 @@ fi
 
 # Görev Merkezi kaydı (panelde canlı görünür; servis kapalıysa iş yine çalışır)
 ZG="$HOME/zeus/zeus-gorev"; GCIKTI=""; GOZET=""
-case "$TUR" in gunluk) GAJAN=icerik-uretici; GBAS="Ruharya günlük gönderi$([[ -n $EK ]] && echo " (taslak)")";; *) GAJAN=pazar-analizi; GBAS="Ruharya haftalık rapor";; esac
+case "$TUR" in gunluk) GAJAN=apollon; GBAS="Ruharya günlük gönderi$([[ -n $EK ]] && echo " (taslak)")";; *) GAJAN=apollon; GBAS="Ruharya haftalık rapor";; esac
 GID="$("$ZG" dis-basla --kaynak ruharya --ajan "$GAJAN" --baslik "$GBAS" --pid $$ 2>/dev/null || true)"
 gasama() { if [[ -n "$GID" ]]; then "$ZG" asama "$GID" "$1" >/dev/null 2>&1 || true; fi; }
 gbitir() {

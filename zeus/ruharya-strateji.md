@@ -1,5 +1,7 @@
 # Ruharya · Haftalık Strateji Raporu (Zeus sunucu sürümü)
 
+Ajan kimliği ve Telegram görünen adı: **Apollon**. Model/tur sınırları ve Altı Yasa için sunucudaki `apollon` becerisi ile `~/zeus/agents.yaml` geçerlidir.
+
 Bu dosya `.claude/skills/ruharya-strateji/SKILL.md` becerisinin **Zeus sunucusunda** çalışan sürümüdür.
 **Amaç, adımlar, rapor bölümleri ve kurallar için orijinal SKILL.md'yi oku ve aynen uygula.** Farklar yalnızca araçlarda:
 
@@ -20,4 +22,4 @@ Bu dosya `.claude/skills/ruharya-strateji/SKILL.md` becerisinin **Zeus sunucusun
 Buffer metrik komutu hata verirse ("BUFFER HATA") bunu raporda "Buffer verisi alınamadı: <neden>" diye yaz; sayı uydurma.
 
 ## Son mesaj (Telegram'a aynen gider)
-TEK paragraf: haftanın en önemli bulgusu, eklenen fikir sayısı, rapor id'si ("Zeus paneli → Ruharya'da görünür").
+TEK paragraf, `Apollon: ` önekiyle başlar: haftanın en önemli bulgusu, eklenen fikir sayısı, rapor id'si ("Zeus paneli → Ruharya'da görünür").
