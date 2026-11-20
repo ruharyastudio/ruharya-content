@@ -1,0 +1,50 @@
+{
+  "series": "NEFES GELENEKLERİ ATLASI · NO. 9",
+  "theme": "dark",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "ATLAS NO. 9 · SOLUK, NEFES, CAN",
+      "title": "Türkçede nefesin <em>üç adı</em> var",
+      "lead": "Biri kendi dilimizden, biri Arapçadan, biri Farsçadan."
+    },
+    {
+      "kicker": "01 · SOLUK",
+      "title": "Türkçe, <em>solu-</em> fiilinden",
+      "body": [
+        "Nefes almaya <b>solumak</b> deriz. <b>Soluk</b> ise bu fiilden türeyen addır: nefesin kendisi.",
+        "Eski Türkçedeki kökü de nefes almak anlamına gelirdi. Yani bu kelime, Türkçenin kendi sözü."
+      ],
+      "src": "Wiktionary, “solumak” ve “soluk” maddeleri (Eski Türkçe kökü)"
+    },
+    {
+      "kicker": "02 · NEFES",
+      "title": "Arapçadan <em>nefes</em>",
+      "body": [
+        "<b>Nefes</b>, Arapça nefes (نفس) sözcüğünden gelir ve nefes almak, solumak anlamındadır.",
+        "Aynı n-f-s kökünden <b>nefs</b> de türer: öz, benlik, ruh. İki kelime bir kökten, iki yöne uzanır."
+      ],
+      "src": "Arapça n-f-s kökü; TDV İslâm Ansiklopedisi, “Nefes” maddesi"
+    },
+    {
+      "kicker": "03 · CAN",
+      "title": "Farsçadan <em>can</em>",
+      "body": [
+        "<b>Can</b>, Farsça cān sözcüğünden alıntıdır ve <b>yaşam</b> anlamına gelir.",
+        "Türkçede hem hayatın kendisini hem de bir insanın varlığını anlatır: “canım”, “can yoldaşı”."
+      ],
+      "src": "Etimoloji Türkçe, “can”; Vikisözlük, “can”"
+    },
+    {
+      "kind": "steps",
+      "kicker": "ÖZET KART · KAYDET",
+      "title": "Üç kelime, <em>tek soluk</em>",
+      "steps": [
+        "<b>soluk</b>: solu- fiilinden, nefes almak",
+        "<b>nefes</b>: Arapça n-f-s kökünden, nefs ile aynı kök",
+        "<b>can</b>: Farsça cān, yaşam"
+      ],
+      "note": "Bu üç kelimeden hangisi sana daha yakın? Yorumlara yaz.<br>Kaydet; bunu nefesine dikkat etmesi gereken birine gönder."
+    }
+  ]
+}
