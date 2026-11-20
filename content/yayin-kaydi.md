@@ -26,3 +26,4 @@
 | 2026-11-18 | Öğreti carousel'i (derin) | Atlas No. 8 · Hesykhazm: kalbe inen nefes (hēsychía, Philokalia 1782, Nikephoros, nēpsis, İsa Duası) + 5 soru | Hristiyan mistisizmi (Ortodoks) | 6afd8de93cc95fb47ce8b6ce |
 | 2026-11-19 | Reels (12:30) | Nefesin nerede? → profildeki Atlas No. 8 | Hristiyan mistisizmi (Ortodoks) | 6afd8dec03c6b6e75e02fcb1 |
 | 2026-11-19 | Bilim carousel'i (20:30) | Burun ve nitrik oksit: sinüslerde NO, burundan nefeste akciğere, mırıltıda 15 kat (bhrāmarī'ye bağlı) + sınırlar | Bilim (Lundberg ve ark. 1995, 1996; Weitzberg ve Lundberg 2002) | 6afedf2e56a8bceaa9082895 |
+| 2026-11-20 | Öğreti carousel'i (20:30) | Atlas No. 9 · Soluk, nefes, can: solu- fiili, Arapça n-f-s kökü (nefs), Farsça cān (Tın'ın devamı) | Türk dili / Arapça ve Farsça etimoloji | 6b005e8cfc5b97f0f814bbbd |
