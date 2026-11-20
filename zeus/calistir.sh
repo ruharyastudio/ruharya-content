@@ -77,8 +77,8 @@ Bitince son mesajın, $BECERI dosyasındaki 'Son mesaj' bölümüne uygun TEK pa
 
 gasama "Claude Code çalışıyor: $([[ $TUR == gunluk ]] && echo içerik üretimi || echo strateji raporu)"
 GCIKTI="$LOG.json"
-# ZEUS FAZ0: model ve tur sınırı zorunlu (günlük: Haiku 15, haftalık/kalite: Sonnet 20)
-case "$TUR" in gunluk) CLAUDE_MODEL=claude-haiku-5-5; CLAUDE_TURNS=15;; *) CLAUDE_MODEL=claude-sonnet-5-5; CLAUDE_TURNS=20;; esac
+# ZEUS FAZ0: model ve tur sınırı zorunlu (günlük: Haiku 75, haftalık/kalite: Sonnet 20)
+case "$TUR" in gunluk) CLAUDE_MODEL=claude-haiku-5-5; CLAUDE_TURNS=75;; *) CLAUDE_MODEL=claude-sonnet-5-5; CLAUDE_TURNS=20;; esac
 claude -p "$GOREV" \
   --model "$CLAUDE_MODEL" --max-turns "$CLAUDE_TURNS" \
   --output-format json \
