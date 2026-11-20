@@ -39,7 +39,7 @@ case "$TUR" in gunluk) GAJAN=apollon; GBAS="Ruharya günlük gönderi$([[ -n $EK
 GID="$("$ZG" dis-basla --kaynak ruharya --ajan "$GAJAN" --baslik "$GBAS" --pid $$ 2>/dev/null || true)"
 gasama() { if [[ -n "$GID" ]]; then "$ZG" asama "$GID" "$1" >/dev/null 2>&1 || true; fi; }
 gbitir() {
-  local kod=$? a=()
+  local kod="$1" a=()
   [[ -z "$GID" ]] && return $kod
   if [[ $kod -ne 0 ]]; then a+=(--hata "çıkış kodu $kod"); elif [[ "$GOZET" == HATA* ]]; then a+=(--hata "${GOZET:0:300}"); fi
   [[ -n "$GCIKTI" && -f "$GCIKTI" ]] && a+=(--cikti "$GCIKTI")
@@ -47,7 +47,7 @@ gbitir() {
   "$ZG" bitir "$GID" "${a[@]}" >/dev/null 2>&1 || true
   return $kod
 }
-trap gbitir EXIT
+trap 'gbitir "$?"' EXIT
 gasama "depo güncelleniyor (git pull)"
 
 cd "$REPO" || exit 1
@@ -93,14 +93,17 @@ import json, sys
 try:
     d = json.load(open(sys.argv[1], encoding="utf-8"))
     r = (d.get("result") or "").strip()
+    if not r and d.get("errors"):
+        r = "; ".join(str(x) for x in d["errors"])
     print(("HATA: " if d.get("is_error") else "") + (r or "(boş yanıt)"))
 except Exception as e:
     print(f"HATA: Claude çıktısı okunamadı ({type(e).__name__})")
 PY
 )"
 gasama "özet Telegram'a gönderiliyor"
-GOZET="$OZET"
+if [[ $KOD -eq 0 && "$OZET" == HATA:* ]]; then KOD=1; fi
 if [[ $KOD -ne 0 && "$OZET" != HATA:* ]]; then OZET="HATA (çıkış $KOD): $OZET $(tail -c 300 "$LOG.err")"; fi
+GOZET="$OZET"
 bildir "$BASLIK
 $OZET
 (log: $(basename "$LOG").json)"
