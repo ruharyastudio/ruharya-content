@@ -27,3 +27,4 @@
 | 2026-11-19 | Reels (12:30) | Nefesin nerede? → profildeki Atlas No. 8 | Hristiyan mistisizmi (Ortodoks) | 6afd8dec03c6b6e75e02fcb1 |
 | 2026-11-19 | Bilim carousel'i (20:30) | Burun ve nitrik oksit: sinüslerde NO, burundan nefeste akciğere, mırıltıda 15 kat (bhrāmarī'ye bağlı) + sınırlar | Bilim (Lundberg ve ark. 1995, 1996; Weitzberg ve Lundberg 2002) | 6afedf2e56a8bceaa9082895 |
 | 2026-11-20 | Öğreti carousel'i (20:30) | Atlas No. 9 · Soluk, nefes, can: solu- fiili, Arapça n-f-s kökü (nefs), Farsça cān (Tın'ın devamı) | Türk dili / Arapça ve Farsça etimoloji | 6b005e8cfc5b97f0f814bbbd |
+| 2026-11-21 | Pratik carousel'i (20:30) | Ujjāyī: boğazda hafif sesle akan nefes (Haṭha Yoga Pradīpikā 2.51-53, 1914 İngilizce çeviri) | Yoga (Haṭha) | 6b0181ee0247969092c8f28e |
