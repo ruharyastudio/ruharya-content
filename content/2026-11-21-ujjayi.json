@@ -1,0 +1,44 @@
+{
+  "series": "NEFES PRATİĞİ",
+  "theme": "light",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "PRATİK · UJJĀYĪ",
+      "title": "Boğazda <em>hafif bir ses</em>",
+      "lead": "Dün Zhuangzi'nin boğaz ve topuk ayrımını konuştuk; bugün boğazda bilerek sesli bir nefes."
+    },
+    {
+      "kicker": "01 · KÖKEN",
+      "title": "Ağzı kapat, <em>sesi duy</em>",
+      "body": [
+        "Haṭha Yoga Pradīpikā ujjāyī'yi tarif eder: ağız kapalıyken havayı yavaşça çekmek; hava boğazdan göğse dokunarak geçerken <b>hafif bir ses</b> çıkar.",
+        "Metin bu nefesin yürürken ya da otururken de yapılabileceğini söyler."
+      ],
+      "src": "Haṭha Yoga Pradīpikā 2.51-53 (1914 İngilizce çeviri)"
+    },
+    {
+      "kind": "steps",
+      "kicker": "02 · UYGULAMA",
+      "title": "4 adımda <em>ujjāyī</em>",
+      "steps": [
+        "Dik otur, omuzların gevşek, ağzın kapalı.",
+        "Burnundan yavaş al; boğazını <b>hafifçe daralt</b>, sesi duy.",
+        "Aynı yumuşak sesle burnundan yavaşça ver.",
+        "Önce <b>1-2 dakika</b>; sonra nefesini izleyerek devam et."
+      ],
+      "note": "Sesi zorlama. Boğazında ağrı ya da başında dönme olursa dur ve normal nefesine dön. Bu pratikte nefesi tutmak yok."
+    },
+    {
+      "kind": "steps",
+      "kicker": "ÖZET KART · KAYDET",
+      "title": "Üç anahtar, <em>bir nefes</em>",
+      "steps": [
+        "<b>Ağız kapalı</b>: nefes burundan",
+        "<b>Boğaz hafif</b>: sesli ama zorlamasız",
+        "<b>Yavaş</b>: al ve ver, tutma yok"
+      ],
+      "note": "Bugün nefesin sesini fark ettin mi? Yorumlara yaz.<br>Kaydet; nefesine dikkat etmesi gereken birine gönder."
+    }
+  ]
+}
