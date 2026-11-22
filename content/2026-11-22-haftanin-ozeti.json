@@ -1,0 +1,44 @@
+{
+  "series": "NEFES TESTİ · HAFTANIN ÖZETİ",
+  "theme": "dark",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "HAFTANIN ÖZETİ · 16–21 KASIM",
+      "title": "Bu hafta <em>hangisi</em> sende kaldı?",
+      "lead": "Altı gönderi, altı nefes. Üç kavramı yeniden hatırlayalım."
+    },
+    {
+      "kicker": "1 · BURUN",
+      "title": "Konkalar: <em>havayı hazırlar</em>",
+      "body": [
+        "Burun boşluğundaki kıvrımlı kemikler havayı ısıtır ve temizler; hava mukozaya çarpa çarpa ilerler.",
+        "Sinüslerde üretilen nitrik oksit, burundan nefeste akciğere ulaşabiliyor. Örneklemler küçük; hastalığı önlediği gösterilmedi."
+      ],
+      "src": "OpenStax Anatomy & Physiology 22.1; Lundberg ve ark., Nature Medicine 1995; Acta Physiol Scand 1996"
+    },
+    {
+      "kicker": "2 · HESYKHAZM",
+      "title": "Nēpsis: <em>uyanıklık</em>",
+      "body": [
+        "Ortodoks keşiş geleneğinde nēpsis, dikkatin uyanık ve toplu kalmasıdır. Nikephoros dikkati, nefesin kalbe ulaştığı yola koymayı öğütler.",
+        "Rehberi olmayanlara sade bir dua da önerir: İsa Duası."
+      ],
+      "src": "Nikephoros, Uyanıklık ve kalbin korunması üzerine (Philokalia, 1782)"
+    },
+    {
+      "kicker": "3 · UJJĀYĪ",
+      "title": "Boğazda <em>hafif ses</em>",
+      "body": [
+        "Haṭha Yoga Pradīpikā, ağız kapalıyken havayı yavaşça çekmeyi ve hava boğazdan geçerken hafif bir ses çıkmasını tarif eder.",
+        "Zorlamadan, rahat bir oturuşta, birkaç dakika denemek yeterli. Rahatsızlık ya da baş dönmesi olursa bırak."
+      ],
+      "src": "Haṭha Yoga Pradīpikā 2.51-53 (1914 İngilizce çeviri)"
+    },
+    {
+      "kind": "cta",
+      "title": "Hangisi <em>sana</em> yakın?",
+      "body": "Yorumlara 1, 2 ya da 3 yaz: Burun, Hesykhazm, Ujjāyī.<br><br>Kaydet ve nefesine dikkat etmesi gereken birine gönder."
+    }
+  ]
+}
