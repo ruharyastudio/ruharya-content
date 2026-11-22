@@ -55,5 +55,5 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 - ✅ Doğru mu yanlış mı: nefes hakkında yaygın inanışlar (kaynaklı cevaplarla) — 2026-11-01 (CO₂, diyafram, spiritus)
 - "Nefesini en son ne zaman fark ettin?" yansıtma gönderisi
 - ✅ Kelime oyunu: nefes, ruh, can, tın, prana, pneuma; hangi dil hangisi? — 2026-11-15 (prāṇa, pneuma, rûaḥ, nefs, tın; MW, REP, Yaratılış 1:2, İA “nefis”, DLT)
-- Haftanın özeti: bu hafta öğrendiğimiz 3 kavram
+- ✅ Haftanın özeti: bu hafta öğrendiğimiz 3 kavram — Konkalar, Nēpsis, Ujjāyī; "Hangisi sana yakın?" — 2026-11-22 (i21 seri henüz başlamadığı için kullanılmadı)
 - ✅ 4-7-8 nefesi: köken (Weil, prāṇāyāma) ve adımlar — panel fikri i04-478 (2026-10-31)
