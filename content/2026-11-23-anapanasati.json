@@ -1,0 +1,51 @@
+{
+  "series": "NEFES GELENEKLERİ ATLASI · NO. 10",
+  "theme": "dark",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "ATLAS NO. 10 · ĀNĀPĀNASATI",
+      "title": "Nefesin <em>girip çıkmasını</em> fark etmek",
+      "lead": "Pāli kanonunun 118. söylemi, nefes üzerine farkındalığın on altı adımını anlatır."
+    },
+    {
+      "kicker": "01 · METİN",
+      "title": "On altı adım, <em>dört grup</em>",
+      "body": [
+        "Majjhima Nikāya'nın 118. söylemi <b>ānāpānasati</b>'yi, yani nefesin girip çıkmasına farkındalığı anlatır.",
+        "Söylem bu uygulamayı <b>on altı adım</b> olarak sıralar ve adımları dört gruba ayırır."
+      ],
+      "src": "Majjhima Nikāya 118, Ānāpānasati Sutta"
+    },
+    {
+      "kicker": "02 · YAPI",
+      "title": "Dört grup, <em>dört dayanak</em>",
+      "body": [
+        "Her grup, farkındalığın dört dayanağından biriyle eşleşir: <b>beden</b>, <b>duygu</b>, <b>zihin</b> ve <b>zihin içerikleri</b>.",
+        "Yani aynı nefes, bedenin, duyguların, zihnin ve bu öğelerin nasıl göründüğünün bir gözlem alanı olur."
+      ],
+      "src": "MN 118; satipaṭṭhāna (farkındalığın dört dayanağı)"
+    },
+    {
+      "kicker": "03 · KELİME",
+      "title": "Gelen ve <em>giden</em>",
+      "body": [
+        "<b>Ānāpāna</b> iki kelimeden gelir: <b>āna</b>, içeri gelen; <b>apāna</b>, dışarı giden nefes.",
+        "Başlık, nefesin iki yönünü birlikte gözlemeye çağırır: gelen de, giden de."
+      ],
+      "src": "Pāli terimleri: ānāpāna, āna, apāna"
+    },
+    {
+      "kind": "steps",
+      "kicker": "ÖZET KART · KAYDET",
+      "title": "Dört grup, <em>bir nefes</em>",
+      "steps": [
+        "<b>Beden</b>: uzun ve kısa nefes, tüm beden",
+        "<b>Duygu</b>: coşku ve haz",
+        "<b>Zihin</b>: zihni fark etmek, sevindirmek, toplamak, özgürleştirmek",
+        "<b>Zihin içerikleri</b>: geçiciliği, bırakmayı ve sona ermeyi gözlemek"
+      ],
+      "note": "Bu hafta bir nefesi yalnızca gelip gidişiyle izle; ilk fark ettiğin şeyi yorumlara yaz.<br>Kaydet; bu kartı nefesine dikkat etmesi gereken birine gönder."
+    }
+  ]
+}
