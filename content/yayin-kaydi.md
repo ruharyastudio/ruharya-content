@@ -29,3 +29,4 @@
 | 2026-11-20 | Öğreti carousel'i (20:30) | Atlas No. 9 · Soluk, nefes, can: solu- fiili, Arapça n-f-s kökü (nefs), Farsça cān (Tın'ın devamı) | Türk dili / Arapça ve Farsça etimoloji | 6b005e8cfc5b97f0f814bbbd |
 | 2026-11-21 | Pratik carousel'i (20:30) | Ujjāyī: boğazda hafif sesle akan nefes (Haṭha Yoga Pradīpikā 2.51-53, 1914 İngilizce çeviri) | Yoga (Haṭha) | 6b0181ee0247969092c8f28e |
 | 2026-11-22 | Etkileşim (20:30) | Haftanın özeti: Konkalar (burun), Nēpsis (hesykhazm), Ujjāyī · Hangisi sana yakın? | Karışık (Taocu, Hristiyan mistisizmi, Yoga, bilim) | 6b02d37d0247969092459e9d |
+| 2026-11-23 | Öğreti carousel'i (20:30) | Atlas No. 10 · Ānāpānasati: nefesin girip çıkmasına farkındalık (MN 118; on altı adım, dört grup) | Theravāda Budizm | 6b0424e4a8420aaa33572388 |
