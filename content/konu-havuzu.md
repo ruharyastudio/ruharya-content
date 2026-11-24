@@ -31,6 +31,7 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 - ✅ Bhrāmarī (arı nefesi): nefes verirken hafif mırıltı — Haṭha Yoga Pradīpikā 2.68 — panel fikri i09 (2026-11-03)
 - ✅ Ujjāyī: boğazda hafif sürtünmeyle nefes — Haṭha Yoga Pradīpikā 2.51-53 — 2026-11-21 (panel fikri f2026111510383581dd)
 - ✅ Uzun nefes verme (4 al, 6 ver) — Atlas No. 3'e bağlandı; Bae ve ark. 2021 / Meehan ve Shaffer 2024 (kanıt karışık) — 2026-11-07
+- ✅ Uzun mu, kısa mı: nefesi değiştirmeden uzunluğunu fark etmek — Majjhima Nikāya 118 §1-2 (Ānāpānasati ilk tetrad) — 2026-11-24 (Atlas No. 10'a bağlı)
 - ✅ Nefes sayma (1'den 10'a) — Zen susokukan'a bağla — Atlas No. 4'e (tın-, dinlenmek) bağlandı; Visuddhimagga VIII.190-195 — 2026-11-10
 - ✅ Fizyolojik iç çekiş (çift nefes alma + uzun verme) — Balban ve ark., Cell Reports Medicine, 2023 — 2026-11-05 (panel fikri i11)
 - Yürürken nefese farkındalık
