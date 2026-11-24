@@ -1,0 +1,45 @@
+{
+  "series": "NEFES PRATİĞİ",
+  "theme": "light",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "PRATİK · ĀNĀPĀNASATI",
+      "title": "Nefesin <em>uzunluğunu</em> fark et",
+      "lead": "Dün nefesin girip çıkmasına farkındalığı konuştuk; bugün ilk adımını üç dakikada deneyelim."
+    },
+    {
+      "kind": "text",
+      "kicker": "01 · KÖKEN",
+      "title": "Uzun mu, <em>kısa mı?</em>",
+      "body": [
+        "Ānāpānasati Sutta'nın ilk adımında nefes bir gözlem nesnesi olur: uzun nefes alırken bunun uzun olduğunu bilmek, kısa nefeste kısa olduğunu bilmek.",
+        "Metin bunu bir tespit olarak anlatır; nefesi uzatmaya ya da kısaltmaya çalışmaz."
+      ],
+      "src": "Majjhima Nikāya 118, Ānāpānasati Sutta, ilk tetrad (Thanissaro Bhikkhu çevirisi, Access to Insight)"
+    },
+    {
+      "kind": "steps",
+      "kicker": "02 · UYGULAMA",
+      "title": "3 dakikada <em>izle</em>",
+      "steps": [
+        "Dik otur, omuzların gevşek, ağzın kapalı.",
+        "Nefesin <b>uzun mu, kısa mı</b>? Sadece adını koy.",
+        "Nefesi değiştirme; uzun olan uzun, kısa olan kısa kalsın.",
+        "Dikkat dağılırsa sessizce geri getir."
+      ],
+      "note": "Nefesi tutmak ya da saymak gerekmez. Rahatsızlık ya da baş dönmesi olursa dikkatini ayaklarına çevir ve normal nefesine dön."
+    },
+    {
+      "kind": "steps",
+      "kicker": "ÖZET KART · KAYDET",
+      "title": "Üç anahtar, <em>bir nefes</em>",
+      "steps": [
+        "<b>Fark et</b>: nefes uzun mu kısa mı",
+        "<b>Adını koy</b>: sakin ve yargısız",
+        "<b>Geri dön</b>: dağılınca nazikçe"
+      ],
+      "note": "Bugün nefesin uzun mu kısaydı? Yorumlara yaz.<br>Kaydet; nefesine dikkat etmesi gereken birine gönder."
+    }
+  ]
+}
