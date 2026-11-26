@@ -1,0 +1,60 @@
+{
+  "series": "NEFES VE BİLİM · RİTİM",
+  "theme": "dark",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "NEFES VE BİLİM · RİTİM",
+      "title": "Nefesi <em>kim</em> sayar?",
+      "lead": "Beyin sapında küçük bir bölge ve sınırları."
+    },
+    {
+      "kicker": "01 · RİTİM",
+      "title": "Kimse <em>saymadan</em> sürer",
+      "body": [
+        "Nefes alıp vermek, bilinçli bir karar olmadan tekrarlanır. Ritmin bir kısmı beynin alt kısmındaki beyin sapında oluşur.",
+        "Soru şu: bu ritmi <b>hangi sinir devresi</b> üretiyor?"
+      ],
+      "src": "Smith ve ark., Science 254, 726-729 (1991)"
+    },
+    {
+      "kicker": "02 · KEŞİF · 1991",
+      "title": "Küçük bir <em>bölge</em>",
+      "body": [
+        "Jeffrey Smith, Jack Feldman ve ekipleri, yenidoğan sıçan beyin sapı dilimlerinde <b>ventral medulla</b>da küçük bir alan tarif etti. Bu alan <b>pre-Bötzinger kompleksi</b> olarak adlandırıldı.",
+        "Dilimden yalnızca bu bölge çıkarıldığında ritim üretimi ortadan kalktı."
+      ],
+      "src": "Smith ve ark., Science 254, 726-729 (1991)"
+    },
+    {
+      "kicker": "03 · NASIL ÖLÇÜLDÜ?",
+      "title": "Dilim, <em>kendi ritmi</em>",
+      "body": [
+        "Bu bölgeyi içeren medulla dilimleri, bütün beyin sapına benzeyen solunum benzeri salınımlar üretti.",
+        "Bölgede, voltaja bağlı, kendiliğinden ateşleyen <b>pacemaker benzeri</b> nöronlar tanımlandı."
+      ],
+      "src": "Smith ve ark., Science 254, 726-729 (1991)"
+    },
+    {
+      "kicker": "04 · SINIRLAR",
+      "title": "Ne gösterdi, <em>ne göstermedi</em>",
+      "body": [
+        "Bu bir laboratuvar dilimi deneyi, yenidoğan sıçanda yapıldı. İnsanda aynı ağın ne kadar belirleyici olduğu bu çalışmadan çıkmıyor.",
+        "Makalenin başlığı da <b>\"may generate\"</b>, yani \"üretebilir\" diyor. Bu bir mekanizma haritası; bir tedavi ya da sağlık sonucu değil."
+      ],
+      "src": "Smith ve ark., Science 254, 726-729 (1991)"
+    },
+    {
+      "kind": "steps",
+      "kicker": "ÖZET KART · KAYDET",
+      "title": "Ritim, <em>dört satırda</em>",
+      "steps": [
+        "Nefes ritmi bilinçli bir karar olmadan sürer",
+        "Beyin sapının ventral medullası ilgili bölge",
+        "1991: pre-Bötzinger kompleksi dilimde ritim üretti",
+        "Sınır: laboratuvar dilimi, insan sonucu değil"
+      ],
+      "note": "Kaydet; nefesin ritmini merak ettiğinde yeniden bak.<br>Nefesine biraz dikkat etmesi gereken birine gönder."
+    }
+  ]
+}
