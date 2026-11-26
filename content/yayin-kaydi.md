@@ -31,3 +31,4 @@
 | 2026-11-22 | Etkileşim (20:30) | Haftanın özeti: Konkalar (burun), Nēpsis (hesykhazm), Ujjāyī · Hangisi sana yakın? | Karışık (Taocu, Hristiyan mistisizmi, Yoga, bilim) | 6b02d37d0247969092459e9d |
 | 2026-11-23 | Öğreti carousel'i (20:30) | Atlas No. 10 · Ānāpānasati: nefesin girip çıkmasına farkındalık (MN 118; on altı adım, dört grup) | Theravāda Budizm | 6b0424e4a8420aaa33572388 |
 | 2026-11-24 | Pratik carousel'i (20:30) | Uzun mu, kısa mı: Ānāpānasati ilk tetrad (Atlas No. 10'a bağlı; MN 118 §1-2, Thanissaro çevirisi) | Theravāda Budizm | 6b05766207a1bbac1246da00 |
+| 2026-11-26 | Bilim carousel'i (20:30) | Nefesi kim sayar? Pre-Bötzinger kompleksi (Smith ve ark., Science 1991; yenidoğan sıçan dilimi) | Bilim (Smith ve ark., 1991) | 6b07e73ff13f49a925a2258b |
