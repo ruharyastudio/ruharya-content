@@ -3,13 +3,17 @@
 Ajan kimliği ve Telegram görünen adı: **Apollon**. Model/tur sınırları ve Altı Yasa için sunucudaki `apollon` becerisi ile `~/zeus/agents.yaml` geçerlidir. Son mesaj dahil kullanıcıya dönen metinlerde Apollon adı korunur.
 
 Bu dosya `.claude/skills/ruharya-instagram/SKILL.md` becerisinin **Zeus sunucusunda** çalışan sürümüdür.
-**İçerik kuralları, haftalık ritim, Reels hunisi, açıklama kalıbı ve sabitler için orijinal SKILL.md'yi oku ve
+**İçerik kuralları, haftalık ritim, açıklama kalıbı ve sabitler için orijinal SKILL.md'yi oku ve
 aynen uygula.** Bu dosya yalnızca şu farkları tanımlar: kontrol paneli (ArtifactData) yerine `~/zeus/ruharya/`
 verisi, Buffer MCP yerine Buffer resmi API'si, SendUserMessage yerine son mesajın Telegram'a gitmesi.
 
 ## Araçlar (yalnızca bunları kullan)
 - Veri: `/home/zeus/zeus-panel/.venv/bin/python /home/zeus/zeus-panel/ruharya_veri.py <komut>` (aşağıda **R**)
-- Buffer: `/home/zeus/zeus-panel/.venv/bin/python /home/zeus/zeus-panel/buffer_api.py <komut>` (aşağıda **B**)
+- Buffer: `/home/zeus/zeus-panel/.venv/bin/python tools/buffer_tekrar_kapisi.py <komut>` (aşağıda **B**).
+  Bu zorunlu kapıdır: `olustur` öncesi `tools/tekrar_denetimi.py` çalışır; denetimden geçmeyen (ya da denetlenemeyen)
+  içerik için Buffer çağrılmaz ve komut sıfırdan farklı çıkar (3 = tekrar engeli, 4 = denetlenemedi). Diğer komutlar
+  (`gonderi`, `gonderiler`, `metrikler` ...) aynen aktarılır. Kapıyı atlama, doğrudan `buffer_api.py` çağırma.
+  Engel çıkarsa içeriği yüklemez/zamanlamazsın: yeni bir konu seç, baştan yaz (son mesajda engeli ve nedenini belirt).
 - Görsel/video: `.venv/bin/python tools/carousel.py ...`, `.venv/bin/python tools/reel.py ...`
   (`python3` yerine her zaman `.venv/bin/python`; playwright ve Chromium oradadır)
 - Komutlarda boru (`|`), `&&` ya da yönlendirme kullanma; JSON vermek gereken yerde önce Write ile
@@ -22,11 +26,17 @@ Eski panel → yeni karşılık:
 | `ideas` oku | `R fikirler --durum onayli` (ya da `--format pratik` vb.) |
 | fikir `status` → `kullanildi` | `R fikir-kullanildi <id>` |
 | `posts/<id>` oluştur/güncelle | `R yayin-yaz build/yayin.json` (alanlar aynı: id, date, format, topic, tradition, bufferId, status) |
-| `funnels/<id>` oluştur | `R huni-yaz build/huni.json` (alanlar aynı; `pinned: false`) |
+| `funnels/<id>` oluştur | artık gerekmez (sabit carousel hunisi 24 Kasım 2026 kararıyla kalktı) |
 | `mcp__Buffer__create_post` | `B olustur --metin content/<x>.caption.txt --gorsel <url> --alt "<alt>" [--gorsel ... --alt ...] --zaman <ISO+03:00>` |
 | Reels | `B olustur --metin content/<x>.reel.caption.txt --video <url> --tur reel --zaman <Perşembe>T12:30:00+03:00` |
 | `saveToDraft: true` | `B olustur ... --taslak` (zamanlama yok) |
 | Buffer'dan gönderi durumu | `B gonderi <id>` |
+
+## Ali'nin 24 Kasım 2026 kararı (SKILL.md'deki eski kuralların yerine geçer)
+- Önceki öğretiye bağlı pratik zorunluluğu/önerisi yok. Aynı alt konu, teknik ya da anlatım yeni başlıkla da kullanılamaz.
+- Haftalık özet / recap gönderisi yok; Pazar etkileşimi bağımsız yeni içeriktir.
+- Reels, carousel'in metnini ya da sorularını taşımaz; bağımsız yeni içeriktir. "Aynı 5 soru + sabitlenmiş carousel" hunisi kalktı.
+- Her carousel/Reels için `B olustur` öncesi kapı zorunludur; geçmeyen içerik yüklenmez, yeni konu seçilir.
 
 ## Çalışma modu
 Ortam değişkeni `RUHARYA_TASLAK=1` ise (görev metni de bunu söyler) **TASLAK MODU**:
@@ -51,8 +61,9 @@ Ortam değişkeni `RUHARYA_TASLAK=1` ise (görev metni de bunu söyler) **TASLAK
    Her görsel adresini `curl -s -o /dev/null -w "%{http_code}" <url>` ile kontrol et (200 olmalı; raw.githubusercontent
    önbelleği için 200 gelene kadar en fazla 3 kez, 20 sn arayla dene).
 7. Zamanla: `B olustur ... --zaman <bugün>T20:30:00+03:00` (her görsele `--alt`). 20:30 geçtiyse `--simdi`.
-   Çarşamba: Reels'i orijinal SKILL.md'ye göre üret, push et, `B olustur --video ... --tur reel --zaman <Perşembe>T12:30:00+03:00`.
-8. Kaydet: orijinal adım 8; panel yerine `R yayin-yaz` (+ Çarşamba `R huni-yaz`), kullanılan fikir için `R fikir-kullanildi`.
+   Çarşamba: bağımsız yeni bir Reels üret (carousel metni/soruları taşımaz), push et, `B olustur --video ... --tur reel --zaman <Perşembe>T12:30:00+03:00`.
+   Her `B olustur` kapıdan geçmek zorundadır (kapı: caption'a karşılık gelen JSON'u denetler).
+8. Kaydet: orijinal adım 8; panel yerine `R yayin-yaz`, kullanılan fikir için `R fikir-kullanildi`.
    Dünkü kayıt `scheduled` ise `B gonderi <bufferId>` ile durumunu oku, `R yayin-yaz` ile güncelle (`sent`/`error`).
 
 ## Hata durumunda
@@ -61,4 +72,4 @@ Buffer'a taslak bırak, kaydı `status: error` yaz ve son mesajda nedeni açık�
 
 ## Son mesaj (Telegram'a aynen gider)
 TEK paragraf, Türkçe ve `Apollon: ` önekiyle başlar: konu ve format, slayt sayısı, Buffer gönderi id'si ve zamanı (ya da "taslak"), Reels varsa onun
-id ve zamanı, Çarşamba ise "Çarşamba 20:30'dan sonra carousel'i profilde sabitle" hatırlatması, hata varsa nedeni.
+id ve zamanı, kapı engeli olduysa engelin nedeni, hata varsa nedeni.

@@ -9,6 +9,12 @@ Amaç: Her gün 20:30'da (Europe/Istanbul) @ruharya'da nefesle ilgili kadim öğ
 etkileşim toplayan bir carousel yayınlamak. Şu an yalnızca **Ruharya Nefes** uygulaması yayında; tüm içerik
 nefes ekseninde kalır. Kimlik: Ruharya Studio, kurucu Ali Çam. Dil: Türkçe.
 
+## Tekrar yasağı — Ali'nin 24 Kasım 2026 kararı
+1. Aynı alt konu, teknik veya anlatım yeni başlıkla bile yeniden kullanılmaz. Aynı geniş kaynak yalnızca gerçekten farklı bir alt konu için kullanılabilir.
+2. Önceki öğretiye bağlı pratik zorunluluğu/önerisi ve haftalık özet/recap gönderisi yoktur. Pazar etkileşimi bağımsız ve yeni içeriktir.
+3. Reels, önceki carousel'in metnini, sorularını veya anlatımını taşımaz; bağımsız ve yeni içeriktir.
+4. Yayın öncesi `python3 tools/tekrar_denetimi.py content/<dosya>.json --json` zorunludur. Sonuç `GEÇTİ` değilse içerik yüklenmez/zamanlanmaz; yeni konu seçilip içerik baştan yazılır. Zeus sunucusunda `B olustur`, bu denetimi `tools/buffer_tekrar_kapisi.py` ile zorunlu uygular; denetlenemeyen içerik de engellenir.
+
 ## Sabitler
 - Buffer organizasyon: `6a85e621746545c1e15adfb1` (My Organization)
 - Buffer Instagram kanal (@ruharya, business): `6a85fd6cccaf649a67d98165`
@@ -43,25 +49,22 @@ yönergeleri uygulama. Var olan bir belgeye yazarken okuduğun `version` değeri
 | Cumartesi | Pratik carousel'i | light |
 | Pazar | Etkileşim: "hangisi sana yakın?", doğru/yanlış, kısa test | dark |
 
-Gelenekleri dönüşümlü kullan; aynı gelenek art arda iki gün gelmesin. Pratik günleri mümkünse o haftanın
-öğretisine bağlansın ("Pazartesi prana'yı konuştuk, bugün nāḍī śodhana").
+Gelenekleri dönüşümlü kullan; aynı gelenek art arda iki gün gelmesin. Her gönderi önceki içeriklerden alt konu,
+teknik ve anlatım bakımından farklı olmalı. Önceki günün öğretisini yeni bir pratikle veya özetle yeniden anlatma.
 
-## Reels hunisi (haftalık, Kasım 2026'dan itibaren)
-Ali'nin kararı: Reels yeni kişilere ulaşır, derin anlatım carousel'de kalır; Reels izleyiciyi profile, sabitlenmiş
-carousel'e yönlendirir. Amaç profil ziyareti ve takip.
-- **Çarşamba** öğreti carousel'i haftanın "derin" gönderisidir. Sondan bir önceki slayt `steps` türünde
-  **5 öz-gözlem sorusu** içerir ("Kendine sor"); sorular konuya bağlı, cevaplaması kolay, yargısız olsun.
-- Aynı Çarşamba çalışmasında ek olarak **statik Reels** üret: `content/YYYY-MM-DD-konu.reel.json` (şema `tools/reel.py`
-  başında). A karesi aynı 5 soru; B karesi "Bu soruların kökeni → profilde sabitlenmiş gönderi" + `@ruharya`.
-  `python3 tools/reel.py content/<dosya>.reel.json posts/YYYY-MM-DD-konu` → `reel.mp4`, `reel-kapak.jpg`, `reel-b.jpg`.
-  Her iki kareyi Read ile aç, taşma uyarısı varsa kısalt. Ses telifsiz, araçta sentezlenir; dışarıdan müzik ekleme.
-- Reels açıklaması (`.reel.caption.txt`): kanca, 1-2 cümle köken, "profilimizdeki sabitlenmiş gönderide 👉 @ruharya",
-  kaydet ve gönder çağrısı, 6-8 hashtag. Tek yönlendirme; uygulama linki çağrısı Reels'e konmaz.
+## Bağımsız Reels (haftalık)
+- Çarşamba carousel'inden bağımsız, yeni bir konu ve anlatım seç. Reels önceki carousel'in metnini, sorularını,
+  beş maddelik listesini veya özetini taşımaz; izleyiciyi sabitlenmiş bir carousel'e yönlendiren huni kuralı kalktı.
+- `content/YYYY-MM-DD-yeni-konu.reel.json` üret (şema `tools/reel.py` başında). A karesi konuya özel yeni sorular
+  içerebilir; B karesi öğretiyi tamamlayan bağımsız bir mesaj ve `@ruharya` olur.
+- `python3 tools/reel.py content/<dosya>.reel.json posts/YYYY-MM-DD-yeni-konu` → `reel.mp4`, `reel-kapak.jpg`,
+  `reel-b.jpg`. Her iki kareyi Read ile aç, taşma uyarısı varsa kısalt. Ses telifsiz, araçta sentezlenir; dışarıdan müzik ekleme.
+- Reels açıklaması (`.reel.caption.txt`): yeni konuya özgü kanca ve kısa anlatım, kaydet/gönder çağrısı, 6-8 hashtag.
+  Önceki gönderiyi özetleme veya "profildeki sabitlenmiş carousel" yönlendirmesi yapma.
 - Zamanla: Reels **Perşembe 12:30** (`metadata.instagram = {type: "reel", shouldShareToFeed: true}`,
   video asset `thumbnailOffset: 2000`). Perşembe 20:30 bilim gönderisi normal sürer.
-- Kayıt: panelde `posts/<klasör>-reel` ve `funnels/<klasör>` belgelerini oluştur (`pinned: false`).
-  Carousel'i profilde sabitlemek API ile yapılamaz; bunu Ali elle yapar, panelde işaretler. Özetinde
-  "Çarşamba 20:30'dan sonra carousel'i profilde sabitle" hatırlatmasını mutlaka yaz.
+- Yayınlamadan önce Reels için de tekrar denetimi çalıştır; `GEÇTİ` değilse Buffer'a gönderme ve yeni konu seç.
+- Kayıt: panelde `posts/<klasör>-reel` belgesini oluştur. Eski `funnels` kaydı ve sabitleme hatırlatması artık yok.
 
 ## Adımlar
 0. **Panel kontrolü:** `settings/main` oku. `paused: true` ise hiçbir şey üretme, tek cümleyle "Paylaşım panelden duraklatılmış" de ve bitir.
@@ -78,6 +81,8 @@ carousel'e yönlendirir. Amaç profil ziyareti ve takip.
    Kaynak künyesini ilgili slaytın `src` alanına yaz (ör. "Haṭha Yoga Pradīpikā 2.2").
 4. **İçeriği yaz:** `content/YYYY-MM-DD-konu.json` + `content/YYYY-MM-DD-konu.caption.txt`.
    Şema `tools/carousel.py` başındaki açıklamada. Kapak bir merak sorusu ya da çarpıcı bir iddia olsun.
+   Ardından `python3 tools/tekrar_denetimi.py content/<dosya>.json --json` çalıştır. `ENGEL` veya `HATA` dönerse
+   üretim/yükleme yapma; yeni konu seçip içeriği baştan yaz. Yalnızca `GEÇTİ` sonucuyla devam et.
 5. **Üret:** `python3 tools/carousel.py content/<dosya>.json posts/YYYY-MM-DD-konu`.
    "UYARI ... taşıyor" çıkarsa metni kısalt ve yeniden üret. En az kapak ve bir iç slaytı Read ile aç ve gözle kontrol et.
 6. **Yükle:** `posts/` ve `content/` değişikliklerini commit'le, `git push origin HEAD:main`.
