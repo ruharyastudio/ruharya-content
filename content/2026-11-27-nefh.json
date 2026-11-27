@@ -1,0 +1,50 @@
+{
+  "series": "NEFES GELENEKLERİ ATLASI · NO. 11",
+  "theme": "dark",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "ATLAS NO. 11 · NEFH",
+      "title": "Üflemek ve <em>ruh</em>",
+      "lead": "Kur'an'da Âdem kıssasında geçen bir fiil: üfleme."
+    },
+    {
+      "kicker": "01 · METİN",
+      "title": "Üflenen <em>ruh</em>",
+      "body": [
+        "Hicr 15:29 ve Sâd 38:72'de aynı cümle geçer: <b>فَإِذَا سَوَّيْتُهُ وَنَفَخْتُ فِيهِ مِن رُّوحِي</b>.",
+        "Âdem şekillendirildikten sonra ona ruhtan üflendiği anlatılır."
+      ],
+      "src": "Kur'an, Hicr 15:29 ve Sâd 38:72 (Arapça metin)"
+    },
+    {
+      "kicker": "02 · YORUM",
+      "title": "Mecaz mı, <em>anlam</em> mı?",
+      "body": [
+        "Çoğu müfessir <b>'ruhumdan'</b> ifadesini mecazi okur: Allah'ın gücünü ve Âdem'i onurlandırmasını anlatır.",
+        "Metin, ruhun ne olduğunu tanımlamaz; anlamı yorum belirler."
+      ],
+      "src": "Hicr 15:29; Sâd 38:72; müfessirlerin genel yorumu (Vikipedi 'Ruh' maddesi özeti)"
+    },
+    {
+      "kicker": "03 · KELİME",
+      "title": "Üfleme, <em>içten dışa</em>",
+      "body": [
+        "Ayetteki fiil <b>nefh</b>, yani üfleme anlamına gelir.",
+        "Bu bir yaratılış anıdır: bir şeyin içine bir şey verilir. Nefesin bu anlamla ilgisi, metinden çıkarılacak bir yorumdur."
+      ],
+      "src": "Hicr 15:29; Sâd 38:72 (Arapça metin, fiil: nafakhtu)"
+    },
+    {
+      "kind": "steps",
+      "kicker": "ÖZET KART · KAYDET",
+      "title": "Üç cümle, <em>bir üfleme</em>",
+      "steps": [
+        "<b>Ayet</b>: Âdem'e ruhtan üflenir (Hicr 15:29; Sâd 38:72)",
+        "<b>Yorum</b>: çoğu müfessir ifadeyi mecazi okur",
+        "<b>Sınır</b>: metin ruhun ne olduğunu tanımlamaz"
+      ],
+      "note": "Bu hafta bir nefesi yalnızca gelip gidişiyle izle; içeri giren ile dışarı verileni aynı saymak gerekir mi, yorumlara yaz.<br>Kaydet; bu kartı nefesine dikkat etmesi gereken birine gönder."
+    }
+  ]
+}
