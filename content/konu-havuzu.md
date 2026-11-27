@@ -11,7 +11,7 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 - Kumbhaka kavramı (anlatım düzeyinde, uygulama tarifi verme) — Haṭha Yoga Pradīpikā 2. bölüm
 - ✅ Nakşibendî "hûş der dem": her nefeste uyanıklık — Abdülhâlık Gucdüvânî'ye atfedilen sekiz ilke — 2026-11-04 (ilk Reels hunisi)
 - Arapça n-f-s kökü: nefes, nefs, nefîs arasındaki bağ
-- Kur'an'da "nefh" (üfleme) ve ruh imgesi — Hicr 29, Sâd 72 (tarafsız anlatım)
+- ✅ Kur'an'da "nefh" (üfleme) ve ruh imgesi — Hicr 15:29, Sâd 38:72 (tarafsız anlatım) — 2026-11-27 (Atlas No. 11)
 - İbranice: rûaḥ, nefeş, neşamâ; Yaratılış 2:7'de "hayat nefesi"
 - Antik Yunan pneuma: Stoacılarda evreni dolduran etkin ilke
 - Latince spiritus: spirit, inspire, expire, respire etimolojisi
