@@ -1,0 +1,44 @@
+{
+  "series": "NEFES PRATİĞİ",
+  "theme": "light",
+  "slides": [
+    {
+      "kind": "cover",
+      "kicker": "PRATİK · YÜRÜYÜŞ",
+      "title": "Yürürken <em>nefesini</em> fark et",
+      "lead": "Nefes için oturmak gerekmez; her adımda bir fark etme anı var."
+    },
+    {
+      "kind": "text",
+      "kicker": "01 · KÖKEN",
+      "title": "Yürüyen <em>bilir</em>",
+      "body": [
+        "Satipaṭṭhāna Sutta'nın duruş bölümünde (iriyāpatha) yürüyen kişi yürüdüğünü bilir. Metin yürüyüşü bir dikkat nesnesi olarak ele alır.",
+        "Burada amaç yürüyüşü değiştirmek değil; ne yaptığını görmek."
+      ],
+      "src": "Majjhima Nikāya 10, Satipaṭṭhāna Sutta, iriyāpatha bölümü (anlatım bize ait)"
+    },
+    {
+      "kind": "steps",
+      "kicker": "02 · UYGULAMA",
+      "title": "Bir yürüyüş, <em>üç</em> adım",
+      "steps": [
+        "Yavaş bir tempoda, güvenli bir yolda yürü. Ayak tabanının zemine değişini hisset.",
+        "Her adımda yalnızca yürüdüğünü bil; tempoyu, nefesi ya da sayıyı kurcalama.",
+        "Zihin başka yere kayınca, yürüdüğünü yeniden fark ederek baştan başla."
+      ],
+      "note": "Trafikte, merdivende ya da kalabalıkta yürürken gözünü önündeki yoldan ayırma. Güvenlik her zaman önce gelir; gözlerini kapatma."
+    },
+    {
+      "kind": "steps",
+      "kicker": "ÖZET KART · KAYDET",
+      "title": "Üç anahtar, <em>bir yol</em>",
+      "steps": [
+        "<b>Hisset</b>: ayak tabanını",
+        "<b>Bil</b>: yürüdüğünü",
+        "<b>Yeniden başla</b>: yolda kal"
+      ],
+      "note": "Bugün yürürken nefesini fark ettin mi? Yorumlara yaz.<br>Kaydet; nefesine dikkat etmesi gereken birine gönder."
+    }
+  ]
+}
