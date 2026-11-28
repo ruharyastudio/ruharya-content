@@ -33,3 +33,4 @@
 | 2026-11-24 | Pratik carousel'i (20:30) | Uzun mu, kısa mı: Ānāpānasati ilk tetrad (Atlas No. 10'a bağlı; MN 118 §1-2, Thanissaro çevirisi) | Theravāda Budizm | 6b05766207a1bbac1246da00 |
 | 2026-11-26 | Bilim carousel'i (20:30) | Nefesi kim sayar? Pre-Bötzinger kompleksi (Smith ve ark., Science 1991; yenidoğan sıçan dilimi) | Bilim (Smith ve ark., 1991) | 6b07e73ff13f49a925a2258b |
 | 2026-11-27 | Öğreti carousel'i (20:30) | Atlas No. 11 · Üflemek ve ruh: Hicr 15:29 ve Sâd 38:72'de nefh | Kur'an / İslam | 6b096ade1fd46e62e73c4f80 |
+| 2026-11-28 | Pratik carousel'i | Yürürken nefesini fark et: Satipaṭṭhāna iriyāpatha (MN 10), üç adım + özet kart | Theravāda Budizm | 6b0abc71e126bb75972546ec |

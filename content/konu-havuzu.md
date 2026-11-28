@@ -34,7 +34,7 @@ Kullanılan konu `yayin-kaydi.md`'ye işlenir; bu listeden silinmez, yanına ✅
 - ✅ Uzun mu, kısa mı: nefesi değiştirmeden uzunluğunu fark etmek — Majjhima Nikāya 118 §1-2 (Ānāpānasati ilk tetrad) — 2026-11-24 (Atlas No. 10'a bağlı)
 - ✅ Nefes sayma (1'den 10'a) — Zen susokukan'a bağla — Atlas No. 4'e (tın-, dinlenmek) bağlandı; Visuddhimagga VIII.190-195 — 2026-11-10
 - ✅ Fizyolojik iç çekiş (çift nefes alma + uzun verme) — Balban ve ark., Cell Reports Medicine, 2023 — 2026-11-05 (panel fikri i11)
-- Yürürken nefese farkındalık
+- ✅ Yürürken nefese farkındalık: yürüyüş bir dikkat nesnesi — Majjhima Nikāya 10, iriyāpatha bölümü — 2026-11-28
 - Büzük dudak nefesi (pursed-lip): burundan al, dudaklardan yavaş ver — Cleveland Clinic / American Lung Association (kaynak doğrula)
 - Oturarak diyafram nefesi: sandalyede, omuzlar gevşek — Cleveland Clinic "Diaphragmatic Breathing" oturma varyasyonu
 - Burundan nefesi fark etmek: gün içinde ağızdan mı burundan mı? (gözlem pratiği; bilim gönderisi Lundberg 1995 ile bağlanabilir)
